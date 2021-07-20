@@ -14,7 +14,9 @@
 
 async Task Main()
 {
-	//BitConverter.ToString(File.ReadAllBytes(@"D:\repos\dotnetparser\TestAssets\Unreal\401\HasVector.uasset"))
+	var bytes = File.ReadAllBytes(@"D:\repos\dotnetparser\TestAssets\Unreal\401\HasVector.uasset");
+	bytes.Length.Dump();
+	BitConverter.ToString(bytes).Dump();
 	
 	var excludes = new[]
 		{
@@ -48,7 +50,7 @@ async Task Main()
 		{
             //"Consumables/PrimalItemConsumable_Kibble_Base_Special",
             //"/Game/PrimalEarth/CoreBlueprints/Items/PrimalItem_Base$",
-            "."
+            "HasVector"
 		}
 		.Select(x => new Regex(x, RegexOptions.Compiled | RegexOptions.IgnoreCase))
 		.ToArray();
@@ -78,7 +80,7 @@ async Task Main()
 		.Then(results => results.Where(x => x != null));
 
 
-	allAssets.Dump();
+	allAssets.Dump(1);
 
 }
 
@@ -1430,8 +1432,8 @@ public class ArchiveElement : IDisposable
 	public int EndPosition { get; set; }
 	public int Length => EndPosition - StartPosition;
 	public int Length3 => Length * 3;
-	public string Type { get; set; }
 	public string Name { get; set; }
+	public string Type { get; set; }
 
 	[JsonIgnore]
 	public object Value { get; set; }

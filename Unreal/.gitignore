@@ -1,0 +1,5 @@
+Build/
+Intermediate/
+Saved/
+!Cooked/**/Content/
+!Saved/Config/

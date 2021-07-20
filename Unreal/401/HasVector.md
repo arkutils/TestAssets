@@ -420,71 +420,78 @@ ChunkIDCount Int32 0
 00-00-00-00
 
 # BulkDataStartOffset @ 1141
+## Export 1 @ 1141
 ```
-Export 1 @ 1141
-  Properties
-    None
-      Tag
-        0E-00-00-00 00-00-00-00
-          Name NameIndex None
-  Unknown
-    00-00-00-00-00-00-00-00-01-00-00-00-05-00-01-00-00-00-00-00
-    0E-00-00-00-00-00-00-00
-    F7-FF-FF-FF
+Properties
+  None
+    Tag
+      0E-00-00-00 00-00-00-00
+        Name NameIndex None
+Unknown
+  00-00-00-00-00-00-00-00-01-00-00-00-05-00-01-00-00-00-00-00
+  0E-00-00-00-00-00-00-00
+  F7-FF-FF-FF
+```
 
-Export 2 @ 1181
-  Properties
-    None
-      Tag
-        0E-00-00-00 00-00-00-00
-          Name NameIndex None
-  Unknown
-    00-00-00-00-00-00-00-00-01-00-00-00-80-00-00-00-00-00-00-00
-    0E-00-00-00-00-00-00-00
+## Export 2 @ 1181
+```
+Properties
+  None
+    Tag
+      0E-00-00-00 00-00-00-00
+        Name NameIndex None
+Unknown
+  00-00-00-00-00-00-00-00-01-00-00-00-80-00-00-00-00-00-00-00
+  0E-00-00-00-00-00-00-00
+```
 
-Export 3 @ 1217
-  Properties
-    None
-      Tag
-        0E-00-00-00 00-00-00-00
-          Name NameIndex None
-  Unknown
-    00-00-00-00-01-00-00-00-00-00-00-00-02-00-00-00-12-00-00-00-0E-00-00-00-4C-0F-00-00-00-4E-00-02-00-00-00-04-0B-53-00-00-00-00
+## Export 3 @ 1217
+```
+Properties
+  None
+    Tag
+      0E-00-00-00 00-00-00-00
+        Name NameIndex None
+Unknown
+  00-00-00-00-01-00-00-00-00-00-00-00-02-00-00-00-12-00-00-00-0E-00-00-00-4C-0F-00-00-00-4E-00-02-00-00-00-04-0B-53-00-00-00-00
+```
 
-Export 4 @ 1267
-  Properties
-    None
-      Tag
-        0E-00-00-00 00-00-00-00
-          Name NameIndex None
-  Unknown
-    00-00-00-00-00-00-00-00-FD-FF-FF-FF-03-00-00-00-00-00-00-00-00-00-00-00-01-00-00-00-09-00-00-00-00-00-00-00-03-00-00-00-10-00-04-00-FD-FF-FF-FF-07-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-0E-00-00-00-00-00-00-00-01-00-00-00-05-00-00-00
+## Export 4 @ 1267
+```
+Properties
+  None
+    Tag
+      0E-00-00-00 00-00-00-00
+        Name NameIndex None
+Unknown
+  00-00-00-00-00-00-00-00-FD-FF-FF-FF-03-00-00-00-00-00-00-00-00-00-00-00-01-00-00-00-09-00-00-00-00-00-00-00-03-00-00-00-10-00-04-00-FD-FF-FF-FF-07-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-0E-00-00-00-00-00-00-00-01-00-00-00-05-00-00-00
+```
 
-Export 5 @ 1359
-  Properties
-    NewVar
-      Tag
-        0D-00-00-00-00-00-00-00
-          Name	NameIndex	NewVar
-        12-00-00-00-00-00-00-00
-          Type	NameIndex	StructProperty
-        0C-00-00-00
-          Size	Int32	12
-        00-00-00-00
-          ArrayIndex	Int32	0
-        13-00-00-00-00-00-00-00
-          StructName	NameIndex	Vector
-      Value
-        00-00-40-41
-          X Float 12.0
-        00-00-C0-41
-          Y Float 24.0
-        00-00-40-42
-          Z Float 48.0
-    None
-        0E-00-00-00 00-00-00-00
-          Name NameIndex None
-
+## Export 5 @ 1359
+```
+Properties
+  NewVar
+    Tag
+      0D-00-00-00-00-00-00-00
+        Name	NameIndex	NewVar
+      12-00-00-00-00-00-00-00
+        Type	NameIndex	StructProperty
+      0C-00-00-00
+        Size	Int32	12
+      00-00-00-00
+        ArrayIndex	Int32	0
+      13-00-00-00-00-00-00-00
+        StructName	NameIndex	Vector
+    Value
+      00-00-40-41
+        X Float 12.0
+      00-00-C0-41
+        Y Float 24.0
+      00-00-40-42
+        Z Float 48.0
+  None
+      0E-00-00-00 00-00-00-00
+        Name NameIndex None
 ```
 # Unknown @ 1411
 C1-83-2A-9E

@@ -190,395 +190,408 @@ ChunkIDs (List): @ 159
 ```
 # Imports @ 539
 
+## -1: /Script/CoreUObject.ArrayProperty @ 539
 ```
-Import -1 /Script/CoreUObject.ArrayProperty @ 539
+ClassPackage (NameIndex): /Script/CoreUObject @ 539
+01-00-00-00-00-00-00-00
 
-  ClassPackage (NameIndex): /Script/CoreUObject @ 539
-  01-00-00-00-00-00-00-00
+ClassName (NameIndex): Class @ 547
+05-00-00-00-00-00-00-00
 
-  ClassName (NameIndex): Class @ 547
-  05-00-00-00-00-00-00-00
+Outer (ObjectReference): /Script/CoreUObject @ 555
+F8-FF-FF-FF
 
-  Outer (ObjectReference): /Script/CoreUObject @ 555
-  F8-FF-FF-FF
+ObjectName (NameIndex): ArrayProperty @ 559
+03-00-00-00-00-00-00-00
+```
 
-  ObjectName (NameIndex): ArrayProperty @ 559
-  03-00-00-00-00-00-00-00
+## -2: /Script/CoreUObject.Function @ 567
+```
+ClassPackage (NameIndex): /Script/CoreUObject @ 567
+01-00-00-00-00-00-00-00
 
-Import -2 /Script/CoreUObject.Function @ 567
+ClassName (NameIndex): Class @ 575
+05-00-00-00-00-00-00-00
 
-  ClassPackage (NameIndex): /Script/CoreUObject @ 567
-  01-00-00-00-00-00-00-00
+Outer (ObjectReference): /Script/CoreUObject @ 583
+F8-FF-FF-FF
 
-  ClassName (NameIndex): Class @ 575
-  05-00-00-00-00-00-00-00
+ObjectName (NameIndex): Function @ 587
+0B-00-00-00-00-00-00-00
+```
 
-  Outer (ObjectReference): /Script/CoreUObject @ 583
-  F8-FF-FF-FF
+## -3: /Script/CoreUObject.IntProperty @ 595
+```
+ClassPackage (NameIndex): /Script/CoreUObject @ 595
+01-00-00-00-00-00-00-00
 
-  ObjectName (NameIndex): Function @ 587
-  0B-00-00-00-00-00-00-00
+ClassName (NameIndex): Class @ 603
+05-00-00-00-00-00-00-00
 
-Import -3 /Script/CoreUObject.IntProperty @ 595
+Outer (ObjectReference): /Script/CoreUObject @ 611
+F8-FF-FF-FF
 
-  ClassPackage (NameIndex): /Script/CoreUObject @ 595
-  01-00-00-00-00-00-00-00
+ObjectName (NameIndex): IntProperty @ 615
+0D-00-00-00-00-00-00-00
+```
 
-  ClassName (NameIndex): Class @ 603
-  05-00-00-00-00-00-00-00
+## -4: /Script/CoreUObject.Object @ 623
+```
+ClassPackage (NameIndex): /Script/CoreUObject @ 623
+01-00-00-00-00-00-00-00
 
-  Outer (ObjectReference): /Script/CoreUObject @ 611
-  F8-FF-FF-FF
+ClassName (NameIndex): Class @ 631
+05-00-00-00-00-00-00-00
 
-  ObjectName (NameIndex): IntProperty @ 615
-  0D-00-00-00-00-00-00-00
+Outer (ObjectReference): /Script/CoreUObject @ 639
+F8-FF-FF-FF
 
-Import -4 /Script/CoreUObject.Object @ 623
+ObjectName (NameIndex): Object @ 643
+10-00-00-00-00-00-00-00
+```
 
-  ClassPackage (NameIndex): /Script/CoreUObject @ 623
-  01-00-00-00-00-00-00-00
+## -5: /Script/CoreUObject.StructProperty @ 651
+```
+ClassPackage (NameIndex): /Script/CoreUObject @ 651
+01-00-00-00-00-00-00-00
 
-  ClassName (NameIndex): Class @ 631
-  05-00-00-00-00-00-00-00
+ClassName (NameIndex): Class @ 659
+05-00-00-00-00-00-00-00
 
-  Outer (ObjectReference): /Script/CoreUObject @ 639
-  F8-FF-FF-FF
+Outer (ObjectReference): /Script/CoreUObject @ 667
+F8-FF-FF-FF
 
-  ObjectName (NameIndex): Object @ 643
-  10-00-00-00-00-00-00-00
+ObjectName (NameIndex): StructProperty @ 671
+13-00-00-00-00-00-00-00
+```
 
-Import -5 /Script/CoreUObject.StructProperty @ 651
+## -6: /Script/Engine.BlueprintGeneratedClass @ 679
+```
+ClassPackage (NameIndex): /Script/CoreUObject @ 679
+01-00-00-00-00-00-00-00
 
-  ClassPackage (NameIndex): /Script/CoreUObject @ 651
-  01-00-00-00-00-00-00-00
+ClassName (NameIndex): Class @ 687
+05-00-00-00-00-00-00-00
 
-  ClassName (NameIndex): Class @ 659
-  05-00-00-00-00-00-00-00
+Outer (ObjectReference): /Script/Engine @ 695
+F7-FF-FF-FF
 
-  Outer (ObjectReference): /Script/CoreUObject @ 667
-  F8-FF-FF-FF
+ObjectName (NameIndex): BlueprintGeneratedClass @ 699
+04-00-00-00-00-00-00-00
+```
 
-  ObjectName (NameIndex): StructProperty @ 671
-  13-00-00-00-00-00-00-00
+## -7: /Script/CoreUObject.Default__Object @ 707
+```
+ClassPackage (NameIndex): /Script/CoreUObject @ 707
+01-00-00-00-00-00-00-00
 
-Import -6 /Script/Engine.BlueprintGeneratedClass @ 679
+ClassName (NameIndex): Object @ 715
+10-00-00-00-00-00-00-00
 
-  ClassPackage (NameIndex): /Script/CoreUObject @ 679
-  01-00-00-00-00-00-00-00
+Outer (ObjectReference): /Script/CoreUObject @ 723
+F8-FF-FF-FF
 
-  ClassName (NameIndex): Class @ 687
-  05-00-00-00-00-00-00-00
+ObjectName (NameIndex): Default__Object @ 727
+07-00-00-00-00-00-00-00
+```
 
-  Outer (ObjectReference): /Script/Engine @ 695
-  F7-FF-FF-FF
+## -8: /Script/CoreUObject @ 735
+```
+ClassPackage (NameIndex): /Script/CoreUObject @ 735
+01-00-00-00-00-00-00-00
 
-  ObjectName (NameIndex): BlueprintGeneratedClass @ 699
-  04-00-00-00-00-00-00-00
+ClassName (NameIndex): Package @ 743
+11-00-00-00-00-00-00-00
 
-Import -7 /Script/CoreUObject.Default__Object @ 707
+Outer (ObjectReference): @ 751
+00-00-00-00
 
-  ClassPackage (NameIndex): /Script/CoreUObject @ 707
-  01-00-00-00-00-00-00-00
+ObjectName (NameIndex): /Script/CoreUObject @ 755
+01-00-00-00-00-00-00-00
+```
 
-  ClassName (NameIndex): Object @ 715
-  10-00-00-00-00-00-00-00
+## -9: /Script/Engine @ 763
+```
+ClassPackage (NameIndex): /Script/CoreUObject @ 763
+01-00-00-00-00-00-00-00
 
-  Outer (ObjectReference): /Script/CoreUObject @ 723
-  F8-FF-FF-FF
+ClassName (NameIndex): Package @ 771
+11-00-00-00-00-00-00-00
 
-  ObjectName (NameIndex): Default__Object @ 727
-  07-00-00-00-00-00-00-00
+Outer (ObjectReference): @ 779
+00-00-00-00
 
-Import -8 /Script/CoreUObject @ 735
+ObjectName (NameIndex): /Script/Engine @ 783
+02-00-00-00-00-00-00-00
+```
 
-  ClassPackage (NameIndex): /Script/CoreUObject @ 735
-  01-00-00-00-00-00-00-00
+## -10: /Script/CoreUObject.Object.Vector @ 791
+```
+ClassPackage (NameIndex): /Script/CoreUObject @ 791
+01-00-00-00-00-00-00-00
 
-  ClassName (NameIndex): Package @ 743
-  11-00-00-00-00-00-00-00
+ClassName (NameIndex): ScriptStruct @ 799
+12-00-00-00-00-00-00-00
 
-  Outer (ObjectReference): @ 751
-  00-00-00-00
+Outer (ObjectReference): /Script/CoreUObject.Object @ 807
+FC-FF-FF-FF
 
-  ObjectName (NameIndex): /Script/CoreUObject @ 755
-  01-00-00-00-00-00-00-00
-
-Import -9 /Script/Engine @ 763
-
-  ClassPackage (NameIndex): /Script/CoreUObject @ 763
-  01-00-00-00-00-00-00-00
-
-  ClassName (NameIndex): Package @ 771
-  11-00-00-00-00-00-00-00
-
-  Outer (ObjectReference): @ 779
-  00-00-00-00
-
-  ObjectName (NameIndex): /Script/Engine @ 783
-  02-00-00-00-00-00-00-00
-
-Import -10 /Script/CoreUObject.Object.Vector @ 791
-
-  ClassPackage (NameIndex): /Script/CoreUObject @ 791
-  01-00-00-00-00-00-00-00
-
-  ClassName (NameIndex): ScriptStruct @ 799
-  12-00-00-00-00-00-00-00
-
-  Outer (ObjectReference): /Script/CoreUObject.Object @ 807
-  FC-FF-FF-FF
-
-  ObjectName (NameIndex): Vector @ 811
-  14-00-00-00-00-00-00-00
+ObjectName (NameIndex): Vector @ 811
+14-00-00-00-00-00-00-00
 ```
 
 # Exports @ 819
+
+## 1: HasVectorArray_C.NewVar.NewVar @ 819
 ```
-Export 1 HasVectorArray_C.NewVar.NewVar @ 819
+Class (ObjectReference): /Script/CoreUObject.StructProperty @ 819
+FB-FF-FF-FF
 
-  Class (ObjectReference): /Script/CoreUObject.StructProperty @ 819
-  FB-FF-FF-FF
+Super (ObjectReference): @ 823
+00-00-00-00
 
-  Super (ObjectReference): @ 823
-  00-00-00-00
+Outer (ObjectReference): HasVectorArray_C.NewVar @ 827
+02-00-00-00
 
-  Outer (ObjectReference): HasVectorArray_C.NewVar @ 827
-  02-00-00-00
+ObjectName (NameIndex): NewVar @ 831
+0E-00-00-00-00-00-00-00
 
-  ObjectName (NameIndex): NewVar @ 831
-  0E-00-00-00-00-00-00-00
+ObjectFlags (UInt32): 1 @ 839
+01-00-00-00
 
-  ObjectFlags (UInt32): 1 @ 839
-  01-00-00-00
+SerialSize (Int32): 40 @ 843
+28-00-00-00
 
-  SerialSize (Int32): 40 @ 843
-  28-00-00-00
+SerialOffset (Int32): 1283 @ 847
+03-05-00-00
 
-  SerialOffset (Int32): 1283 @ 847
-  03-05-00-00
+ForcedExport (Boolean32): False @ 851
+00-00-00-00
 
-  ForcedExport (Boolean32): False @ 851
-  00-00-00-00
+NotForClient (Boolean32): False @ 855
+00-00-00-00
 
-  NotForClient (Boolean32): False @ 855
-  00-00-00-00
+NotForServer (Boolean32): False @ 859
+00-00-00-00
 
-  NotForServer (Boolean32): False @ 859
-  00-00-00-00
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 863
+00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
 
-  PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 863
-  00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+PackageFlags (UInt32): 0 @ 879
+00-00-00-00
 
-  PackageFlags (UInt32): 0 @ 879
-  00-00-00-00
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 883
+01-00-00-00
+```
 
-  NotAlwaysLoadedForEditorGame (Boolean32): True @ 883
-  01-00-00-00
+## 2: HasVectorArray_C.NewVar @ 887
+```
+Class (ObjectReference): /Script/CoreUObject.ArrayProperty @ 887
+FF-FF-FF-FF
 
-Export 2 HasVectorArray_C.NewVar @ 887
+Super (ObjectReference): @ 891
+00-00-00-00
 
-  Class (ObjectReference): /Script/CoreUObject.ArrayProperty @ 887
-  FF-FF-FF-FF
+Outer (ObjectReference): HasVectorArray_C @ 895
+05-00-00-00
 
-  Super (ObjectReference): @ 891
-  00-00-00-00
+ObjectName (NameIndex): NewVar @ 899
+0E-00-00-00-00-00-00-00
 
-  Outer (ObjectReference): HasVectorArray_C @ 895
-  05-00-00-00
+ObjectFlags (UInt32): 1 @ 907
+01-00-00-00
 
-  ObjectName (NameIndex): NewVar @ 899
-  0E-00-00-00-00-00-00-00
+SerialSize (Int32): 40 @ 911
+28-00-00-00
 
-  ObjectFlags (UInt32): 1 @ 907
-  01-00-00-00
+SerialOffset (Int32): 1323 @ 915
+2B-05-00-00
 
-  SerialSize (Int32): 40 @ 911
-  28-00-00-00
+ForcedExport (Boolean32): False @ 919
+00-00-00-00
 
-  SerialOffset (Int32): 1323 @ 915
-  2B-05-00-00
+NotForClient (Boolean32): False @ 923
+00-00-00-00
 
-  ForcedExport (Boolean32): False @ 919
-  00-00-00-00
+NotForServer (Boolean32): False @ 927
+00-00-00-00
 
-  NotForClient (Boolean32): False @ 923
-  00-00-00-00
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 931
+00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
 
-  NotForServer (Boolean32): False @ 927
-  00-00-00-00
+PackageFlags (UInt32): 0 @ 947
+00-00-00-00
 
-  PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 931
-  00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 951
+01-00-00-00
+```
 
-  PackageFlags (UInt32): 0 @ 947
-  00-00-00-00
+## 3: HasVectorArray_C.ExecuteUbergraph_HasVectorArray.EntryPoint @ 955
+```
+Class (ObjectReference): /Script/CoreUObject.IntProperty @ 955
+FD-FF-FF-FF
 
-  NotAlwaysLoadedForEditorGame (Boolean32): True @ 951
-  01-00-00-00
+Super (ObjectReference): @ 959
+00-00-00-00
 
-Export 3 HasVectorArray_C.ExecuteUbergraph_HasVectorArray.EntryPoint @ 955
+Outer (ObjectReference): HasVectorArray_C.ExecuteUbergraph_HasVectorArray @ 963
+04-00-00-00
 
-  Class (ObjectReference): /Script/CoreUObject.IntProperty @ 955
-  FD-FF-FF-FF
+ObjectName (NameIndex): EntryPoint @ 967
+09-00-00-00-00-00-00-00
 
-  Super (ObjectReference): @ 959
-  00-00-00-00
+ObjectFlags (UInt32): 1 @ 975
+01-00-00-00
 
-  Outer (ObjectReference): HasVectorArray_C.ExecuteUbergraph_HasVectorArray @ 963
-  04-00-00-00
+SerialSize (Int32): 36 @ 979
+24-00-00-00
 
-  ObjectName (NameIndex): EntryPoint @ 967
-  09-00-00-00-00-00-00-00
+SerialOffset (Int32): 1363 @ 983
+53-05-00-00
 
-  ObjectFlags (UInt32): 1 @ 975
-  01-00-00-00
+ForcedExport (Boolean32): False @ 987
+00-00-00-00
 
-  SerialSize (Int32): 36 @ 979
-  24-00-00-00
+NotForClient (Boolean32): False @ 991
+00-00-00-00
 
-  SerialOffset (Int32): 1363 @ 983
-  53-05-00-00
+NotForServer (Boolean32): False @ 995
+00-00-00-00
 
-  ForcedExport (Boolean32): False @ 987
-  00-00-00-00
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 999
+00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
 
-  NotForClient (Boolean32): False @ 991
-  00-00-00-00
+PackageFlags (UInt32): 0 @ 1015
+00-00-00-00
 
-  NotForServer (Boolean32): False @ 995
-  00-00-00-00
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 1019
+01-00-00-00
+```
 
-  PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 999
-  00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+## 4: HasVectorArray_C.ExecuteUbergraph_HasVectorArray @ 1023
+```
+Class (ObjectReference): /Script/CoreUObject.Function @ 1023
+FE-FF-FF-FF
 
-  PackageFlags (UInt32): 0 @ 1015
-  00-00-00-00
+Super (ObjectReference): @ 1027
+00-00-00-00
 
-  NotAlwaysLoadedForEditorGame (Boolean32): True @ 1019
-  01-00-00-00
+Outer (ObjectReference): HasVectorArray_C @ 1031
+05-00-00-00
 
-Export 4 HasVectorArray_C.ExecuteUbergraph_HasVectorArray @ 1023
+ObjectName (NameIndex): ExecuteUbergraph_HasVectorArray @ 1035
+0A-00-00-00-00-00-00-00
 
-  Class (ObjectReference): /Script/CoreUObject.Function @ 1023
-  FE-FF-FF-FF
+ObjectFlags (UInt32): 1 @ 1043
+01-00-00-00
 
-  Super (ObjectReference): @ 1027
-  00-00-00-00
+SerialSize (Int32): 50 @ 1047
+32-00-00-00
 
-  Outer (ObjectReference): HasVectorArray_C @ 1031
-  05-00-00-00
+SerialOffset (Int32): 1399 @ 1051
+77-05-00-00
 
-  ObjectName (NameIndex): ExecuteUbergraph_HasVectorArray @ 1035
-  0A-00-00-00-00-00-00-00
+ForcedExport (Boolean32): False @ 1055
+00-00-00-00
 
-  ObjectFlags (UInt32): 1 @ 1043
-  01-00-00-00
+NotForClient (Boolean32): False @ 1059
+00-00-00-00
 
-  SerialSize (Int32): 50 @ 1047
-  32-00-00-00
+NotForServer (Boolean32): False @ 1063
+00-00-00-00
 
-  SerialOffset (Int32): 1399 @ 1051
-  77-05-00-00
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1067
+00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
 
-  ForcedExport (Boolean32): False @ 1055
-  00-00-00-00
+PackageFlags (UInt32): 0 @ 1083
+00-00-00-00
 
-  NotForClient (Boolean32): False @ 1059
-  00-00-00-00
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 1087
+01-00-00-00
+```
 
-  NotForServer (Boolean32): False @ 1063
-  00-00-00-00
+## 5: HasVectorArray_C @ 1091
+```
+Class (ObjectReference): /Script/Engine.BlueprintGeneratedClass @ 1091
+FA-FF-FF-FF
 
-  PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1067
-  00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+Super (ObjectReference): /Script/CoreUObject.Object @ 1095
+FC-FF-FF-FF
 
-  PackageFlags (UInt32): 0 @ 1083
-  00-00-00-00
+Outer (ObjectReference): @ 1099
+00-00-00-00
 
-  NotAlwaysLoadedForEditorGame (Boolean32): True @ 1087
-  01-00-00-00
+ObjectName (NameIndex): HasVectorArray_C @ 1103
+0C-00-00-00-00-00-00-00
 
-Export 5 HasVectorArray_C @ 1091
+ObjectFlags (UInt32): 9 @ 1111
+09-00-00-00
 
-  Class (ObjectReference): /Script/Engine.BlueprintGeneratedClass @ 1091
-  FA-FF-FF-FF
+SerialSize (Int32): 92 @ 1115
+5C-00-00-00
 
-  Super (ObjectReference): /Script/CoreUObject.Object @ 1095
-  FC-FF-FF-FF
+SerialOffset (Int32): 1449 @ 1119
+A9-05-00-00
 
-  Outer (ObjectReference): @ 1099
-  00-00-00-00
+ForcedExport (Boolean32): False @ 1123
+00-00-00-00
 
-  ObjectName (NameIndex): HasVectorArray_C @ 1103
-  0C-00-00-00-00-00-00-00
+NotForClient (Boolean32): False @ 1127
+00-00-00-00
 
-  ObjectFlags (UInt32): 9 @ 1111
-  09-00-00-00
+NotForServer (Boolean32): False @ 1131
+00-00-00-00
 
-  SerialSize (Int32): 92 @ 1115
-  5C-00-00-00
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1135
+00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
 
-  SerialOffset (Int32): 1449 @ 1119
-  A9-05-00-00
+PackageFlags (UInt32): 0 @ 1151
+00-00-00-00
 
-  ForcedExport (Boolean32): False @ 1123
-  00-00-00-00
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 1155
+01-00-00-00
+```
 
-  NotForClient (Boolean32): False @ 1127
-  00-00-00-00
+## 6: Default__HasVectorArray_C @ 1159
+```
+Class (ObjectReference): HasVectorArray_C @ 1159
+05-00-00-00
 
-  NotForServer (Boolean32): False @ 1131
-  00-00-00-00
+Super (ObjectReference): @ 1163
+00-00-00-00
 
-  PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1135
-  00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+Outer (ObjectReference): @ 1167
+00-00-00-00
 
-  PackageFlags (UInt32): 0 @ 1151
-  00-00-00-00
+ObjectName (NameIndex): Default__HasVectorArray_C @ 1171
+06-00-00-00-00-00-00-00
 
-  NotAlwaysLoadedForEditorGame (Boolean32): True @ 1155
-  01-00-00-00
+ObjectFlags (UInt32): 17 @ 1179
+11-00-00-00
 
-Export 6 Default__HasVectorArray_C @ 1159
+SerialSize (Int32): 68 @ 1183
+44-00-00-00
 
-  Class (ObjectReference): HasVectorArray_C @ 1159
-  05-00-00-00
+SerialOffset (Int32): 1541 @ 1187
+05-06-00-00
 
-  Super (ObjectReference): @ 1163
-  00-00-00-00
+ForcedExport (Boolean32): False @ 1191
+00-00-00-00
 
-  Outer (ObjectReference): @ 1167
-  00-00-00-00
+NotForClient (Boolean32): False @ 1195
+00-00-00-00
 
-  ObjectName (NameIndex): Default__HasVectorArray_C @ 1171
-  06-00-00-00-00-00-00-00
+NotForServer (Boolean32): False @ 1199
+00-00-00-00
 
-  ObjectFlags (UInt32): 17 @ 1179
-  11-00-00-00
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1203
+00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
 
-  SerialSize (Int32): 68 @ 1183
-  44-00-00-00
+PackageFlags (UInt32): 0 @ 1219
+00-00-00-00
 
-  SerialOffset (Int32): 1541 @ 1187
-  05-06-00-00
-
-  ForcedExport (Boolean32): False @ 1191
-  00-00-00-00
-
-  NotForClient (Boolean32): False @ 1195
-  00-00-00-00
-
-  NotForServer (Boolean32): False @ 1199
-  00-00-00-00
-
-  PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1203
-  00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
-
-  PackageFlags (UInt32): 0 @ 1219
-  00-00-00-00
-
-  NotAlwaysLoadedForEditorGame (Boolean32): False @ 1223
-  00-00-00-00
+NotAlwaysLoadedForEditorGame (Boolean32): False @ 1223
+00-00-00-00
 ```
 
 # UNKNOWN @ 1227

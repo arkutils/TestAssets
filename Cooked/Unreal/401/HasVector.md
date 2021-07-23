@@ -63,13 +63,15 @@ Guid (Guid): b853a225-1bb1-41c1-b5da-fcbde768ba42 @ 81
 GenerationCount (Int32): 1 @ 97
 01-00-00-00
 
-List Generations @ 101
+Generations (List) @ 101
 
-  NameCount (Int32): 5 @ 101
-  05-00-00-00
+  0 (Generation) @ 101
 
-  ExportCount (Int32): 20 @ 105
-  14-00-00-00
+    NameCount (Int32): 5 @ 101
+    05-00-00-00
+
+    ExportCount (Int32): 20 @ 105
+    14-00-00-00
 
 Major (UInt16): 0 @ 109
 00-00
@@ -493,7 +495,7 @@ NotAlwaysLoadedForEditorGame (Boolean32): True @ 1021
 01-00-00-00
 ```
 
-## Export 5 Default__HasVector_C @ 1025
+## 5: Default__HasVector_C @ 1025
 ```
 Class (ObjectReference): HasVector_C @ 1025
 04-00-00-00
@@ -540,63 +542,71 @@ NotAlwaysLoadedForEditorGame (Boolean32): False @ 1089
 00-00-00-00-00-00-00-00-02-00-00-00-01-00-00-00-02-00-00-00-02-00-00-00-03-00-00-00-05-00-00-00-02-00-00-00-04-00-00-00-FA-FF-FF-FF-00-00-00-00
 ```
 
-## Export 1 Data, 40 bytes @ 1141
+# Export 1 Data, 40 bytes @ 1141
 ```
-Property None @ 1141
+None (Property) @ 1141
 
-  Tag None @ 1141
+  (Tag): None @ 1141
 
     Name (NameIndex): None @ 1141
     0E-00-00-00-00-00-00-00
+```
 
-UNKNOWN @ 1149
+# UNKNOWN @ 1149
+```
 00-00-00-00-00-00-00-00-01-00-00-00-05-00-01-00-00-00-00-00-0E-00-00-00-00-00-00-00-F7-FF-FF-FF
 ```
 
-## Export 2 Data, 36 bytes @ 1181
+# Export 2 Data, 36 bytes @ 1181
 ```
-Property None @ 1181
+None (Property) @ 1181
 
-  Tag None @ 1181
+  (Tag): None @ 1181
 
     Name (NameIndex): None @ 1181
     0E-00-00-00-00-00-00-00
+```
 
-UNKNOWN @ 1189
+# UNKNOWN @ 1189
+```
 00-00-00-00-00-00-00-00-01-00-00-00-80-00-00-00-00-00-00-00-0E-00-00-00-00-00-00-00
 ```
 
-## Export 3 Data, 50 bytes @ 1217
+# Export 3 Data, 50 bytes @ 1217
 ```
-Property None @ 1217
+None (Property) @ 1217
 
-  Tag None @ 1217
+  (Tag): None @ 1217
 
     Name (NameIndex): None @ 1217
     0E-00-00-00-00-00-00-00
+```
 
-UNKNOWN @ 1225
+# UNKNOWN @ 1225
+```
 00-00-00-00-01-00-00-00-00-00-00-00-02-00-00-00-12-00-00-00-0E-00-00-00-4C-0F-00-00-00-4E-00-02-00-00-00-04-0B-53-00-00-00-00
 ```
 
-## Export 4 Data, 92 bytes @ 1267
+# Export 4 Data, 92 bytes @ 1267
 ```
-Property None @ 1267
+None (Property) @ 1267
 
-  Tag None @ 1267
+  (Tag): None @ 1267
 
     Name (NameIndex): None @ 1267
     0E-00-00-00-00-00-00-00
+```
 
-UNKNOWN @ 1275
+# UNKNOWN @ 1275
+```
 00-00-00-00-00-00-00-00-FD-FF-FF-FF-03-00-00-00-00-00-00-00-00-00-00-00-01-00-00-00-09-00-00-00-00-00-00-00-03-00-00-00-10-00-04-00-FD-FF-FF-FF-07-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-0E-00-00-00-00-00-00-00-01-00-00-00-05-00-00-00
 ```
 
-## Export 5 Data, 52 bytes @ 1359
+# Export 5 Data, 52 bytes @ 1359
 ```
-Property NewVar @ 1359
+NewVar (Property) @ 1359
 
-  Tag StructProperty NewVar @ 1359
+  (Tag): StructProperty NewVar @ 1359
 
     Name (NameIndex): NewVar @ 1359
     0D-00-00-00-00-00-00-00
@@ -612,7 +622,7 @@ Property NewVar @ 1359
 
     StructName (NameIndex): Vector @ 1383
     13-00-00-00-00-00-00-00
-
+    
   Value (Vector): (12.0, 24.0, 36.0) @ 1391
     X (Float): 12.0 @ 1391
     00-00-40-41
@@ -623,9 +633,9 @@ Property NewVar @ 1359
     Z (Float): 36.0 @ 1399
     00-00-10-42
 
-Property None @ 1403
+None (Property) @ 1403
 
-  Tag None @ 1403
+  (Tag): None @ 1403
 
     Name (NameIndex): None @ 1403
     0E-00-00-00-00-00-00-00

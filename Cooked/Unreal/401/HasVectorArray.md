@@ -57,19 +57,21 @@ FF-04-00-00
 ThumbnailTableOffset (Int32): 0 @ 77
 00-00-00-00
 
-Guid (Guid): 5f401038-37df-42cd-8035-dd2cf6e01619 @ 81
-38-10-40-5F-DF-37-CD-42-80-35-DD-2C-F6-E0-16-19
+Guid (Guid): 06a63c72-896a-44f2-92bb-331f65e3e909 @ 81
+72-3C-A6-06-6A-89-F2-44-92-BB-33-1F-65-E3-E9-09
 
 GenerationCount (Int32): 1 @ 97
 01-00-00-00
 
 Generations (List) @ 101
 
-  NameCount (Int32): 6 @ 101
-  06-00-00-00
+  0 (Generation) @ 101
 
-  ExportCount (Int32): 21 @ 105
-  15-00-00-00
+    NameCount (Int32): 6 @ 101
+    06-00-00-00
+
+    ExportCount (Int32): 21 @ 105
+    15-00-00-00
 
 Major (UInt16): 0 @ 109
 00-00
@@ -92,7 +94,7 @@ CompressionFlags (Int32): 0 @ 123
 CompressedChunkCount (Int32): 0 @ 127
 00-00-00-00
 
-List CompressedChunks @ 131 
+CompressedChunks (List) @ 131
 
 PackageSource (UInt32): 2374732178 @ 131
 92-89-8B-8D
@@ -115,7 +117,7 @@ WorldTileInfoDataOffset (Int32): 0 @ 151
 ChunkIDCount (Int32): 0 @ 155
 00-00-00-00
 
-ChunkIDs (List): @ 159
+ChunkIDs (List) @ 159
 ```
 
 # UNKNOWN @ 159
@@ -188,6 +190,7 @@ ChunkIDs (List): @ 159
 20 (String): Vector @ 528
 07-00-00-00-56-65-63-74-6F-72-00
 ```
+
 # Imports @ 539
 
 ## -1: /Script/CoreUObject.ArrayProperty @ 539
@@ -601,73 +604,84 @@ NotAlwaysLoadedForEditorGame (Boolean32): False @ 1223
 
 # Export 1 Data, 40 bytes @ 1283
 ```
-Property None @ 1283
+None (Property) @ 1283
 
-  Tag None @ 1283
+  (Tag): None @ 1283
 
     Name (NameIndex): None @ 1283
     0F-00-00-00-00-00-00-00
+```
 
-UNKNOWN @ 1291
+# UNKNOWN @ 1291
+```
 00-00-00-00-00-00-00-00-01-00-00-00-00-00-00-00-00-00-00-00-0F-00-00-00-00-00-00-00-F6-FF-FF-FF
 ```
+
 # Export 2 Data, 40 bytes @ 1323
 ```
-Property None @ 1323
+None (Property) @ 1323
 
-  Tag None @ 1323
+  (Tag): None @ 1323
 
     Name (NameIndex): None @ 1323
     0F-00-00-00-00-00-00-00
+```
 
-UNKNOWN @ 1331
+# UNKNOWN @ 1331
+```
 00-00-00-00-00-00-00-00-01-00-00-00-05-00-01-00-00-00-00-00-0F-00-00-00-00-00-00-00-01-00-00-00
 ```
 
 # Export 3 Data, 36 bytes @ 1363
 ```
-Property None @ 1363
+None (Property) @ 1363
 
-  Tag None @ 1363
+  (Tag): None @ 1363
 
     Name (NameIndex): None @ 1363
     0F-00-00-00-00-00-00-00
+```
 
-UNKNOWN @ 1371
+# UNKNOWN @ 1371
+```
 00-00-00-00-00-00-00-00-01-00-00-00-80-00-00-00-00-00-00-00-0F-00-00-00-00-00-00-00
 ```
 
 # Export 4 Data, 50 bytes @ 1399
 ```
-Property None @ 1399
+None (Property) @ 1399
 
-  Tag None @ 1399
+  (Tag): None @ 1399
 
     Name (NameIndex): None @ 1399
     0F-00-00-00-00-00-00-00
+```
 
-UNKNOWN @ 1407
+# UNKNOWN @ 1407
+```
 00-00-00-00-02-00-00-00-00-00-00-00-03-00-00-00-12-00-00-00-0E-00-00-00-4C-0F-00-00-00-4E-00-03-00-00-00-04-0B-53-00-00-00-00
 ```
 
 # Export 5 Data, 92 bytes @ 1449
 ```
-Property None @ 1449
+None (Property) @ 1449
 
-  Tag None @ 1449
+  (Tag): None @ 1449
 
     Name (NameIndex): None @ 1449
     0F-00-00-00-00-00-00-00
+```
 
-UNKNOWN @ 1457
+# UNKNOWN @ 1457
+```
 00-00-00-00-00-00-00-00-FC-FF-FF-FF-04-00-00-00-00-00-00-00-00-00-00-00-01-00-00-00-0A-00-00-00-00-00-00-00-04-00-00-00-10-00-04-00-FC-FF-FF-FF-08-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-0F-00-00-00-00-00-00-00-01-00-00-00-06-00-00-00
 ```
 
 # Export 6 Data, 68 bytes @ 1541
 ```
-Property NewVar @ 1541
+NewVar (Property) @ 1541
 
-  Tag ArrayProperty @ 1541
+  (Tag): ArrayProperty NewVar @ 1541
 
     Name (NameIndex): NewVar @ 1541
     0E-00-00-00-00-00-00-00
@@ -710,13 +724,15 @@ Property NewVar @ 1541
       X (Float): 72.0 @ 1597
       00-00-90-42
 
-Property None @ 1601
+None (Property) @ 1601
 
-  Tag None @ 1601
+  (Tag): None @ 1601
 
     Name (NameIndex): None @ 1601
     0F-00-00-00-00-00-00-00
 ```
 
 # UNKNOWN @ 1609
+```
 C1-83-2A
+```

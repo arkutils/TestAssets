@@ -12,48 +12,14 @@ async Task Main()
 	var repoDirectory = Path.GetDirectoryName(Util.CurrentQueryPath);
 	var baseDirectory = new DirectoryInfo(@$"{repoDirectory}\Cooked\Unreal\401");
 
-	var excludes = new[]
-		{
-			"^/Game/Localization/",                       // Contains only text
-            "^/Game/PrimalEarth/Test_",                   // Tool models and rigging
-            "^/Game/PrimalEarth/Weapon[^/]+",             // Tool models and rigging
-            "^/ReflectionCaptures/",                      // Large environment maps
-            "^/Game/Maps/MainMenu",                       // Main menu level
-            "^/Game/Maps/ShooterEntry",                   // ???
-            "^/Game/Maps/PGARK",                          // Procedural ARKs
-            "^/Game/(Maps|Mods)/.*BossArena",             // Boss arenas
-            "^/Game/Mods/Ragnarok/Ragnarok_Arena_01",     // Ragnarok boss arena
-            "/(Core)?(Animation|Anim|Effect|Material|Mesh|MIC|Particle|Sound|Texture)s?/",
-			"/Light(ing)?Probes/",
-			"(?<!Spawners)(?<!Spawners/New)/T_[^/]+",     // Texture assets, unless inside Spawners
-            "/(Meshes|TempMaterials|Landscape|DroppedMeshes|Clutter|BehaviorTrees|CoreAI)/",
-			"/(AIController|PostEffects|PostProcess|AnimTexture|Icon|FX)/.*",
-			"/_?(AI_Blueprint|AIController|Emitter|ProxyMesh|ChildIBL|MasterIBL)([_/].+|$)",
-			"/_?(VFX|Mi|Mic|MIC|MAT|SK)_?(/|$)",
-			"/MM([_/].+|$)",
-			"/(Environment|Trees|Foliage)/.*_Settings",
-			"/(Environment|Trees)/.*_Pickup",
-			"/(Environment|Trees)/.*_Mat(Inst)?",
-			"/(Environment|Trees|Clutter)(/.*[_/]|/)(Tex|Landscape|Clutter|SM)([_/].+|$)",
-			"/(Environment|Trees)/(Rocks|Sky)",
-			"HasVector"
-		}
-		.Select(x => new Regex(x, RegexOptions.Compiled | RegexOptions.IgnoreCase))
-		.ToArray();
+	var excludes = new string[] { };
 
-	var includes = new[]
-		{
-            //"Consumables/PrimalItemConsumable_Kibble_Base_Special",
-            //"/Game/PrimalEarth/CoreBlueprints/Items/PrimalItem_Base$",
-            "."
-		}
-		.Select(x => new Regex(x, RegexOptions.Compiled | RegexOptions.IgnoreCase))
-		.ToArray();
+	var includes = new string[] { "." };
 
 	var assetFiles = baseDirectory
 		.EnumerateFiles("*.uasset", SearchOption.AllDirectories)
-		.Where(x => !excludes.Any(e => e.IsMatch(ArchiveReader.FileSystemPathToAssetPath(x.FullName, baseDirectory.FullName))))
-		.Where(x => includes.Any(e => e.IsMatch(ArchiveReader.FileSystemPathToAssetPath(x.FullName, baseDirectory.FullName))));
+		.Where(x => !excludes.Any(p => Regex.IsMatch(p, ArchiveReader.FileSystemPathToAssetPath(x.FullName, baseDirectory.FullName), RegexOptions.IgnoreCase)))
+		.Where(x => includes.Any(p => Regex.IsMatch(p, ArchiveReader.FileSystemPathToAssetPath(x.FullName, baseDirectory.FullName), RegexOptions.IgnoreCase)));
 
 	foreach (var file in assetFiles)
 	{
@@ -597,6 +563,8 @@ public class ObjectExport : IObjectResource
 	IObjectResource IObjectResource.Outer => Outer;
 
 	public override string ToString() => FullName;
+	
+	public byte[] ExtraExportData { get; set; }
 
 	public ObjectExport Deserialize(ArchiveReader reader, Archive archive)
 	{
@@ -666,7 +634,20 @@ public class ObjectExport : IObjectResource
 			CreateBeforeCreateDependencies = reader.ReadInt32("CreateBeforeCreateDependencies");
 		}
 
-		Properties = reader.ReadAtOffset("Property[]", "Properties", SerialOffset, () => ReadProperties(reader, archive, this));
+		var offset = reader.Position;
+		reader.Seek(SerialOffset);
+			
+		Properties = reader.Read("Property[]", "Properties", () => ReadProperties(reader, archive, this));
+		
+		var end = SerialOffset + SerialSize;
+		var unknownBytes = end - reader.Position;
+		
+		if(unknownBytes > 0)
+		{
+			ExtraExportData = reader.ReadBytes((int)unknownBytes, "ExtraExportData");
+		}
+		
+		reader.Seek(offset);
 
 		return this;
 	}
@@ -1081,7 +1062,7 @@ public class ArchiveReader : IDisposable
 
 	public bool ReadBoolean(string name) => Read("Boolean", name, () => _reader.ReadBoolean());
 
-	public byte[] ReadBytes(int count, string name = null) => Read("Byte[]", name, () => _reader.ReadBytes(count));
+	public byte[] ReadBytes(int count, string name = null) => Read("Byte[]", name, false, () => _reader.ReadBytes(count));
 
 	public bool ReadBoolean32(string name) => Read("Boolean32", name, () => _reader.ReadUInt32() != 0);
 

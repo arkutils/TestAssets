@@ -1114,15 +1114,17 @@ public class ArchiveReader : IDisposable
 	public Archive ReadArchive()
 	{
 		_elementStack.Clear();
+		
+		var archive = new Archive { GamePath = _gamePath };
 
 		using (RootElement = StartElement(nameof(Archive), _gamePath))
 		{
-			var archive = new Archive { GamePath = _gamePath };
 			RootElement.Value = archive;
 			archive.Deserialize(this);
-			Seek(_reader.BaseStream.Length - 1);
-			return archive;
 		}
+		
+		RootElement.EndPosition = (int)_reader.BaseStream.Length;
+		return archive;
 	}
 
 	public ArchiveElement StartElement(string type, string name = default)

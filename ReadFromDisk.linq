@@ -11,7 +11,6 @@ async Task Main()
 {
 	var repoDirectory = Path.GetDirectoryName(Util.CurrentQueryPath);
 	var baseDirectory = new DirectoryInfo(@$"{repoDirectory}\Cooked\Unreal\401");
-	var verbose = false;
 
 	var excludes = new string[] { };
 
@@ -27,12 +26,21 @@ async Task Main()
 	{
 		try
 		{
-			var reader = new ArchiveReader(file, baseDirectory);
-			var archive = reader.ReadArchive();
-			
-			var outputPath = Path.ChangeExtension(file.FullName, verbose ? ".md" : ".short.md");
-			var markdown = DescribeChildren(reader.RootElement, verbose);
-			await File.WriteAllTextAsync(outputPath, markdown);
+			using(var reader = new ArchiveReader(file, baseDirectory))
+			{
+				var archive = reader.ReadArchive();
+				var outputPath = Path.ChangeExtension(file.FullName, ".md");
+				var markdown = DescribeChildren(reader.RootElement, true);
+				await File.WriteAllTextAsync(outputPath, markdown);
+			}
+
+			using(var reader = new ArchiveReader(file, baseDirectory))
+			{
+				var archive = reader.ReadArchive();
+				var outputPath = Path.ChangeExtension(file.FullName, ".short.md");
+				var markdown = DescribeChildren(reader.RootElement, false);
+				await File.WriteAllTextAsync(outputPath, markdown);
+			}
 		}
 		catch (Exception ex)
 		{

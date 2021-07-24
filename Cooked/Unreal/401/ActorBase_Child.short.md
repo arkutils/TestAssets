@@ -6,25 +6,25 @@ LegacyUE3Version (Int32): 864 @ 8
 FileVersionUE (Int32): 401 @ 12
 FileVersionLicenseeUE (Int32): 0 @ 16
 CustomVersionCount (Int32): 0 @ 20
-TotalHeaderSize (Int32): 2375 @ 24
+TotalHeaderSize (Int32): 2068 @ 24
 FolderName (String): None @ 28
 PackageFlags (UInt32): 2147483648 @ 37
-NameCount (Int32): 44 @ 41
+NameCount (Int32): 36 @ 41
 NameOffset (Int32): 163 @ 45
 ExportCount (Int32): 10 @ 49
-ExportOffset (Int32): 1591 @ 53
+ExportOffset (Int32): 1284 @ 53
 ImportCount (Int32): 16 @ 57
-ImportOffset (Int32): 1143 @ 61
-DependsOffset (Int32): 2271 @ 65
+ImportOffset (Int32): 836 @ 61
+DependsOffset (Int32): 1964 @ 65
 SoftPackageReferencesCount (Int32): 0 @ 69
-SoftPackageReferencesOffset (Int32): 2371 @ 73
+SoftPackageReferencesOffset (Int32): 2064 @ 73
 ThumbnailTableOffset (Int32): 0 @ 77
-Guid (Guid): 235477d2-da72-4522-a81d-011fbf5abacd @ 81
+Guid (Guid): fe471d8f-e2ad-4083-b481-0fd428181466 @ 81
 GenerationCount (Int32): 1 @ 97
 Generations (List) @ 101
   0 (Generation) @ 101
     NameCount (Int32): 10 @ 101
-    ExportCount (Int32): 44 @ 105
+    ExportCount (Int32): 36 @ 105
 Major (UInt16): 0 @ 109
 Minor (UInt16): 0 @ 111
 Patch (UInt16): 0 @ 113
@@ -36,8 +36,8 @@ CompressedChunks (List) @ 131
 PackageSource (UInt32): 4120849414 @ 131
 AdditionalPackagesToCookCount (Int32): 0 @ 135
 NumTextureAllocations (Int32): 0 @ 139
-AssetRegistryDataOffset (Int32): 2371 @ 143
-BulkDataStartOffset (Int32): 3433 @ 147
+AssetRegistryDataOffset (Int32): 2064 @ 143
+BulkDataStartOffset (Int32): 2706 @ 147
 WorldTileInfoDataOffset (Int32): 0 @ 151
 ChunkIDCount (Int32): 0 @ 155
 ChunkIDs (List) @ 159
@@ -53,470 +53,462 @@ ChunkIDs (List) @ 159
 5 (String): ActorBase_Child_C @ 268
 6 (String): ArrayProperty @ 290
 7 (String): BlueprintGeneratedClass @ 308
-8 (String): BoolProperty @ 336
-9 (String): BoolVar_7_4C94D70E4FD91D818BFD959B140F1100 @ 353
-10 (String): CategoryName @ 400
-11 (String): Class @ 417
-12 (String): ComponentTemplate @ 427
-13 (String): Default @ 449
-14 (String): Default__ActorBase_C @ 461
-15 (String): Default__ActorBase_Child_C @ 486
-16 (String): DefaultSceneRoot @ 517
-17 (String): DefaultSceneRootNode @ 538
-18 (String): Engine @ 563
-19 (String): EntryPoint @ 574
-20 (String): ExecuteUbergraph_ActorBase_Child @ 589
-21 (String): FloatArrayVar_8_46E8520A4EEE06E2D32DB6812C977E94 @ 626
-22 (String): FloatProperty @ 679
-23 (String): Function @ 697
-24 (String): IntProperty @ 710
-25 (String): NameProperty @ 726
-26 (String): None @ 743
-27 (String): Object @ 752
-28 (String): ObjectProperty @ 763
-29 (String): OnChild @ 782
-30 (String): OnParent @ 794
-31 (String): Package @ 807
-32 (String): SceneComponent @ 819
-33 (String): ScriptStruct @ 838
-34 (String): SCS_Node @ 855
-35 (String): SimpleConstructionScript @ 868
-36 (String): StringVar_18_200ABB29460E33871BCCBC81651E282F @ 897
-37 (String): StrProperty @ 947
-38 (String): StructProperty @ 963
-39 (String): UserConstructionScript @ 982
-40 (String): VariableName @ 1009
-41 (String): Vector @ 1026
-42 (String): Vector2DArrayVar_15_2DDCA552496C00AFB15054A890BA05FB @ 1037
-43 (String): VectorVar_9_9822A7A4429FB875480168A863DD9D94 @ 1094
+8 (String): CategoryName @ 336
+9 (String): Class @ 353
+10 (String): ComponentTemplate @ 363
+11 (String): Default @ 385
+12 (String): Default__ActorBase_C @ 397
+13 (String): Default__ActorBase_Child_C @ 422
+14 (String): DefaultSceneRoot @ 453
+15 (String): DefaultSceneRootNode @ 474
+16 (String): Engine @ 499
+17 (String): EntryPoint @ 510
+18 (String): ExecuteUbergraph_ActorBase_Child @ 525
+19 (String): Function @ 562
+20 (String): IntProperty @ 575
+21 (String): NameProperty @ 591
+22 (String): None @ 608
+23 (String): Object @ 617
+24 (String): ObjectProperty @ 628
+25 (String): OnChild @ 647
+26 (String): OnParent @ 659
+27 (String): Package @ 672
+28 (String): SceneComponent @ 684
+29 (String): ScriptStruct @ 703
+30 (String): SCS_Node @ 720
+31 (String): SimpleConstructionScript @ 733
+32 (String): StructProperty @ 762
+33 (String): UserConstructionScript @ 781
+34 (String): VariableName @ 808
+35 (String): Vector @ 825
 ```
 
-# Imports @ 1143
-## -1: /Game/ActorBase.Default__ActorBase_C @ 1143
+# Imports @ 836
+## -1: /Game/ActorBase.Default__ActorBase_C @ 836
 ```
-ClassPackage (NameIndex): /Game/ActorBase @ 1143
-ClassName (NameIndex): ActorBase_C @ 1151
-Outer (ObjectReference): /Game/ActorBase @ 1159
-ObjectName (NameIndex): Default__ActorBase_C @ 1163
-```
-
-## -2: /Game/ActorBase.ActorBase_C @ 1171
-```
-ClassPackage (NameIndex): /Script/Engine @ 1171
-ClassName (NameIndex): BlueprintGeneratedClass @ 1179
-Outer (ObjectReference): /Game/ActorBase @ 1187
-ObjectName (NameIndex): ActorBase_C @ 1191
+ClassPackage (NameIndex): /Game/ActorBase @ 836
+ClassName (NameIndex): ActorBase_C @ 844
+Outer (ObjectReference): /Game/ActorBase @ 852
+ObjectName (NameIndex): Default__ActorBase_C @ 856
 ```
 
-## -3: /Script/CoreUObject.ArrayProperty @ 1199
+## -2: /Game/ActorBase.ActorBase_C @ 864
 ```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1199
-ClassName (NameIndex): Class @ 1207
-Outer (ObjectReference): /Script/CoreUObject @ 1215
-ObjectName (NameIndex): ArrayProperty @ 1219
-```
-
-## -4: /Script/CoreUObject.Function @ 1227
-```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1227
-ClassName (NameIndex): Class @ 1235
-Outer (ObjectReference): /Script/CoreUObject @ 1243
-ObjectName (NameIndex): Function @ 1247
+ClassPackage (NameIndex): /Script/Engine @ 864
+ClassName (NameIndex): BlueprintGeneratedClass @ 872
+Outer (ObjectReference): /Game/ActorBase @ 880
+ObjectName (NameIndex): ActorBase_C @ 884
 ```
 
-## -5: /Script/CoreUObject.IntProperty @ 1255
+## -3: /Script/CoreUObject.ArrayProperty @ 892
 ```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1255
-ClassName (NameIndex): Class @ 1263
-Outer (ObjectReference): /Script/CoreUObject @ 1271
-ObjectName (NameIndex): IntProperty @ 1275
-```
-
-## -6: /Script/CoreUObject.Object @ 1283
-```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1283
-ClassName (NameIndex): Class @ 1291
-Outer (ObjectReference): /Script/CoreUObject @ 1299
-ObjectName (NameIndex): Object @ 1303
+ClassPackage (NameIndex): /Script/CoreUObject @ 892
+ClassName (NameIndex): Class @ 900
+Outer (ObjectReference): /Script/CoreUObject @ 908
+ObjectName (NameIndex): ArrayProperty @ 912
 ```
 
-## -7: /Script/CoreUObject.StructProperty @ 1311
+## -4: /Script/CoreUObject.Function @ 920
 ```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1311
-ClassName (NameIndex): Class @ 1319
-Outer (ObjectReference): /Script/CoreUObject @ 1327
-ObjectName (NameIndex): StructProperty @ 1331
-```
-
-## -8: /Script/Engine.BlueprintGeneratedClass @ 1339
-```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1339
-ClassName (NameIndex): Class @ 1347
-Outer (ObjectReference): /Script/Engine @ 1355
-ObjectName (NameIndex): BlueprintGeneratedClass @ 1359
+ClassPackage (NameIndex): /Script/CoreUObject @ 920
+ClassName (NameIndex): Class @ 928
+Outer (ObjectReference): /Script/CoreUObject @ 936
+ObjectName (NameIndex): Function @ 940
 ```
 
-## -9: /Script/Engine.SceneComponent @ 1367
+## -5: /Script/CoreUObject.IntProperty @ 948
 ```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1367
-ClassName (NameIndex): Class @ 1375
-Outer (ObjectReference): /Script/Engine @ 1383
-ObjectName (NameIndex): SceneComponent @ 1387
-```
-
-## -10: /Script/Engine.SCS_Node @ 1395
-```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1395
-ClassName (NameIndex): Class @ 1403
-Outer (ObjectReference): /Script/Engine @ 1411
-ObjectName (NameIndex): SCS_Node @ 1415
+ClassPackage (NameIndex): /Script/CoreUObject @ 948
+ClassName (NameIndex): Class @ 956
+Outer (ObjectReference): /Script/CoreUObject @ 964
+ObjectName (NameIndex): IntProperty @ 968
 ```
 
-## -11: /Script/Engine.SimpleConstructionScript @ 1423
+## -6: /Script/CoreUObject.Object @ 976
 ```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1423
-ClassName (NameIndex): Class @ 1431
-Outer (ObjectReference): /Script/Engine @ 1439
-ObjectName (NameIndex): SimpleConstructionScript @ 1443
-```
-
-## -12: /Game/ActorBase.ActorBase_C.UserConstructionScript @ 1451
-```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1451
-ClassName (NameIndex): Function @ 1459
-Outer (ObjectReference): /Game/ActorBase.ActorBase_C @ 1467
-ObjectName (NameIndex): UserConstructionScript @ 1471
+ClassPackage (NameIndex): /Script/CoreUObject @ 976
+ClassName (NameIndex): Class @ 984
+Outer (ObjectReference): /Script/CoreUObject @ 992
+ObjectName (NameIndex): Object @ 996
 ```
 
-## -13: /Game/ActorBase @ 1479
+## -7: /Script/CoreUObject.StructProperty @ 1004
 ```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1479
-ClassName (NameIndex): Package @ 1487
-Outer (ObjectReference): @ 1495
-ObjectName (NameIndex): /Game/ActorBase @ 1499
-```
-
-## -14: /Script/CoreUObject @ 1507
-```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1507
-ClassName (NameIndex): Package @ 1515
-Outer (ObjectReference): @ 1523
-ObjectName (NameIndex): /Script/CoreUObject @ 1527
+ClassPackage (NameIndex): /Script/CoreUObject @ 1004
+ClassName (NameIndex): Class @ 1012
+Outer (ObjectReference): /Script/CoreUObject @ 1020
+ObjectName (NameIndex): StructProperty @ 1024
 ```
 
-## -15: /Script/Engine @ 1535
+## -8: /Script/Engine.BlueprintGeneratedClass @ 1032
 ```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1535
-ClassName (NameIndex): Package @ 1543
-Outer (ObjectReference): @ 1551
-ObjectName (NameIndex): /Script/Engine @ 1555
-```
-
-## -16: /Script/CoreUObject.Object.Vector @ 1563
-```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1563
-ClassName (NameIndex): ScriptStruct @ 1571
-Outer (ObjectReference): /Script/CoreUObject.Object @ 1579
-ObjectName (NameIndex): Vector @ 1583
+ClassPackage (NameIndex): /Script/CoreUObject @ 1032
+ClassName (NameIndex): Class @ 1040
+Outer (ObjectReference): /Script/Engine @ 1048
+ObjectName (NameIndex): BlueprintGeneratedClass @ 1052
 ```
 
-# Exports @ 1591
-## 1: ActorBase_Child_C.OnChild.OnChild @ 1591
+## -9: /Script/Engine.SceneComponent @ 1060
 ```
-Class (ObjectReference): /Script/CoreUObject.StructProperty @ 1591
-Super (ObjectReference): @ 1595
-Outer (ObjectReference): ActorBase_Child_C.OnChild @ 1599
-ObjectName (NameIndex): OnChild @ 1603
-ObjectFlags (UInt32): 1 @ 1611
-SerialSize (Int32): 40 @ 1615
-SerialOffset (Int32): 2375 @ 1619
-ForcedExport (Boolean32): False @ 1623
-NotForClient (Boolean32): False @ 1627
-NotForServer (Boolean32): False @ 1631
-PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1635
-PackageFlags (UInt32): 0 @ 1651
-NotAlwaysLoadedForEditorGame (Boolean32): True @ 1655
+ClassPackage (NameIndex): /Script/CoreUObject @ 1060
+ClassName (NameIndex): Class @ 1068
+Outer (ObjectReference): /Script/Engine @ 1076
+ObjectName (NameIndex): SceneComponent @ 1080
 ```
 
-## 2: ActorBase_Child_C.OnChild @ 1659
+## -10: /Script/Engine.SCS_Node @ 1088
 ```
-Class (ObjectReference): /Script/CoreUObject.ArrayProperty @ 1659
-Super (ObjectReference): @ 1663
-Outer (ObjectReference): ActorBase_Child_C @ 1667
-ObjectName (NameIndex): OnChild @ 1671
-ObjectFlags (UInt32): 1 @ 1679
-SerialSize (Int32): 40 @ 1683
-SerialOffset (Int32): 2415 @ 1687
-ForcedExport (Boolean32): False @ 1691
-NotForClient (Boolean32): False @ 1695
-NotForServer (Boolean32): False @ 1699
-PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1703
-PackageFlags (UInt32): 0 @ 1719
-NotAlwaysLoadedForEditorGame (Boolean32): True @ 1723
+ClassPackage (NameIndex): /Script/CoreUObject @ 1088
+ClassName (NameIndex): Class @ 1096
+Outer (ObjectReference): /Script/Engine @ 1104
+ObjectName (NameIndex): SCS_Node @ 1108
 ```
 
-## 3: ActorBase_Child_C.ExecuteUbergraph_ActorBase_Child.EntryPoint @ 1727
+## -11: /Script/Engine.SimpleConstructionScript @ 1116
 ```
-Class (ObjectReference): /Script/CoreUObject.IntProperty @ 1727
-Super (ObjectReference): @ 1731
-Outer (ObjectReference): ActorBase_Child_C.ExecuteUbergraph_ActorBase_Child @ 1735
-ObjectName (NameIndex): EntryPoint @ 1739
-ObjectFlags (UInt32): 1 @ 1747
-SerialSize (Int32): 36 @ 1751
-SerialOffset (Int32): 2455 @ 1755
-ForcedExport (Boolean32): False @ 1759
-NotForClient (Boolean32): False @ 1763
-NotForServer (Boolean32): False @ 1767
-PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1771
-PackageFlags (UInt32): 0 @ 1787
-NotAlwaysLoadedForEditorGame (Boolean32): True @ 1791
+ClassPackage (NameIndex): /Script/CoreUObject @ 1116
+ClassName (NameIndex): Class @ 1124
+Outer (ObjectReference): /Script/Engine @ 1132
+ObjectName (NameIndex): SimpleConstructionScript @ 1136
 ```
 
-## 4: ActorBase_Child_C.ExecuteUbergraph_ActorBase_Child @ 1795
+## -12: /Game/ActorBase.ActorBase_C.UserConstructionScript @ 1144
 ```
-Class (ObjectReference): /Script/CoreUObject.Function @ 1795
-Super (ObjectReference): @ 1799
-Outer (ObjectReference): ActorBase_Child_C @ 1803
-ObjectName (NameIndex): ExecuteUbergraph_ActorBase_Child @ 1807
-ObjectFlags (UInt32): 1 @ 1815
-SerialSize (Int32): 50 @ 1819
-SerialOffset (Int32): 2491 @ 1823
-ForcedExport (Boolean32): False @ 1827
-NotForClient (Boolean32): False @ 1831
-NotForServer (Boolean32): False @ 1835
-PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1839
-PackageFlags (UInt32): 0 @ 1855
-NotAlwaysLoadedForEditorGame (Boolean32): True @ 1859
+ClassPackage (NameIndex): /Script/CoreUObject @ 1144
+ClassName (NameIndex): Function @ 1152
+Outer (ObjectReference): /Game/ActorBase.ActorBase_C @ 1160
+ObjectName (NameIndex): UserConstructionScript @ 1164
 ```
 
-## 5: ActorBase_Child_C.UserConstructionScript @ 1863
+## -13: /Game/ActorBase @ 1172
 ```
-Class (ObjectReference): /Script/CoreUObject.Function @ 1863
-Super (ObjectReference): /Game/ActorBase.ActorBase_C.UserConstructionScript @ 1867
-Outer (ObjectReference): ActorBase_Child_C @ 1871
-ObjectName (NameIndex): UserConstructionScript @ 1875
-ObjectFlags (UInt32): 1 @ 1883
-SerialSize (Int32): 56 @ 1887
-SerialOffset (Int32): 2541 @ 1891
-ForcedExport (Boolean32): False @ 1895
-NotForClient (Boolean32): False @ 1899
-NotForServer (Boolean32): False @ 1903
-PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1907
-PackageFlags (UInt32): 0 @ 1923
-NotAlwaysLoadedForEditorGame (Boolean32): True @ 1927
+ClassPackage (NameIndex): /Script/CoreUObject @ 1172
+ClassName (NameIndex): Package @ 1180
+Outer (ObjectReference): @ 1188
+ObjectName (NameIndex): /Game/ActorBase @ 1192
 ```
 
-## 6: ActorBase_Child_C @ 1931
+## -14: /Script/CoreUObject @ 1200
 ```
-Class (ObjectReference): /Script/Engine.BlueprintGeneratedClass @ 1931
-Super (ObjectReference): /Game/ActorBase.ActorBase_C @ 1935
-Outer (ObjectReference): @ 1939
-ObjectName (NameIndex): ActorBase_Child_C @ 1943
-ObjectFlags (UInt32): 9 @ 1951
-SerialSize (Int32): 132 @ 1955
-SerialOffset (Int32): 2597 @ 1959
-ForcedExport (Boolean32): False @ 1963
-NotForClient (Boolean32): False @ 1967
-NotForServer (Boolean32): False @ 1971
-PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1975
-PackageFlags (UInt32): 0 @ 1991
-NotAlwaysLoadedForEditorGame (Boolean32): True @ 1995
+ClassPackage (NameIndex): /Script/CoreUObject @ 1200
+ClassName (NameIndex): Package @ 1208
+Outer (ObjectReference): @ 1216
+ObjectName (NameIndex): /Script/CoreUObject @ 1220
 ```
 
-## 7: Default__ActorBase_Child_C @ 1999
+## -15: /Script/Engine @ 1228
 ```
-Class (ObjectReference): ActorBase_Child_C @ 1999
-Super (ObjectReference): @ 2003
-Outer (ObjectReference): @ 2007
-ObjectName (NameIndex): Default__ActorBase_Child_C @ 2011
-ObjectFlags (UInt32): 25 @ 2019
-SerialSize (Int32): 548 @ 2023
-SerialOffset (Int32): 2729 @ 2027
-ForcedExport (Boolean32): False @ 2031
-NotForClient (Boolean32): False @ 2035
-NotForServer (Boolean32): False @ 2039
-PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 2043
-PackageFlags (UInt32): 0 @ 2059
-NotAlwaysLoadedForEditorGame (Boolean32): False @ 2063
+ClassPackage (NameIndex): /Script/CoreUObject @ 1228
+ClassName (NameIndex): Package @ 1236
+Outer (ObjectReference): @ 1244
+ObjectName (NameIndex): /Script/Engine @ 1248
 ```
 
-## 8: ActorBase_Child_C.SceneComponent_1 @ 2067
+## -16: /Script/CoreUObject.Object.Vector @ 1256
 ```
-Class (ObjectReference): /Script/Engine.SceneComponent @ 2067
-Super (ObjectReference): @ 2071
-Outer (ObjectReference): ActorBase_Child_C @ 2075
-ObjectName (NameIndex): SceneComponent_1 @ 2079
-ObjectFlags (UInt32): 40 @ 2087
-SerialSize (Int32): 12 @ 2091
-SerialOffset (Int32): 3277 @ 2095
-ForcedExport (Boolean32): False @ 2099
-NotForClient (Boolean32): False @ 2103
-NotForServer (Boolean32): False @ 2107
-PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 2111
-PackageFlags (UInt32): 0 @ 2127
-NotAlwaysLoadedForEditorGame (Boolean32): True @ 2131
+ClassPackage (NameIndex): /Script/CoreUObject @ 1256
+ClassName (NameIndex): ScriptStruct @ 1264
+Outer (ObjectReference): /Script/CoreUObject.Object @ 1272
+ObjectName (NameIndex): Vector @ 1276
 ```
 
-## 9: ActorBase_Child_C.SimpleConstructionScript_1.SCS_Node_1 @ 2135
+# Exports @ 1284
+## 1: ActorBase_Child_C.OnChild.OnChild @ 1284
 ```
-Class (ObjectReference): /Script/Engine.SCS_Node @ 2135
-Super (ObjectReference): @ 2139
-Outer (ObjectReference): ActorBase_Child_C.SimpleConstructionScript_1 @ 2143
-ObjectName (NameIndex): SCS_Node_1 @ 2147
-ObjectFlags (UInt32): 8 @ 2155
-SerialSize (Int32): 104 @ 2159
-SerialOffset (Int32): 3289 @ 2163
-ForcedExport (Boolean32): False @ 2167
-NotForClient (Boolean32): False @ 2171
-NotForServer (Boolean32): False @ 2175
-PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 2179
-PackageFlags (UInt32): 0 @ 2195
-NotAlwaysLoadedForEditorGame (Boolean32): True @ 2199
-```
-
-## 10: ActorBase_Child_C.SimpleConstructionScript_1 @ 2203
-```
-Class (ObjectReference): /Script/Engine.SimpleConstructionScript @ 2203
-Super (ObjectReference): @ 2207
-Outer (ObjectReference): ActorBase_Child_C @ 2211
-ObjectName (NameIndex): SimpleConstructionScript_1 @ 2215
-ObjectFlags (UInt32): 8 @ 2223
-SerialSize (Int32): 40 @ 2227
-SerialOffset (Int32): 3393 @ 2231
-ForcedExport (Boolean32): False @ 2235
-NotForClient (Boolean32): False @ 2239
-NotForServer (Boolean32): False @ 2243
-PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 2247
-PackageFlags (UInt32): 0 @ 2263
-NotAlwaysLoadedForEditorGame (Boolean32): True @ 2267
+Class (ObjectReference): /Script/CoreUObject.StructProperty @ 1284
+Super (ObjectReference): @ 1288
+Outer (ObjectReference): ActorBase_Child_C.OnChild @ 1292
+ObjectName (NameIndex): OnChild @ 1296
+ObjectFlags (UInt32): 1 @ 1304
+SerialSize (Int32): 40 @ 1308
+SerialOffset (Int32): 2068 @ 1312
+ForcedExport (Boolean32): False @ 1316
+NotForClient (Boolean32): False @ 1320
+NotForServer (Boolean32): False @ 1324
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1328
+PackageFlags (UInt32): 0 @ 1344
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 1348
 ```
 
-# Export 1 Data, 40 bytes @ 2375
+## 2: ActorBase_Child_C.OnChild @ 1352
 ```
-None (Property) @ 2375
-  (Tag): None @ 2375
-    Name (NameIndex): None @ 2375
-ExtraExportData (Byte[]) @ 2383
-```
-
-# Export 2 Data, 40 bytes @ 2415
-```
-None (Property) @ 2415
-  (Tag): None @ 2415
-    Name (NameIndex): None @ 2415
-ExtraExportData (Byte[]) @ 2423
-```
-
-# Export 3 Data, 36 bytes @ 2455
-```
-None (Property) @ 2455
-  (Tag): None @ 2455
-    Name (NameIndex): None @ 2455
-ExtraExportData (Byte[]) @ 2463
+Class (ObjectReference): /Script/CoreUObject.ArrayProperty @ 1352
+Super (ObjectReference): @ 1356
+Outer (ObjectReference): ActorBase_Child_C @ 1360
+ObjectName (NameIndex): OnChild @ 1364
+ObjectFlags (UInt32): 1 @ 1372
+SerialSize (Int32): 40 @ 1376
+SerialOffset (Int32): 2108 @ 1380
+ForcedExport (Boolean32): False @ 1384
+NotForClient (Boolean32): False @ 1388
+NotForServer (Boolean32): False @ 1392
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1396
+PackageFlags (UInt32): 0 @ 1412
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 1416
 ```
 
-# Export 4 Data, 50 bytes @ 2491
+## 3: ActorBase_Child_C.ExecuteUbergraph_ActorBase_Child.EntryPoint @ 1420
 ```
-None (Property) @ 2491
-  (Tag): None @ 2491
-    Name (NameIndex): None @ 2491
-ExtraExportData (Byte[]) @ 2499
-```
-
-# Export 5 Data, 56 bytes @ 2541
-```
-None (Property) @ 2541
-  (Tag): None @ 2541
-    Name (NameIndex): None @ 2541
-ExtraExportData (Byte[]) @ 2549
-```
-
-# Export 6 Data, 132 bytes @ 2597
-```
-SimpleConstructionScript (Property) @ 2597
-  (Tag): ObjectProperty SimpleConstructionScript @ 2597
-    Name (NameIndex): SimpleConstructionScript @ 2597
-    Type (NameIndex): ObjectProperty @ 2605
-    Size (Int32): 4 @ 2613
-    ArrayIndex (Int32): 0 @ 2617
-  Data (Byte[]) @ 2621
-None (Property) @ 2625
-  (Tag): None @ 2625
-    Name (NameIndex): None @ 2625
-ExtraExportData (Byte[]) @ 2633
+Class (ObjectReference): /Script/CoreUObject.IntProperty @ 1420
+Super (ObjectReference): @ 1424
+Outer (ObjectReference): ActorBase_Child_C.ExecuteUbergraph_ActorBase_Child @ 1428
+ObjectName (NameIndex): EntryPoint @ 1432
+ObjectFlags (UInt32): 1 @ 1440
+SerialSize (Int32): 36 @ 1444
+SerialOffset (Int32): 2148 @ 1448
+ForcedExport (Boolean32): False @ 1452
+NotForClient (Boolean32): False @ 1456
+NotForServer (Boolean32): False @ 1460
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1464
+PackageFlags (UInt32): 0 @ 1480
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 1484
 ```
 
-# Export 7 Data, 548 bytes @ 2729
+## 4: ActorBase_Child_C.ExecuteUbergraph_ActorBase_Child @ 1488
 ```
-OnChild (Property) @ 2729
-  (Tag): ArrayProperty OnChild @ 2729
-    Name (NameIndex): OnChild @ 2729
-    Type (NameIndex): ArrayProperty @ 2737
-    Size (Int32): 28 @ 2745
-    ArrayIndex (Int32): 0 @ 2749
-    InnerType (NameIndex): StructProperty @ 2753
-  Data (Byte[]) @ 2761
-OnParent (Property) @ 2789
-  (Tag): ArrayProperty OnParent @ 2789
-    Name (NameIndex): OnParent @ 2789
-    Type (NameIndex): ArrayProperty @ 2797
-    Size (Int32): 448 @ 2805
-    ArrayIndex (Int32): 0 @ 2809
-    InnerType (NameIndex): StructProperty @ 2813
-  Data (Byte[]) @ 2821
-None (Property) @ 3269
-  (Tag): None @ 3269
-    Name (NameIndex): None @ 3269
+Class (ObjectReference): /Script/CoreUObject.Function @ 1488
+Super (ObjectReference): @ 1492
+Outer (ObjectReference): ActorBase_Child_C @ 1496
+ObjectName (NameIndex): ExecuteUbergraph_ActorBase_Child @ 1500
+ObjectFlags (UInt32): 1 @ 1508
+SerialSize (Int32): 50 @ 1512
+SerialOffset (Int32): 2184 @ 1516
+ForcedExport (Boolean32): False @ 1520
+NotForClient (Boolean32): False @ 1524
+NotForServer (Boolean32): False @ 1528
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1532
+PackageFlags (UInt32): 0 @ 1548
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 1552
 ```
 
-# Export 8 Data, 12 bytes @ 3277
+## 5: ActorBase_Child_C.UserConstructionScript @ 1556
 ```
-None (Property) @ 3277
-  (Tag): None @ 3277
-    Name (NameIndex): None @ 3277
-ExtraExportData (Byte[]) @ 3285
-```
-
-# Export 9 Data, 104 bytes @ 3289
-```
-ComponentTemplate (Property) @ 3289
-  (Tag): ObjectProperty ComponentTemplate @ 3289
-    Name (NameIndex): ComponentTemplate @ 3289
-    Type (NameIndex): ObjectProperty @ 3297
-    Size (Int32): 4 @ 3305
-    ArrayIndex (Int32): 0 @ 3309
-  Data (Byte[]) @ 3313
-VariableName (Property) @ 3317
-  (Tag): NameProperty VariableName @ 3317
-    Name (NameIndex): VariableName @ 3317
-    Type (NameIndex): NameProperty @ 3325
-    Size (Int32): 8 @ 3333
-    ArrayIndex (Int32): 0 @ 3337
-  Data (Byte[]) @ 3341
-CategoryName (Property) @ 3349
-  (Tag): NameProperty CategoryName @ 3349
-    Name (NameIndex): CategoryName @ 3349
-    Type (NameIndex): NameProperty @ 3357
-    Size (Int32): 8 @ 3365
-    ArrayIndex (Int32): 0 @ 3369
-  Data (Byte[]) @ 3373
-None (Property) @ 3381
-  (Tag): None @ 3381
-    Name (NameIndex): None @ 3381
-ExtraExportData (Byte[]) @ 3389
+Class (ObjectReference): /Script/CoreUObject.Function @ 1556
+Super (ObjectReference): /Game/ActorBase.ActorBase_C.UserConstructionScript @ 1560
+Outer (ObjectReference): ActorBase_Child_C @ 1564
+ObjectName (NameIndex): UserConstructionScript @ 1568
+ObjectFlags (UInt32): 1 @ 1576
+SerialSize (Int32): 56 @ 1580
+SerialOffset (Int32): 2234 @ 1584
+ForcedExport (Boolean32): False @ 1588
+NotForClient (Boolean32): False @ 1592
+NotForServer (Boolean32): False @ 1596
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1600
+PackageFlags (UInt32): 0 @ 1616
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 1620
 ```
 
-# Export 10 Data, 40 bytes @ 3393
+## 6: ActorBase_Child_C @ 1624
 ```
-DefaultSceneRootNode (Property) @ 3393
-  (Tag): ObjectProperty DefaultSceneRootNode @ 3393
-    Name (NameIndex): DefaultSceneRootNode @ 3393
-    Type (NameIndex): ObjectProperty @ 3401
-    Size (Int32): 4 @ 3409
-    ArrayIndex (Int32): 0 @ 3413
-  Data (Byte[]) @ 3417
-None (Property) @ 3421
-  (Tag): None @ 3421
-    Name (NameIndex): None @ 3421
-ExtraExportData (Byte[]) @ 3429
+Class (ObjectReference): /Script/Engine.BlueprintGeneratedClass @ 1624
+Super (ObjectReference): /Game/ActorBase.ActorBase_C @ 1628
+Outer (ObjectReference): @ 1632
+ObjectName (NameIndex): ActorBase_Child_C @ 1636
+ObjectFlags (UInt32): 9 @ 1644
+SerialSize (Int32): 132 @ 1648
+SerialOffset (Int32): 2290 @ 1652
+ForcedExport (Boolean32): False @ 1656
+NotForClient (Boolean32): False @ 1660
+NotForServer (Boolean32): False @ 1664
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1668
+PackageFlags (UInt32): 0 @ 1684
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 1688
+```
+
+## 7: Default__ActorBase_Child_C @ 1692
+```
+Class (ObjectReference): ActorBase_Child_C @ 1692
+Super (ObjectReference): @ 1696
+Outer (ObjectReference): @ 1700
+ObjectName (NameIndex): Default__ActorBase_Child_C @ 1704
+ObjectFlags (UInt32): 17 @ 1712
+SerialSize (Int32): 128 @ 1716
+SerialOffset (Int32): 2422 @ 1720
+ForcedExport (Boolean32): False @ 1724
+NotForClient (Boolean32): False @ 1728
+NotForServer (Boolean32): False @ 1732
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1736
+PackageFlags (UInt32): 0 @ 1752
+NotAlwaysLoadedForEditorGame (Boolean32): False @ 1756
+```
+
+## 8: ActorBase_Child_C.SceneComponent_1 @ 1760
+```
+Class (ObjectReference): /Script/Engine.SceneComponent @ 1760
+Super (ObjectReference): @ 1764
+Outer (ObjectReference): ActorBase_Child_C @ 1768
+ObjectName (NameIndex): SceneComponent_1 @ 1772
+ObjectFlags (UInt32): 40 @ 1780
+SerialSize (Int32): 12 @ 1784
+SerialOffset (Int32): 2550 @ 1788
+ForcedExport (Boolean32): False @ 1792
+NotForClient (Boolean32): False @ 1796
+NotForServer (Boolean32): False @ 1800
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1804
+PackageFlags (UInt32): 0 @ 1820
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 1824
+```
+
+## 9: ActorBase_Child_C.SimpleConstructionScript_1.SCS_Node_1 @ 1828
+```
+Class (ObjectReference): /Script/Engine.SCS_Node @ 1828
+Super (ObjectReference): @ 1832
+Outer (ObjectReference): ActorBase_Child_C.SimpleConstructionScript_1 @ 1836
+ObjectName (NameIndex): SCS_Node_1 @ 1840
+ObjectFlags (UInt32): 8 @ 1848
+SerialSize (Int32): 104 @ 1852
+SerialOffset (Int32): 2562 @ 1856
+ForcedExport (Boolean32): False @ 1860
+NotForClient (Boolean32): False @ 1864
+NotForServer (Boolean32): False @ 1868
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1872
+PackageFlags (UInt32): 0 @ 1888
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 1892
+```
+
+## 10: ActorBase_Child_C.SimpleConstructionScript_1 @ 1896
+```
+Class (ObjectReference): /Script/Engine.SimpleConstructionScript @ 1896
+Super (ObjectReference): @ 1900
+Outer (ObjectReference): ActorBase_Child_C @ 1904
+ObjectName (NameIndex): SimpleConstructionScript_1 @ 1908
+ObjectFlags (UInt32): 8 @ 1916
+SerialSize (Int32): 40 @ 1920
+SerialOffset (Int32): 2666 @ 1924
+ForcedExport (Boolean32): False @ 1928
+NotForClient (Boolean32): False @ 1932
+NotForServer (Boolean32): False @ 1936
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1940
+PackageFlags (UInt32): 0 @ 1956
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 1960
+```
+
+# Export 1 Data, 40 bytes @ 2068
+```
+None (Property) @ 2068
+  (Tag): None @ 2068
+    Name (NameIndex): None @ 2068
+ExtraExportData (Byte[]) @ 2076
+```
+
+# Export 2 Data, 40 bytes @ 2108
+```
+None (Property) @ 2108
+  (Tag): None @ 2108
+    Name (NameIndex): None @ 2108
+ExtraExportData (Byte[]) @ 2116
+```
+
+# Export 3 Data, 36 bytes @ 2148
+```
+None (Property) @ 2148
+  (Tag): None @ 2148
+    Name (NameIndex): None @ 2148
+ExtraExportData (Byte[]) @ 2156
+```
+
+# Export 4 Data, 50 bytes @ 2184
+```
+None (Property) @ 2184
+  (Tag): None @ 2184
+    Name (NameIndex): None @ 2184
+ExtraExportData (Byte[]) @ 2192
+```
+
+# Export 5 Data, 56 bytes @ 2234
+```
+None (Property) @ 2234
+  (Tag): None @ 2234
+    Name (NameIndex): None @ 2234
+ExtraExportData (Byte[]) @ 2242
+```
+
+# Export 6 Data, 132 bytes @ 2290
+```
+SimpleConstructionScript (Property) @ 2290
+  (Tag): ObjectProperty SimpleConstructionScript @ 2290
+    Name (NameIndex): SimpleConstructionScript @ 2290
+    Type (NameIndex): ObjectProperty @ 2298
+    Size (Int32): 4 @ 2306
+    ArrayIndex (Int32): 0 @ 2310
+  Data (Byte[]) @ 2314
+None (Property) @ 2318
+  (Tag): None @ 2318
+    Name (NameIndex): None @ 2318
+ExtraExportData (Byte[]) @ 2326
+```
+
+# Export 7 Data, 128 bytes @ 2422
+```
+OnChild (Property) @ 2422
+  (Tag): ArrayProperty OnChild @ 2422
+    Name (NameIndex): OnChild @ 2422
+    Type (NameIndex): ArrayProperty @ 2430
+    Size (Int32): 28 @ 2438
+    ArrayIndex (Int32): 0 @ 2442
+    InnerType (NameIndex): StructProperty @ 2446
+  Data (Byte[]) @ 2454
+OnParent (Property) @ 2482
+  (Tag): ArrayProperty OnParent @ 2482
+    Name (NameIndex): OnParent @ 2482
+    Type (NameIndex): ArrayProperty @ 2490
+    Size (Int32): 28 @ 2498
+    ArrayIndex (Int32): 0 @ 2502
+    InnerType (NameIndex): StructProperty @ 2506
+  Data (Byte[]) @ 2514
+None (Property) @ 2542
+  (Tag): None @ 2542
+    Name (NameIndex): None @ 2542
+```
+
+# Export 8 Data, 12 bytes @ 2550
+```
+None (Property) @ 2550
+  (Tag): None @ 2550
+    Name (NameIndex): None @ 2550
+ExtraExportData (Byte[]) @ 2558
+```
+
+# Export 9 Data, 104 bytes @ 2562
+```
+ComponentTemplate (Property) @ 2562
+  (Tag): ObjectProperty ComponentTemplate @ 2562
+    Name (NameIndex): ComponentTemplate @ 2562
+    Type (NameIndex): ObjectProperty @ 2570
+    Size (Int32): 4 @ 2578
+    ArrayIndex (Int32): 0 @ 2582
+  Data (Byte[]) @ 2586
+VariableName (Property) @ 2590
+  (Tag): NameProperty VariableName @ 2590
+    Name (NameIndex): VariableName @ 2590
+    Type (NameIndex): NameProperty @ 2598
+    Size (Int32): 8 @ 2606
+    ArrayIndex (Int32): 0 @ 2610
+  Data (Byte[]) @ 2614
+CategoryName (Property) @ 2622
+  (Tag): NameProperty CategoryName @ 2622
+    Name (NameIndex): CategoryName @ 2622
+    Type (NameIndex): NameProperty @ 2630
+    Size (Int32): 8 @ 2638
+    ArrayIndex (Int32): 0 @ 2642
+  Data (Byte[]) @ 2646
+None (Property) @ 2654
+  (Tag): None @ 2654
+    Name (NameIndex): None @ 2654
+ExtraExportData (Byte[]) @ 2662
+```
+
+# Export 10 Data, 40 bytes @ 2666
+```
+DefaultSceneRootNode (Property) @ 2666
+  (Tag): ObjectProperty DefaultSceneRootNode @ 2666
+    Name (NameIndex): DefaultSceneRootNode @ 2666
+    Type (NameIndex): ObjectProperty @ 2674
+    Size (Int32): 4 @ 2682
+    ArrayIndex (Int32): 0 @ 2686
+  Data (Byte[]) @ 2690
+None (Property) @ 2694
+  (Tag): None @ 2694
+    Name (NameIndex): None @ 2694
+ExtraExportData (Byte[]) @ 2702
 ```

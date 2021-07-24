@@ -18,8 +18,8 @@ FileVersionLicenseeUE (Int32): 0 @ 16
 CustomVersionCount (Int32): 0 @ 20
 00-00-00-00
 
-TotalHeaderSize (Int32): 2375 @ 24
-47-09-00-00
+TotalHeaderSize (Int32): 2068 @ 24
+14-08-00-00
 
 FolderName (String): None @ 28
 05-00-00-00-4E-6F-6E-65-00
@@ -27,8 +27,8 @@ FolderName (String): None @ 28
 PackageFlags (UInt32): 2147483648 @ 37
 00-00-00-80
 
-NameCount (Int32): 44 @ 41
-2C-00-00-00
+NameCount (Int32): 36 @ 41
+24-00-00-00
 
 NameOffset (Int32): 163 @ 45
 A3-00-00-00
@@ -36,29 +36,29 @@ A3-00-00-00
 ExportCount (Int32): 10 @ 49
 0A-00-00-00
 
-ExportOffset (Int32): 1591 @ 53
-37-06-00-00
+ExportOffset (Int32): 1284 @ 53
+04-05-00-00
 
 ImportCount (Int32): 16 @ 57
 10-00-00-00
 
-ImportOffset (Int32): 1143 @ 61
-77-04-00-00
+ImportOffset (Int32): 836 @ 61
+44-03-00-00
 
-DependsOffset (Int32): 2271 @ 65
-DF-08-00-00
+DependsOffset (Int32): 1964 @ 65
+AC-07-00-00
 
 SoftPackageReferencesCount (Int32): 0 @ 69
 00-00-00-00
 
-SoftPackageReferencesOffset (Int32): 2371 @ 73
-43-09-00-00
+SoftPackageReferencesOffset (Int32): 2064 @ 73
+10-08-00-00
 
 ThumbnailTableOffset (Int32): 0 @ 77
 00-00-00-00
 
-Guid (Guid): 235477d2-da72-4522-a81d-011fbf5abacd @ 81
-D2-77-54-23-72-DA-22-45-A8-1D-01-1F-BF-5A-BA-CD
+Guid (Guid): fe471d8f-e2ad-4083-b481-0fd428181466 @ 81
+8F-1D-47-FE-AD-E2-83-40-B4-81-0F-D4-28-18-14-66
 
 GenerationCount (Int32): 1 @ 97
 01-00-00-00
@@ -70,8 +70,8 @@ Generations (List) @ 101
     NameCount (Int32): 10 @ 101
     0A-00-00-00
 
-    ExportCount (Int32): 44 @ 105
-    2C-00-00-00
+    ExportCount (Int32): 36 @ 105
+    24-00-00-00
 
 Major (UInt16): 0 @ 109
 00-00
@@ -105,11 +105,11 @@ AdditionalPackagesToCookCount (Int32): 0 @ 135
 NumTextureAllocations (Int32): 0 @ 139
 00-00-00-00
 
-AssetRegistryDataOffset (Int32): 2371 @ 143
-43-09-00-00
+AssetRegistryDataOffset (Int32): 2064 @ 143
+10-08-00-00
 
-BulkDataStartOffset (Int32): 3433 @ 147
-69-0D-00-00
+BulkDataStartOffset (Int32): 2706 @ 147
+92-0A-00-00
 
 WorldTileInfoDataOffset (Int32): 0 @ 151
 00-00-00-00
@@ -151,1051 +151,1027 @@ ChunkIDs (List) @ 159
 7 (String): BlueprintGeneratedClass @ 308
 18-00-00-00-42-6C-75-65-70-72-69-6E-74-47-65-6E-65-72-61-74-65-64-43-6C-61-73-73-00
 
-8 (String): BoolProperty @ 336
-0D-00-00-00-42-6F-6F-6C-50-72-6F-70-65-72-74-79-00
-
-9 (String): BoolVar_7_4C94D70E4FD91D818BFD959B140F1100 @ 353
-2B-00-00-00-42-6F-6F-6C-56-61-72-5F-37-5F-34-43-39-34-44-37-30-45-34-46-44-39-31-44-38-31-38-42-46-44-39-35-39-42-31-34-30-46-31-31-30-30-00
-
-10 (String): CategoryName @ 400
+8 (String): CategoryName @ 336
 0D-00-00-00-43-61-74-65-67-6F-72-79-4E-61-6D-65-00
 
-11 (String): Class @ 417
+9 (String): Class @ 353
 06-00-00-00-43-6C-61-73-73-00
 
-12 (String): ComponentTemplate @ 427
+10 (String): ComponentTemplate @ 363
 12-00-00-00-43-6F-6D-70-6F-6E-65-6E-74-54-65-6D-70-6C-61-74-65-00
 
-13 (String): Default @ 449
+11 (String): Default @ 385
 08-00-00-00-44-65-66-61-75-6C-74-00
 
-14 (String): Default__ActorBase_C @ 461
+12 (String): Default__ActorBase_C @ 397
 15-00-00-00-44-65-66-61-75-6C-74-5F-5F-41-63-74-6F-72-42-61-73-65-5F-43-00
 
-15 (String): Default__ActorBase_Child_C @ 486
+13 (String): Default__ActorBase_Child_C @ 422
 1B-00-00-00-44-65-66-61-75-6C-74-5F-5F-41-63-74-6F-72-42-61-73-65-5F-43-68-69-6C-64-5F-43-00
 
-16 (String): DefaultSceneRoot @ 517
+14 (String): DefaultSceneRoot @ 453
 11-00-00-00-44-65-66-61-75-6C-74-53-63-65-6E-65-52-6F-6F-74-00
 
-17 (String): DefaultSceneRootNode @ 538
+15 (String): DefaultSceneRootNode @ 474
 15-00-00-00-44-65-66-61-75-6C-74-53-63-65-6E-65-52-6F-6F-74-4E-6F-64-65-00
 
-18 (String): Engine @ 563
+16 (String): Engine @ 499
 07-00-00-00-45-6E-67-69-6E-65-00
 
-19 (String): EntryPoint @ 574
+17 (String): EntryPoint @ 510
 0B-00-00-00-45-6E-74-72-79-50-6F-69-6E-74-00
 
-20 (String): ExecuteUbergraph_ActorBase_Child @ 589
+18 (String): ExecuteUbergraph_ActorBase_Child @ 525
 21-00-00-00-45-78-65-63-75-74-65-55-62-65-72-67-72-61-70-68-5F-41-63-74-6F-72-42-61-73-65-5F-43-68-69-6C-64-00
 
-21 (String): FloatArrayVar_8_46E8520A4EEE06E2D32DB6812C977E94 @ 626
-31-00-00-00-46-6C-6F-61-74-41-72-72-61-79-56-61-72-5F-38-5F-34-36-45-38-35-32-30-41-34-45-45-45-30-36-45-32-44-33-32-44-42-36-38-31-32-43-39-37-37-45-39-34-00
-
-22 (String): FloatProperty @ 679
-0E-00-00-00-46-6C-6F-61-74-50-72-6F-70-65-72-74-79-00
-
-23 (String): Function @ 697
+19 (String): Function @ 562
 09-00-00-00-46-75-6E-63-74-69-6F-6E-00
 
-24 (String): IntProperty @ 710
+20 (String): IntProperty @ 575
 0C-00-00-00-49-6E-74-50-72-6F-70-65-72-74-79-00
 
-25 (String): NameProperty @ 726
+21 (String): NameProperty @ 591
 0D-00-00-00-4E-61-6D-65-50-72-6F-70-65-72-74-79-00
 
-26 (String): None @ 743
+22 (String): None @ 608
 05-00-00-00-4E-6F-6E-65-00
 
-27 (String): Object @ 752
+23 (String): Object @ 617
 07-00-00-00-4F-62-6A-65-63-74-00
 
-28 (String): ObjectProperty @ 763
+24 (String): ObjectProperty @ 628
 0F-00-00-00-4F-62-6A-65-63-74-50-72-6F-70-65-72-74-79-00
 
-29 (String): OnChild @ 782
+25 (String): OnChild @ 647
 08-00-00-00-4F-6E-43-68-69-6C-64-00
 
-30 (String): OnParent @ 794
+26 (String): OnParent @ 659
 09-00-00-00-4F-6E-50-61-72-65-6E-74-00
 
-31 (String): Package @ 807
+27 (String): Package @ 672
 08-00-00-00-50-61-63-6B-61-67-65-00
 
-32 (String): SceneComponent @ 819
+28 (String): SceneComponent @ 684
 0F-00-00-00-53-63-65-6E-65-43-6F-6D-70-6F-6E-65-6E-74-00
 
-33 (String): ScriptStruct @ 838
+29 (String): ScriptStruct @ 703
 0D-00-00-00-53-63-72-69-70-74-53-74-72-75-63-74-00
 
-34 (String): SCS_Node @ 855
+30 (String): SCS_Node @ 720
 09-00-00-00-53-43-53-5F-4E-6F-64-65-00
 
-35 (String): SimpleConstructionScript @ 868
+31 (String): SimpleConstructionScript @ 733
 19-00-00-00-53-69-6D-70-6C-65-43-6F-6E-73-74-72-75-63-74-69-6F-6E-53-63-72-69-70-74-00
 
-36 (String): StringVar_18_200ABB29460E33871BCCBC81651E282F @ 897
-2E-00-00-00-53-74-72-69-6E-67-56-61-72-5F-31-38-5F-32-30-30-41-42-42-32-39-34-36-30-45-33-33-38-37-31-42-43-43-42-43-38-31-36-35-31-45-32-38-32-46-00
-
-37 (String): StrProperty @ 947
-0C-00-00-00-53-74-72-50-72-6F-70-65-72-74-79-00
-
-38 (String): StructProperty @ 963
+32 (String): StructProperty @ 762
 0F-00-00-00-53-74-72-75-63-74-50-72-6F-70-65-72-74-79-00
 
-39 (String): UserConstructionScript @ 982
+33 (String): UserConstructionScript @ 781
 17-00-00-00-55-73-65-72-43-6F-6E-73-74-72-75-63-74-69-6F-6E-53-63-72-69-70-74-00
 
-40 (String): VariableName @ 1009
+34 (String): VariableName @ 808
 0D-00-00-00-56-61-72-69-61-62-6C-65-4E-61-6D-65-00
 
-41 (String): Vector @ 1026
+35 (String): Vector @ 825
 07-00-00-00-56-65-63-74-6F-72-00
-
-42 (String): Vector2DArrayVar_15_2DDCA552496C00AFB15054A890BA05FB @ 1037
-35-00-00-00-56-65-63-74-6F-72-32-44-41-72-72-61-79-56-61-72-5F-31-35-5F-32-44-44-43-41-35-35-32-34-39-36-43-30-30-41-46-42-31-35-30-35-34-41-38-39-30-42-41-30-35-46-42-00
-
-43 (String): VectorVar_9_9822A7A4429FB875480168A863DD9D94 @ 1094
-2D-00-00-00-56-65-63-74-6F-72-56-61-72-5F-39-5F-39-38-32-32-41-37-41-34-34-32-39-46-42-38-37-35-34-38-30-31-36-38-41-38-36-33-44-44-39-44-39-34-00
 ```
 
-# Imports @ 1143
+# Imports @ 836
 
-## -1: /Game/ActorBase.Default__ActorBase_C @ 1143
+## -1: /Game/ActorBase.Default__ActorBase_C @ 836
 ```
-ClassPackage (NameIndex): /Game/ActorBase @ 1143
+ClassPackage (NameIndex): /Game/ActorBase @ 836
 00-00-00-00-00-00-00-00
 
-ClassName (NameIndex): ActorBase_C @ 1151
+ClassName (NameIndex): ActorBase_C @ 844
 04-00-00-00-00-00-00-00
 
-Outer (ObjectReference): /Game/ActorBase @ 1159
+Outer (ObjectReference): /Game/ActorBase @ 852
 F3-FF-FF-FF
 
-ObjectName (NameIndex): Default__ActorBase_C @ 1163
-0E-00-00-00-00-00-00-00
+ObjectName (NameIndex): Default__ActorBase_C @ 856
+0C-00-00-00-00-00-00-00
 ```
 
-## -2: /Game/ActorBase.ActorBase_C @ 1171
+## -2: /Game/ActorBase.ActorBase_C @ 864
 ```
-ClassPackage (NameIndex): /Script/Engine @ 1171
+ClassPackage (NameIndex): /Script/Engine @ 864
 03-00-00-00-00-00-00-00
 
-ClassName (NameIndex): BlueprintGeneratedClass @ 1179
+ClassName (NameIndex): BlueprintGeneratedClass @ 872
 07-00-00-00-00-00-00-00
 
-Outer (ObjectReference): /Game/ActorBase @ 1187
+Outer (ObjectReference): /Game/ActorBase @ 880
 F3-FF-FF-FF
 
-ObjectName (NameIndex): ActorBase_C @ 1191
+ObjectName (NameIndex): ActorBase_C @ 884
 04-00-00-00-00-00-00-00
 ```
 
-## -3: /Script/CoreUObject.ArrayProperty @ 1199
+## -3: /Script/CoreUObject.ArrayProperty @ 892
 ```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1199
+ClassPackage (NameIndex): /Script/CoreUObject @ 892
 02-00-00-00-00-00-00-00
 
-ClassName (NameIndex): Class @ 1207
-0B-00-00-00-00-00-00-00
+ClassName (NameIndex): Class @ 900
+09-00-00-00-00-00-00-00
 
-Outer (ObjectReference): /Script/CoreUObject @ 1215
+Outer (ObjectReference): /Script/CoreUObject @ 908
 F2-FF-FF-FF
 
-ObjectName (NameIndex): ArrayProperty @ 1219
+ObjectName (NameIndex): ArrayProperty @ 912
 06-00-00-00-00-00-00-00
 ```
 
-## -4: /Script/CoreUObject.Function @ 1227
+## -4: /Script/CoreUObject.Function @ 920
 ```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1227
+ClassPackage (NameIndex): /Script/CoreUObject @ 920
 02-00-00-00-00-00-00-00
 
-ClassName (NameIndex): Class @ 1235
-0B-00-00-00-00-00-00-00
+ClassName (NameIndex): Class @ 928
+09-00-00-00-00-00-00-00
 
-Outer (ObjectReference): /Script/CoreUObject @ 1243
+Outer (ObjectReference): /Script/CoreUObject @ 936
 F2-FF-FF-FF
 
-ObjectName (NameIndex): Function @ 1247
+ObjectName (NameIndex): Function @ 940
+13-00-00-00-00-00-00-00
+```
+
+## -5: /Script/CoreUObject.IntProperty @ 948
+```
+ClassPackage (NameIndex): /Script/CoreUObject @ 948
+02-00-00-00-00-00-00-00
+
+ClassName (NameIndex): Class @ 956
+09-00-00-00-00-00-00-00
+
+Outer (ObjectReference): /Script/CoreUObject @ 964
+F2-FF-FF-FF
+
+ObjectName (NameIndex): IntProperty @ 968
+14-00-00-00-00-00-00-00
+```
+
+## -6: /Script/CoreUObject.Object @ 976
+```
+ClassPackage (NameIndex): /Script/CoreUObject @ 976
+02-00-00-00-00-00-00-00
+
+ClassName (NameIndex): Class @ 984
+09-00-00-00-00-00-00-00
+
+Outer (ObjectReference): /Script/CoreUObject @ 992
+F2-FF-FF-FF
+
+ObjectName (NameIndex): Object @ 996
 17-00-00-00-00-00-00-00
 ```
 
-## -5: /Script/CoreUObject.IntProperty @ 1255
+## -7: /Script/CoreUObject.StructProperty @ 1004
 ```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1255
+ClassPackage (NameIndex): /Script/CoreUObject @ 1004
 02-00-00-00-00-00-00-00
 
-ClassName (NameIndex): Class @ 1263
-0B-00-00-00-00-00-00-00
+ClassName (NameIndex): Class @ 1012
+09-00-00-00-00-00-00-00
 
-Outer (ObjectReference): /Script/CoreUObject @ 1271
+Outer (ObjectReference): /Script/CoreUObject @ 1020
 F2-FF-FF-FF
 
-ObjectName (NameIndex): IntProperty @ 1275
-18-00-00-00-00-00-00-00
-```
-
-## -6: /Script/CoreUObject.Object @ 1283
-```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1283
-02-00-00-00-00-00-00-00
-
-ClassName (NameIndex): Class @ 1291
-0B-00-00-00-00-00-00-00
-
-Outer (ObjectReference): /Script/CoreUObject @ 1299
-F2-FF-FF-FF
-
-ObjectName (NameIndex): Object @ 1303
-1B-00-00-00-00-00-00-00
-```
-
-## -7: /Script/CoreUObject.StructProperty @ 1311
-```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1311
-02-00-00-00-00-00-00-00
-
-ClassName (NameIndex): Class @ 1319
-0B-00-00-00-00-00-00-00
-
-Outer (ObjectReference): /Script/CoreUObject @ 1327
-F2-FF-FF-FF
-
-ObjectName (NameIndex): StructProperty @ 1331
-26-00-00-00-00-00-00-00
-```
-
-## -8: /Script/Engine.BlueprintGeneratedClass @ 1339
-```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1339
-02-00-00-00-00-00-00-00
-
-ClassName (NameIndex): Class @ 1347
-0B-00-00-00-00-00-00-00
-
-Outer (ObjectReference): /Script/Engine @ 1355
-F1-FF-FF-FF
-
-ObjectName (NameIndex): BlueprintGeneratedClass @ 1359
-07-00-00-00-00-00-00-00
-```
-
-## -9: /Script/Engine.SceneComponent @ 1367
-```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1367
-02-00-00-00-00-00-00-00
-
-ClassName (NameIndex): Class @ 1375
-0B-00-00-00-00-00-00-00
-
-Outer (ObjectReference): /Script/Engine @ 1383
-F1-FF-FF-FF
-
-ObjectName (NameIndex): SceneComponent @ 1387
+ObjectName (NameIndex): StructProperty @ 1024
 20-00-00-00-00-00-00-00
 ```
 
-## -10: /Script/Engine.SCS_Node @ 1395
+## -8: /Script/Engine.BlueprintGeneratedClass @ 1032
 ```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1395
+ClassPackage (NameIndex): /Script/CoreUObject @ 1032
 02-00-00-00-00-00-00-00
 
-ClassName (NameIndex): Class @ 1403
-0B-00-00-00-00-00-00-00
+ClassName (NameIndex): Class @ 1040
+09-00-00-00-00-00-00-00
 
-Outer (ObjectReference): /Script/Engine @ 1411
+Outer (ObjectReference): /Script/Engine @ 1048
 F1-FF-FF-FF
 
-ObjectName (NameIndex): SCS_Node @ 1415
-22-00-00-00-00-00-00-00
+ObjectName (NameIndex): BlueprintGeneratedClass @ 1052
+07-00-00-00-00-00-00-00
 ```
 
-## -11: /Script/Engine.SimpleConstructionScript @ 1423
+## -9: /Script/Engine.SceneComponent @ 1060
 ```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1423
+ClassPackage (NameIndex): /Script/CoreUObject @ 1060
 02-00-00-00-00-00-00-00
 
-ClassName (NameIndex): Class @ 1431
-0B-00-00-00-00-00-00-00
+ClassName (NameIndex): Class @ 1068
+09-00-00-00-00-00-00-00
 
-Outer (ObjectReference): /Script/Engine @ 1439
+Outer (ObjectReference): /Script/Engine @ 1076
 F1-FF-FF-FF
 
-ObjectName (NameIndex): SimpleConstructionScript @ 1443
-23-00-00-00-00-00-00-00
+ObjectName (NameIndex): SceneComponent @ 1080
+1C-00-00-00-00-00-00-00
 ```
 
-## -12: /Game/ActorBase.ActorBase_C.UserConstructionScript @ 1451
+## -10: /Script/Engine.SCS_Node @ 1088
 ```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1451
+ClassPackage (NameIndex): /Script/CoreUObject @ 1088
 02-00-00-00-00-00-00-00
 
-ClassName (NameIndex): Function @ 1459
-17-00-00-00-00-00-00-00
+ClassName (NameIndex): Class @ 1096
+09-00-00-00-00-00-00-00
 
-Outer (ObjectReference): /Game/ActorBase.ActorBase_C @ 1467
+Outer (ObjectReference): /Script/Engine @ 1104
+F1-FF-FF-FF
+
+ObjectName (NameIndex): SCS_Node @ 1108
+1E-00-00-00-00-00-00-00
+```
+
+## -11: /Script/Engine.SimpleConstructionScript @ 1116
+```
+ClassPackage (NameIndex): /Script/CoreUObject @ 1116
+02-00-00-00-00-00-00-00
+
+ClassName (NameIndex): Class @ 1124
+09-00-00-00-00-00-00-00
+
+Outer (ObjectReference): /Script/Engine @ 1132
+F1-FF-FF-FF
+
+ObjectName (NameIndex): SimpleConstructionScript @ 1136
+1F-00-00-00-00-00-00-00
+```
+
+## -12: /Game/ActorBase.ActorBase_C.UserConstructionScript @ 1144
+```
+ClassPackage (NameIndex): /Script/CoreUObject @ 1144
+02-00-00-00-00-00-00-00
+
+ClassName (NameIndex): Function @ 1152
+13-00-00-00-00-00-00-00
+
+Outer (ObjectReference): /Game/ActorBase.ActorBase_C @ 1160
 FE-FF-FF-FF
 
-ObjectName (NameIndex): UserConstructionScript @ 1471
-27-00-00-00-00-00-00-00
+ObjectName (NameIndex): UserConstructionScript @ 1164
+21-00-00-00-00-00-00-00
 ```
 
-## -13: /Game/ActorBase @ 1479
+## -13: /Game/ActorBase @ 1172
 ```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1479
+ClassPackage (NameIndex): /Script/CoreUObject @ 1172
 02-00-00-00-00-00-00-00
 
-ClassName (NameIndex): Package @ 1487
-1F-00-00-00-00-00-00-00
+ClassName (NameIndex): Package @ 1180
+1B-00-00-00-00-00-00-00
 
-Outer (ObjectReference): @ 1495
+Outer (ObjectReference): @ 1188
 00-00-00-00
 
-ObjectName (NameIndex): /Game/ActorBase @ 1499
+ObjectName (NameIndex): /Game/ActorBase @ 1192
 00-00-00-00-00-00-00-00
 ```
 
-## -14: /Script/CoreUObject @ 1507
+## -14: /Script/CoreUObject @ 1200
 ```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1507
+ClassPackage (NameIndex): /Script/CoreUObject @ 1200
 02-00-00-00-00-00-00-00
 
-ClassName (NameIndex): Package @ 1515
-1F-00-00-00-00-00-00-00
+ClassName (NameIndex): Package @ 1208
+1B-00-00-00-00-00-00-00
 
-Outer (ObjectReference): @ 1523
+Outer (ObjectReference): @ 1216
 00-00-00-00
 
-ObjectName (NameIndex): /Script/CoreUObject @ 1527
+ObjectName (NameIndex): /Script/CoreUObject @ 1220
 02-00-00-00-00-00-00-00
 ```
 
-## -15: /Script/Engine @ 1535
+## -15: /Script/Engine @ 1228
 ```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1535
+ClassPackage (NameIndex): /Script/CoreUObject @ 1228
 02-00-00-00-00-00-00-00
 
-ClassName (NameIndex): Package @ 1543
-1F-00-00-00-00-00-00-00
+ClassName (NameIndex): Package @ 1236
+1B-00-00-00-00-00-00-00
 
-Outer (ObjectReference): @ 1551
+Outer (ObjectReference): @ 1244
 00-00-00-00
 
-ObjectName (NameIndex): /Script/Engine @ 1555
+ObjectName (NameIndex): /Script/Engine @ 1248
 03-00-00-00-00-00-00-00
 ```
 
-## -16: /Script/CoreUObject.Object.Vector @ 1563
+## -16: /Script/CoreUObject.Object.Vector @ 1256
 ```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1563
+ClassPackage (NameIndex): /Script/CoreUObject @ 1256
 02-00-00-00-00-00-00-00
 
-ClassName (NameIndex): ScriptStruct @ 1571
-21-00-00-00-00-00-00-00
+ClassName (NameIndex): ScriptStruct @ 1264
+1D-00-00-00-00-00-00-00
 
-Outer (ObjectReference): /Script/CoreUObject.Object @ 1579
+Outer (ObjectReference): /Script/CoreUObject.Object @ 1272
 FA-FF-FF-FF
 
-ObjectName (NameIndex): Vector @ 1583
-29-00-00-00-00-00-00-00
+ObjectName (NameIndex): Vector @ 1276
+23-00-00-00-00-00-00-00
 ```
 
-# Exports @ 1591
+# Exports @ 1284
 
-## 1: ActorBase_Child_C.OnChild.OnChild @ 1591
+## 1: ActorBase_Child_C.OnChild.OnChild @ 1284
 ```
-Class (ObjectReference): /Script/CoreUObject.StructProperty @ 1591
+Class (ObjectReference): /Script/CoreUObject.StructProperty @ 1284
 F9-FF-FF-FF
 
-Super (ObjectReference): @ 1595
+Super (ObjectReference): @ 1288
 00-00-00-00
 
-Outer (ObjectReference): ActorBase_Child_C.OnChild @ 1599
+Outer (ObjectReference): ActorBase_Child_C.OnChild @ 1292
 02-00-00-00
 
-ObjectName (NameIndex): OnChild @ 1603
-1D-00-00-00-00-00-00-00
+ObjectName (NameIndex): OnChild @ 1296
+19-00-00-00-00-00-00-00
 
-ObjectFlags (UInt32): 1 @ 1611
+ObjectFlags (UInt32): 1 @ 1304
 01-00-00-00
 
-SerialSize (Int32): 40 @ 1615
+SerialSize (Int32): 40 @ 1308
 28-00-00-00
 
-SerialOffset (Int32): 2375 @ 1619
-47-09-00-00
+SerialOffset (Int32): 2068 @ 1312
+14-08-00-00
 
-ForcedExport (Boolean32): False @ 1623
+ForcedExport (Boolean32): False @ 1316
 00-00-00-00
 
-NotForClient (Boolean32): False @ 1627
+NotForClient (Boolean32): False @ 1320
 00-00-00-00
 
-NotForServer (Boolean32): False @ 1631
+NotForServer (Boolean32): False @ 1324
 00-00-00-00
 
-PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1635
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1328
 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
 
-PackageFlags (UInt32): 0 @ 1651
+PackageFlags (UInt32): 0 @ 1344
 00-00-00-00
 
-NotAlwaysLoadedForEditorGame (Boolean32): True @ 1655
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 1348
 01-00-00-00
 ```
 
-## 2: ActorBase_Child_C.OnChild @ 1659
+## 2: ActorBase_Child_C.OnChild @ 1352
 ```
-Class (ObjectReference): /Script/CoreUObject.ArrayProperty @ 1659
+Class (ObjectReference): /Script/CoreUObject.ArrayProperty @ 1352
 FD-FF-FF-FF
 
-Super (ObjectReference): @ 1663
+Super (ObjectReference): @ 1356
 00-00-00-00
 
-Outer (ObjectReference): ActorBase_Child_C @ 1667
+Outer (ObjectReference): ActorBase_Child_C @ 1360
 06-00-00-00
 
-ObjectName (NameIndex): OnChild @ 1671
-1D-00-00-00-00-00-00-00
+ObjectName (NameIndex): OnChild @ 1364
+19-00-00-00-00-00-00-00
 
-ObjectFlags (UInt32): 1 @ 1679
+ObjectFlags (UInt32): 1 @ 1372
 01-00-00-00
 
-SerialSize (Int32): 40 @ 1683
+SerialSize (Int32): 40 @ 1376
 28-00-00-00
 
-SerialOffset (Int32): 2415 @ 1687
-6F-09-00-00
+SerialOffset (Int32): 2108 @ 1380
+3C-08-00-00
 
-ForcedExport (Boolean32): False @ 1691
+ForcedExport (Boolean32): False @ 1384
 00-00-00-00
 
-NotForClient (Boolean32): False @ 1695
+NotForClient (Boolean32): False @ 1388
 00-00-00-00
 
-NotForServer (Boolean32): False @ 1699
+NotForServer (Boolean32): False @ 1392
 00-00-00-00
 
-PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1703
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1396
 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
 
-PackageFlags (UInt32): 0 @ 1719
+PackageFlags (UInt32): 0 @ 1412
 00-00-00-00
 
-NotAlwaysLoadedForEditorGame (Boolean32): True @ 1723
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 1416
 01-00-00-00
 ```
 
-## 3: ActorBase_Child_C.ExecuteUbergraph_ActorBase_Child.EntryPoint @ 1727
+## 3: ActorBase_Child_C.ExecuteUbergraph_ActorBase_Child.EntryPoint @ 1420
 ```
-Class (ObjectReference): /Script/CoreUObject.IntProperty @ 1727
+Class (ObjectReference): /Script/CoreUObject.IntProperty @ 1420
 FB-FF-FF-FF
 
-Super (ObjectReference): @ 1731
+Super (ObjectReference): @ 1424
 00-00-00-00
 
-Outer (ObjectReference): ActorBase_Child_C.ExecuteUbergraph_ActorBase_Child @ 1735
+Outer (ObjectReference): ActorBase_Child_C.ExecuteUbergraph_ActorBase_Child @ 1428
 04-00-00-00
 
-ObjectName (NameIndex): EntryPoint @ 1739
-13-00-00-00-00-00-00-00
+ObjectName (NameIndex): EntryPoint @ 1432
+11-00-00-00-00-00-00-00
 
-ObjectFlags (UInt32): 1 @ 1747
+ObjectFlags (UInt32): 1 @ 1440
 01-00-00-00
 
-SerialSize (Int32): 36 @ 1751
+SerialSize (Int32): 36 @ 1444
 24-00-00-00
 
-SerialOffset (Int32): 2455 @ 1755
-97-09-00-00
+SerialOffset (Int32): 2148 @ 1448
+64-08-00-00
 
-ForcedExport (Boolean32): False @ 1759
+ForcedExport (Boolean32): False @ 1452
 00-00-00-00
 
-NotForClient (Boolean32): False @ 1763
+NotForClient (Boolean32): False @ 1456
 00-00-00-00
 
-NotForServer (Boolean32): False @ 1767
+NotForServer (Boolean32): False @ 1460
 00-00-00-00
 
-PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1771
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1464
 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
 
-PackageFlags (UInt32): 0 @ 1787
+PackageFlags (UInt32): 0 @ 1480
 00-00-00-00
 
-NotAlwaysLoadedForEditorGame (Boolean32): True @ 1791
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 1484
 01-00-00-00
 ```
 
-## 4: ActorBase_Child_C.ExecuteUbergraph_ActorBase_Child @ 1795
+## 4: ActorBase_Child_C.ExecuteUbergraph_ActorBase_Child @ 1488
 ```
-Class (ObjectReference): /Script/CoreUObject.Function @ 1795
+Class (ObjectReference): /Script/CoreUObject.Function @ 1488
 FC-FF-FF-FF
 
-Super (ObjectReference): @ 1799
+Super (ObjectReference): @ 1492
 00-00-00-00
 
-Outer (ObjectReference): ActorBase_Child_C @ 1803
+Outer (ObjectReference): ActorBase_Child_C @ 1496
 06-00-00-00
 
-ObjectName (NameIndex): ExecuteUbergraph_ActorBase_Child @ 1807
-14-00-00-00-00-00-00-00
+ObjectName (NameIndex): ExecuteUbergraph_ActorBase_Child @ 1500
+12-00-00-00-00-00-00-00
 
-ObjectFlags (UInt32): 1 @ 1815
+ObjectFlags (UInt32): 1 @ 1508
 01-00-00-00
 
-SerialSize (Int32): 50 @ 1819
+SerialSize (Int32): 50 @ 1512
 32-00-00-00
 
-SerialOffset (Int32): 2491 @ 1823
-BB-09-00-00
+SerialOffset (Int32): 2184 @ 1516
+88-08-00-00
 
-ForcedExport (Boolean32): False @ 1827
+ForcedExport (Boolean32): False @ 1520
 00-00-00-00
 
-NotForClient (Boolean32): False @ 1831
+NotForClient (Boolean32): False @ 1524
 00-00-00-00
 
-NotForServer (Boolean32): False @ 1835
+NotForServer (Boolean32): False @ 1528
 00-00-00-00
 
-PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1839
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1532
 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
 
-PackageFlags (UInt32): 0 @ 1855
+PackageFlags (UInt32): 0 @ 1548
 00-00-00-00
 
-NotAlwaysLoadedForEditorGame (Boolean32): True @ 1859
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 1552
 01-00-00-00
 ```
 
-## 5: ActorBase_Child_C.UserConstructionScript @ 1863
+## 5: ActorBase_Child_C.UserConstructionScript @ 1556
 ```
-Class (ObjectReference): /Script/CoreUObject.Function @ 1863
+Class (ObjectReference): /Script/CoreUObject.Function @ 1556
 FC-FF-FF-FF
 
-Super (ObjectReference): /Game/ActorBase.ActorBase_C.UserConstructionScript @ 1867
+Super (ObjectReference): /Game/ActorBase.ActorBase_C.UserConstructionScript @ 1560
 F4-FF-FF-FF
 
-Outer (ObjectReference): ActorBase_Child_C @ 1871
+Outer (ObjectReference): ActorBase_Child_C @ 1564
 06-00-00-00
 
-ObjectName (NameIndex): UserConstructionScript @ 1875
-27-00-00-00-00-00-00-00
+ObjectName (NameIndex): UserConstructionScript @ 1568
+21-00-00-00-00-00-00-00
 
-ObjectFlags (UInt32): 1 @ 1883
+ObjectFlags (UInt32): 1 @ 1576
 01-00-00-00
 
-SerialSize (Int32): 56 @ 1887
+SerialSize (Int32): 56 @ 1580
 38-00-00-00
 
-SerialOffset (Int32): 2541 @ 1891
-ED-09-00-00
+SerialOffset (Int32): 2234 @ 1584
+BA-08-00-00
 
-ForcedExport (Boolean32): False @ 1895
+ForcedExport (Boolean32): False @ 1588
 00-00-00-00
 
-NotForClient (Boolean32): False @ 1899
+NotForClient (Boolean32): False @ 1592
 00-00-00-00
 
-NotForServer (Boolean32): False @ 1903
+NotForServer (Boolean32): False @ 1596
 00-00-00-00
 
-PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1907
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1600
 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
 
-PackageFlags (UInt32): 0 @ 1923
+PackageFlags (UInt32): 0 @ 1616
 00-00-00-00
 
-NotAlwaysLoadedForEditorGame (Boolean32): True @ 1927
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 1620
 01-00-00-00
 ```
 
-## 6: ActorBase_Child_C @ 1931
+## 6: ActorBase_Child_C @ 1624
 ```
-Class (ObjectReference): /Script/Engine.BlueprintGeneratedClass @ 1931
+Class (ObjectReference): /Script/Engine.BlueprintGeneratedClass @ 1624
 F8-FF-FF-FF
 
-Super (ObjectReference): /Game/ActorBase.ActorBase_C @ 1935
+Super (ObjectReference): /Game/ActorBase.ActorBase_C @ 1628
 FE-FF-FF-FF
 
-Outer (ObjectReference): @ 1939
+Outer (ObjectReference): @ 1632
 00-00-00-00
 
-ObjectName (NameIndex): ActorBase_Child_C @ 1943
+ObjectName (NameIndex): ActorBase_Child_C @ 1636
 05-00-00-00-00-00-00-00
 
-ObjectFlags (UInt32): 9 @ 1951
+ObjectFlags (UInt32): 9 @ 1644
 09-00-00-00
 
-SerialSize (Int32): 132 @ 1955
+SerialSize (Int32): 132 @ 1648
 84-00-00-00
 
-SerialOffset (Int32): 2597 @ 1959
-25-0A-00-00
+SerialOffset (Int32): 2290 @ 1652
+F2-08-00-00
 
-ForcedExport (Boolean32): False @ 1963
+ForcedExport (Boolean32): False @ 1656
 00-00-00-00
 
-NotForClient (Boolean32): False @ 1967
+NotForClient (Boolean32): False @ 1660
 00-00-00-00
 
-NotForServer (Boolean32): False @ 1971
+NotForServer (Boolean32): False @ 1664
 00-00-00-00
 
-PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1975
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1668
 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
 
-PackageFlags (UInt32): 0 @ 1991
+PackageFlags (UInt32): 0 @ 1684
 00-00-00-00
 
-NotAlwaysLoadedForEditorGame (Boolean32): True @ 1995
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 1688
 01-00-00-00
 ```
 
-## 7: Default__ActorBase_Child_C @ 1999
+## 7: Default__ActorBase_Child_C @ 1692
 ```
-Class (ObjectReference): ActorBase_Child_C @ 1999
+Class (ObjectReference): ActorBase_Child_C @ 1692
 06-00-00-00
 
-Super (ObjectReference): @ 2003
+Super (ObjectReference): @ 1696
 00-00-00-00
 
-Outer (ObjectReference): @ 2007
+Outer (ObjectReference): @ 1700
 00-00-00-00
 
-ObjectName (NameIndex): Default__ActorBase_Child_C @ 2011
-0F-00-00-00-00-00-00-00
+ObjectName (NameIndex): Default__ActorBase_Child_C @ 1704
+0D-00-00-00-00-00-00-00
 
-ObjectFlags (UInt32): 25 @ 2019
-19-00-00-00
+ObjectFlags (UInt32): 17 @ 1712
+11-00-00-00
 
-SerialSize (Int32): 548 @ 2023
-24-02-00-00
+SerialSize (Int32): 128 @ 1716
+80-00-00-00
 
-SerialOffset (Int32): 2729 @ 2027
-A9-0A-00-00
+SerialOffset (Int32): 2422 @ 1720
+76-09-00-00
 
-ForcedExport (Boolean32): False @ 2031
+ForcedExport (Boolean32): False @ 1724
 00-00-00-00
 
-NotForClient (Boolean32): False @ 2035
+NotForClient (Boolean32): False @ 1728
 00-00-00-00
 
-NotForServer (Boolean32): False @ 2039
+NotForServer (Boolean32): False @ 1732
 00-00-00-00
 
-PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 2043
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1736
 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
 
-PackageFlags (UInt32): 0 @ 2059
+PackageFlags (UInt32): 0 @ 1752
 00-00-00-00
 
-NotAlwaysLoadedForEditorGame (Boolean32): False @ 2063
+NotAlwaysLoadedForEditorGame (Boolean32): False @ 1756
 00-00-00-00
 ```
 
-## 8: ActorBase_Child_C.SceneComponent_1 @ 2067
+## 8: ActorBase_Child_C.SceneComponent_1 @ 1760
 ```
-Class (ObjectReference): /Script/Engine.SceneComponent @ 2067
+Class (ObjectReference): /Script/Engine.SceneComponent @ 1760
 F7-FF-FF-FF
 
-Super (ObjectReference): @ 2071
+Super (ObjectReference): @ 1764
 00-00-00-00
 
-Outer (ObjectReference): ActorBase_Child_C @ 2075
+Outer (ObjectReference): ActorBase_Child_C @ 1768
 06-00-00-00
 
-ObjectName (NameIndex): SceneComponent_1 @ 2079
-20-00-00-00-02-00-00-00
+ObjectName (NameIndex): SceneComponent_1 @ 1772
+1C-00-00-00-02-00-00-00
 
-ObjectFlags (UInt32): 40 @ 2087
+ObjectFlags (UInt32): 40 @ 1780
 28-00-00-00
 
-SerialSize (Int32): 12 @ 2091
+SerialSize (Int32): 12 @ 1784
 0C-00-00-00
 
-SerialOffset (Int32): 3277 @ 2095
-CD-0C-00-00
+SerialOffset (Int32): 2550 @ 1788
+F6-09-00-00
 
-ForcedExport (Boolean32): False @ 2099
+ForcedExport (Boolean32): False @ 1792
 00-00-00-00
 
-NotForClient (Boolean32): False @ 2103
+NotForClient (Boolean32): False @ 1796
 00-00-00-00
 
-NotForServer (Boolean32): False @ 2107
+NotForServer (Boolean32): False @ 1800
 00-00-00-00
 
-PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 2111
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1804
 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
 
-PackageFlags (UInt32): 0 @ 2127
+PackageFlags (UInt32): 0 @ 1820
 00-00-00-00
 
-NotAlwaysLoadedForEditorGame (Boolean32): True @ 2131
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 1824
 01-00-00-00
 ```
 
-## 9: ActorBase_Child_C.SimpleConstructionScript_1.SCS_Node_1 @ 2135
+## 9: ActorBase_Child_C.SimpleConstructionScript_1.SCS_Node_1 @ 1828
 ```
-Class (ObjectReference): /Script/Engine.SCS_Node @ 2135
+Class (ObjectReference): /Script/Engine.SCS_Node @ 1828
 F6-FF-FF-FF
 
-Super (ObjectReference): @ 2139
+Super (ObjectReference): @ 1832
 00-00-00-00
 
-Outer (ObjectReference): ActorBase_Child_C.SimpleConstructionScript_1 @ 2143
+Outer (ObjectReference): ActorBase_Child_C.SimpleConstructionScript_1 @ 1836
 0A-00-00-00
 
-ObjectName (NameIndex): SCS_Node_1 @ 2147
-22-00-00-00-02-00-00-00
+ObjectName (NameIndex): SCS_Node_1 @ 1840
+1E-00-00-00-02-00-00-00
 
-ObjectFlags (UInt32): 8 @ 2155
+ObjectFlags (UInt32): 8 @ 1848
 08-00-00-00
 
-SerialSize (Int32): 104 @ 2159
+SerialSize (Int32): 104 @ 1852
 68-00-00-00
 
-SerialOffset (Int32): 3289 @ 2163
-D9-0C-00-00
+SerialOffset (Int32): 2562 @ 1856
+02-0A-00-00
 
-ForcedExport (Boolean32): False @ 2167
+ForcedExport (Boolean32): False @ 1860
 00-00-00-00
 
-NotForClient (Boolean32): False @ 2171
+NotForClient (Boolean32): False @ 1864
 00-00-00-00
 
-NotForServer (Boolean32): False @ 2175
+NotForServer (Boolean32): False @ 1868
 00-00-00-00
 
-PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 2179
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1872
 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
 
-PackageFlags (UInt32): 0 @ 2195
+PackageFlags (UInt32): 0 @ 1888
 00-00-00-00
 
-NotAlwaysLoadedForEditorGame (Boolean32): True @ 2199
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 1892
 01-00-00-00
 ```
 
-## 10: ActorBase_Child_C.SimpleConstructionScript_1 @ 2203
+## 10: ActorBase_Child_C.SimpleConstructionScript_1 @ 1896
 ```
-Class (ObjectReference): /Script/Engine.SimpleConstructionScript @ 2203
+Class (ObjectReference): /Script/Engine.SimpleConstructionScript @ 1896
 F5-FF-FF-FF
 
-Super (ObjectReference): @ 2207
+Super (ObjectReference): @ 1900
 00-00-00-00
 
-Outer (ObjectReference): ActorBase_Child_C @ 2211
+Outer (ObjectReference): ActorBase_Child_C @ 1904
 06-00-00-00
 
-ObjectName (NameIndex): SimpleConstructionScript_1 @ 2215
-23-00-00-00-02-00-00-00
+ObjectName (NameIndex): SimpleConstructionScript_1 @ 1908
+1F-00-00-00-02-00-00-00
 
-ObjectFlags (UInt32): 8 @ 2223
+ObjectFlags (UInt32): 8 @ 1916
 08-00-00-00
 
-SerialSize (Int32): 40 @ 2227
+SerialSize (Int32): 40 @ 1920
 28-00-00-00
 
-SerialOffset (Int32): 3393 @ 2231
-41-0D-00-00
+SerialOffset (Int32): 2666 @ 1924
+6A-0A-00-00
 
-ForcedExport (Boolean32): False @ 2235
+ForcedExport (Boolean32): False @ 1928
 00-00-00-00
 
-NotForClient (Boolean32): False @ 2239
+NotForClient (Boolean32): False @ 1932
 00-00-00-00
 
-NotForServer (Boolean32): False @ 2243
+NotForServer (Boolean32): False @ 1936
 00-00-00-00
 
-PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 2247
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1940
 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
 
-PackageFlags (UInt32): 0 @ 2263
+PackageFlags (UInt32): 0 @ 1956
 00-00-00-00
 
-NotAlwaysLoadedForEditorGame (Boolean32): True @ 2267
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 1960
 01-00-00-00
 ```
 
-# UNKNOWN @ 2271
+# UNKNOWN @ 1964
 ```
 00-00-00-00-01-00-00-00-01-00-00-00-00-00-00-00-02-00-00-00-02-00-00-00-03-00-00-00-03-00-00-00-04-00-00-00-F4-FF-FF-FF-FE-FF-FF-FF-05-00-00-00-0A-00-00-00-FE-FF-FF-FF-05-00-00-00-04-00-00-00-07-00-00-00-02-00-00-00-06-00-00-00-FF-FF-FF-FF-00-00-00-00-01-00-00-00-08-00-00-00-01-00-00-00-09-00-00-00-00-00-00-00
 ```
 
-# Export 1 Data, 40 bytes @ 2375
+# Export 1 Data, 40 bytes @ 2068
 ```
-None (Property) @ 2375
+None (Property) @ 2068
 
-  (Tag): None @ 2375
+  (Tag): None @ 2068
 
-    Name (NameIndex): None @ 2375
-    1A-00-00-00-00-00-00-00
+    Name (NameIndex): None @ 2068
+    16-00-00-00-00-00-00-00
 
-ExtraExportData (Byte[]) @ 2383
-00-00-00-00-00-00-00-00-01-00-00-00-00-00-00-00-00-00-00-00-1A-00-00-00-00-00-00-00-F0-FF-FF-FF
-```
-
-# Export 2 Data, 40 bytes @ 2415
-```
-None (Property) @ 2415
-
-  (Tag): None @ 2415
-
-    Name (NameIndex): None @ 2415
-    1A-00-00-00-00-00-00-00
-
-ExtraExportData (Byte[]) @ 2423
-00-00-00-00-00-00-00-00-01-00-00-00-05-00-01-00-00-00-00-00-1A-00-00-00-00-00-00-00-01-00-00-00
+ExtraExportData (Byte[]) @ 2076
+00-00-00-00-00-00-00-00-01-00-00-00-00-00-00-00-00-00-00-00-16-00-00-00-00-00-00-00-F0-FF-FF-FF
 ```
 
-# Export 3 Data, 36 bytes @ 2455
+# Export 2 Data, 40 bytes @ 2108
 ```
-None (Property) @ 2455
+None (Property) @ 2108
 
-  (Tag): None @ 2455
+  (Tag): None @ 2108
 
-    Name (NameIndex): None @ 2455
-    1A-00-00-00-00-00-00-00
+    Name (NameIndex): None @ 2108
+    16-00-00-00-00-00-00-00
 
-ExtraExportData (Byte[]) @ 2463
-00-00-00-00-00-00-00-00-01-00-00-00-80-00-00-00-00-00-00-00-1A-00-00-00-00-00-00-00
+ExtraExportData (Byte[]) @ 2116
+00-00-00-00-00-00-00-00-01-00-00-00-05-00-01-00-00-00-00-00-16-00-00-00-00-00-00-00-01-00-00-00
 ```
 
-# Export 4 Data, 50 bytes @ 2491
+# Export 3 Data, 36 bytes @ 2148
 ```
-None (Property) @ 2491
+None (Property) @ 2148
 
-  (Tag): None @ 2491
+  (Tag): None @ 2148
 
-    Name (NameIndex): None @ 2491
-    1A-00-00-00-00-00-00-00
+    Name (NameIndex): None @ 2148
+    16-00-00-00-00-00-00-00
 
-ExtraExportData (Byte[]) @ 2499
+ExtraExportData (Byte[]) @ 2156
+00-00-00-00-00-00-00-00-01-00-00-00-80-00-00-00-00-00-00-00-16-00-00-00-00-00-00-00
+```
+
+# Export 4 Data, 50 bytes @ 2184
+```
+None (Property) @ 2184
+
+  (Tag): None @ 2184
+
+    Name (NameIndex): None @ 2184
+    16-00-00-00-00-00-00-00
+
+ExtraExportData (Byte[]) @ 2192
 00-00-00-00-02-00-00-00-00-00-00-00-03-00-00-00-12-00-00-00-0E-00-00-00-4C-0F-00-00-00-4E-00-03-00-00-00-04-0B-53-00-00-00-00
 ```
 
-# Export 5 Data, 56 bytes @ 2541
+# Export 5 Data, 56 bytes @ 2234
 ```
-None (Property) @ 2541
+None (Property) @ 2234
 
-  (Tag): None @ 2541
+  (Tag): None @ 2234
 
-    Name (NameIndex): None @ 2541
-    1A-00-00-00-00-00-00-00
+    Name (NameIndex): None @ 2234
+    16-00-00-00-00-00-00-00
 
-ExtraExportData (Byte[]) @ 2549
+ExtraExportData (Byte[]) @ 2242
 00-00-00-00-04-00-00-00-F4-FF-FF-FF-00-00-00-00-18-00-00-00-14-00-00-00-4C-15-00-00-00-06-0A-00-00-00-1C-F4-FF-FF-FF-16-4D-04-0B-53-00-08-02-0C
 ```
 
-# Export 6 Data, 132 bytes @ 2597
+# Export 6 Data, 132 bytes @ 2290
 ```
-SimpleConstructionScript (Property) @ 2597
+SimpleConstructionScript (Property) @ 2290
 
-  (Tag): ObjectProperty SimpleConstructionScript @ 2597
+  (Tag): ObjectProperty SimpleConstructionScript @ 2290
 
-    Name (NameIndex): SimpleConstructionScript @ 2597
-    23-00-00-00-00-00-00-00
+    Name (NameIndex): SimpleConstructionScript @ 2290
+    1F-00-00-00-00-00-00-00
 
-    Type (NameIndex): ObjectProperty @ 2605
-    1C-00-00-00-00-00-00-00
+    Type (NameIndex): ObjectProperty @ 2298
+    18-00-00-00-00-00-00-00
 
-    Size (Int32): 4 @ 2613
+    Size (Int32): 4 @ 2306
     04-00-00-00
 
-    ArrayIndex (Int32): 0 @ 2617
+    ArrayIndex (Int32): 0 @ 2310
     00-00-00-00
 
-  Data (Byte[]) @ 2621
+  Data (Byte[]) @ 2314
   0A-00-00-00
 
-None (Property) @ 2625
+None (Property) @ 2318
 
-  (Tag): None @ 2625
+  (Tag): None @ 2318
 
-    Name (NameIndex): None @ 2625
-    1A-00-00-00-00-00-00-00
+    Name (NameIndex): None @ 2318
+    16-00-00-00-00-00-00-00
 
-ExtraExportData (Byte[]) @ 2633
-00-00-00-00-00-00-00-00-FE-FF-FF-FF-05-00-00-00-00-00-00-00-00-00-00-00-02-00-00-00-14-00-00-00-00-00-00-00-04-00-00-00-27-00-00-00-00-00-00-00-05-00-00-00-10-00-84-00-FA-FF-FF-FF-12-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-1A-00-00-00-00-00-00-00-01-00-00-00-07-00-00-00
+ExtraExportData (Byte[]) @ 2326
+00-00-00-00-00-00-00-00-FE-FF-FF-FF-05-00-00-00-00-00-00-00-00-00-00-00-02-00-00-00-12-00-00-00-00-00-00-00-04-00-00-00-21-00-00-00-00-00-00-00-05-00-00-00-10-00-84-00-FA-FF-FF-FF-10-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-16-00-00-00-00-00-00-00-01-00-00-00-07-00-00-00
 ```
 
-# Export 7 Data, 548 bytes @ 2729
+# Export 7 Data, 128 bytes @ 2422
 ```
-OnChild (Property) @ 2729
+OnChild (Property) @ 2422
 
-  (Tag): ArrayProperty OnChild @ 2729
+  (Tag): ArrayProperty OnChild @ 2422
 
-    Name (NameIndex): OnChild @ 2729
-    1D-00-00-00-00-00-00-00
+    Name (NameIndex): OnChild @ 2422
+    19-00-00-00-00-00-00-00
 
-    Type (NameIndex): ArrayProperty @ 2737
+    Type (NameIndex): ArrayProperty @ 2430
     06-00-00-00-00-00-00-00
 
-    Size (Int32): 28 @ 2745
+    Size (Int32): 28 @ 2438
     1C-00-00-00
 
-    ArrayIndex (Int32): 0 @ 2749
+    ArrayIndex (Int32): 0 @ 2442
     00-00-00-00
 
-    InnerType (NameIndex): StructProperty @ 2753
-    26-00-00-00-00-00-00-00
+    InnerType (NameIndex): StructProperty @ 2446
+    20-00-00-00-00-00-00-00
 
-  Data (Byte[]) @ 2761
+  Data (Byte[]) @ 2454
   02-00-00-00-00-00-40-41-00-00-C0-41-00-00-10-42-00-00-40-42-00-00-70-42-00-00-90-42
 
-OnParent (Property) @ 2789
+OnParent (Property) @ 2482
 
-  (Tag): ArrayProperty OnParent @ 2789
+  (Tag): ArrayProperty OnParent @ 2482
 
-    Name (NameIndex): OnParent @ 2789
-    1E-00-00-00-00-00-00-00
+    Name (NameIndex): OnParent @ 2482
+    1A-00-00-00-00-00-00-00
 
-    Type (NameIndex): ArrayProperty @ 2797
+    Type (NameIndex): ArrayProperty @ 2490
     06-00-00-00-00-00-00-00
 
-    Size (Int32): 448 @ 2805
-    C0-01-00-00
+    Size (Int32): 28 @ 2498
+    1C-00-00-00
 
-    ArrayIndex (Int32): 0 @ 2809
+    ArrayIndex (Int32): 0 @ 2502
     00-00-00-00
 
-    InnerType (NameIndex): StructProperty @ 2813
-    26-00-00-00-00-00-00-00
+    InnerType (NameIndex): StructProperty @ 2506
+    20-00-00-00-00-00-00-00
 
-  Data (Byte[]) @ 2821
-  02-00-00-00-09-00-00-00-00-00-00-00-08-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-15-00-00-00-00-00-00-00-06-00-00-00-00-00-00-00-10-00-00-00-00-00-00-00-16-00-00-00-00-00-00-00-03-00-00-00-00-40-9A-44-00-70-B1-45-00-D0-0C-46-2B-00-00-00-00-00-00-00-26-00-00-00-00-00-00-00-0C-00-00-00-00-00-00-00-29-00-00-00-00-00-00-00-00-40-9A-44-00-70-B1-45-00-D0-0C-46-2A-00-00-00-00-00-00-00-06-00-00-00-00-00-00-00-14-00-00-00-00-00-00-00-26-00-00-00-00-00-00-00-02-00-00-00-00-40-9A-44-00-70-B1-45-00-D0-0C-46-00-00-58-45-24-00-00-00-00-00-00-00-25-00-00-00-00-00-00-00-15-00-00-00-00-00-00-00-11-00-00-00-53-6F-6D-65-20-73-74-72-69-6E-67-20-68-65-72-65-00-1A-00-00-00-00-00-00-00-09-00-00-00-00-00-00-00-08-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-15-00-00-00-00-00-00-00-06-00-00-00-00-00-00-00-10-00-00-00-00-00-00-00-16-00-00-00-00-00-00-00-03-00-00-00-00-40-9A-44-00-70-B1-45-00-D0-0C-46-2B-00-00-00-00-00-00-00-26-00-00-00-00-00-00-00-0C-00-00-00-00-00-00-00-29-00-00-00-00-00-00-00-00-40-9A-44-00-70-B1-45-00-D0-0C-46-2A-00-00-00-00-00-00-00-06-00-00-00-00-00-00-00-14-00-00-00-00-00-00-00-26-00-00-00-00-00-00-00-02-00-00-00-00-40-9A-44-00-70-B1-45-00-D0-0C-46-00-00-58-45-24-00-00-00-00-00-00-00-25-00-00-00-00-00-00-00-15-00-00-00-00-00-00-00-11-00-00-00-53-6F-6D-65-20-73-74-72-69-6E-67-20-68-65-72-65-00-1A-00-00-00-00-00-00-00
+  Data (Byte[]) @ 2514
+  02-00-00-00-00-00-50-41-00-00-D0-41-00-00-1C-42-00-00-50-42-00-00-82-42-00-00-9C-42
 
-None (Property) @ 3269
+None (Property) @ 2542
 
-  (Tag): None @ 3269
+  (Tag): None @ 2542
 
-    Name (NameIndex): None @ 3269
-    1A-00-00-00-00-00-00-00
+    Name (NameIndex): None @ 2542
+    16-00-00-00-00-00-00-00
 ```
 
-# Export 8 Data, 12 bytes @ 3277
+# Export 8 Data, 12 bytes @ 2550
 ```
-None (Property) @ 3277
+None (Property) @ 2550
 
-  (Tag): None @ 3277
+  (Tag): None @ 2550
 
-    Name (NameIndex): None @ 3277
-    1A-00-00-00-00-00-00-00
+    Name (NameIndex): None @ 2550
+    16-00-00-00-00-00-00-00
 
-ExtraExportData (Byte[]) @ 3285
+ExtraExportData (Byte[]) @ 2558
 00-00-00-00
 ```
 
-# Export 9 Data, 104 bytes @ 3289
+# Export 9 Data, 104 bytes @ 2562
 ```
-ComponentTemplate (Property) @ 3289
+ComponentTemplate (Property) @ 2562
 
-  (Tag): ObjectProperty ComponentTemplate @ 3289
+  (Tag): ObjectProperty ComponentTemplate @ 2562
 
-    Name (NameIndex): ComponentTemplate @ 3289
-    0C-00-00-00-00-00-00-00
-
-    Type (NameIndex): ObjectProperty @ 3297
-    1C-00-00-00-00-00-00-00
-
-    Size (Int32): 4 @ 3305
-    04-00-00-00
-
-    ArrayIndex (Int32): 0 @ 3309
-    00-00-00-00
-
-  Data (Byte[]) @ 3313
-  08-00-00-00
-
-VariableName (Property) @ 3317
-
-  (Tag): NameProperty VariableName @ 3317
-
-    Name (NameIndex): VariableName @ 3317
-    28-00-00-00-00-00-00-00
-
-    Type (NameIndex): NameProperty @ 3325
-    19-00-00-00-00-00-00-00
-
-    Size (Int32): 8 @ 3333
-    08-00-00-00
-
-    ArrayIndex (Int32): 0 @ 3337
-    00-00-00-00
-
-  Data (Byte[]) @ 3341
-  10-00-00-00-00-00-00-00
-
-CategoryName (Property) @ 3349
-
-  (Tag): NameProperty CategoryName @ 3349
-
-    Name (NameIndex): CategoryName @ 3349
+    Name (NameIndex): ComponentTemplate @ 2562
     0A-00-00-00-00-00-00-00
 
-    Type (NameIndex): NameProperty @ 3357
-    19-00-00-00-00-00-00-00
+    Type (NameIndex): ObjectProperty @ 2570
+    18-00-00-00-00-00-00-00
 
-    Size (Int32): 8 @ 3365
-    08-00-00-00
-
-    ArrayIndex (Int32): 0 @ 3369
-    00-00-00-00
-
-  Data (Byte[]) @ 3373
-  0D-00-00-00-00-00-00-00
-
-None (Property) @ 3381
-
-  (Tag): None @ 3381
-
-    Name (NameIndex): None @ 3381
-    1A-00-00-00-00-00-00-00
-
-ExtraExportData (Byte[]) @ 3389
-00-00-00-00
-```
-
-# Export 10 Data, 40 bytes @ 3393
-```
-DefaultSceneRootNode (Property) @ 3393
-
-  (Tag): ObjectProperty DefaultSceneRootNode @ 3393
-
-    Name (NameIndex): DefaultSceneRootNode @ 3393
-    11-00-00-00-00-00-00-00
-
-    Type (NameIndex): ObjectProperty @ 3401
-    1C-00-00-00-00-00-00-00
-
-    Size (Int32): 4 @ 3409
+    Size (Int32): 4 @ 2578
     04-00-00-00
 
-    ArrayIndex (Int32): 0 @ 3413
+    ArrayIndex (Int32): 0 @ 2582
     00-00-00-00
 
-  Data (Byte[]) @ 3417
-  09-00-00-00
+  Data (Byte[]) @ 2586
+  08-00-00-00
 
-None (Property) @ 3421
+VariableName (Property) @ 2590
 
-  (Tag): None @ 3421
+  (Tag): NameProperty VariableName @ 2590
 
-    Name (NameIndex): None @ 3421
-    1A-00-00-00-00-00-00-00
+    Name (NameIndex): VariableName @ 2590
+    22-00-00-00-00-00-00-00
 
-ExtraExportData (Byte[]) @ 3429
+    Type (NameIndex): NameProperty @ 2598
+    15-00-00-00-00-00-00-00
+
+    Size (Int32): 8 @ 2606
+    08-00-00-00
+
+    ArrayIndex (Int32): 0 @ 2610
+    00-00-00-00
+
+  Data (Byte[]) @ 2614
+  0E-00-00-00-00-00-00-00
+
+CategoryName (Property) @ 2622
+
+  (Tag): NameProperty CategoryName @ 2622
+
+    Name (NameIndex): CategoryName @ 2622
+    08-00-00-00-00-00-00-00
+
+    Type (NameIndex): NameProperty @ 2630
+    15-00-00-00-00-00-00-00
+
+    Size (Int32): 8 @ 2638
+    08-00-00-00
+
+    ArrayIndex (Int32): 0 @ 2642
+    00-00-00-00
+
+  Data (Byte[]) @ 2646
+  0B-00-00-00-00-00-00-00
+
+None (Property) @ 2654
+
+  (Tag): None @ 2654
+
+    Name (NameIndex): None @ 2654
+    16-00-00-00-00-00-00-00
+
+ExtraExportData (Byte[]) @ 2662
 00-00-00-00
 ```
 
-# UNKNOWN @ 3433
+# Export 10 Data, 40 bytes @ 2666
+```
+DefaultSceneRootNode (Property) @ 2666
+
+  (Tag): ObjectProperty DefaultSceneRootNode @ 2666
+
+    Name (NameIndex): DefaultSceneRootNode @ 2666
+    0F-00-00-00-00-00-00-00
+
+    Type (NameIndex): ObjectProperty @ 2674
+    18-00-00-00-00-00-00-00
+
+    Size (Int32): 4 @ 2682
+    04-00-00-00
+
+    ArrayIndex (Int32): 0 @ 2686
+    00-00-00-00
+
+  Data (Byte[]) @ 2690
+  09-00-00-00
+
+None (Property) @ 2694
+
+  (Tag): None @ 2694
+
+    Name (NameIndex): None @ 2694
+    16-00-00-00-00-00-00-00
+
+ExtraExportData (Byte[]) @ 2702
+00-00-00-00
+```
+
+# UNKNOWN @ 2706
 ```
 C1-83-2A-9E
 ```

@@ -11,6 +11,7 @@ async Task Main()
 {
 	var repoDirectory = Path.GetDirectoryName(Util.CurrentQueryPath);
 	var baseDirectory = new DirectoryInfo(@$"{repoDirectory}\Cooked\Unreal\401");
+	var verbose = false;
 
 	var excludes = new string[] { };
 
@@ -18,8 +19,9 @@ async Task Main()
 
 	var assetFiles = baseDirectory
 		.EnumerateFiles("*.uasset", SearchOption.AllDirectories)
-		.Where(x => !excludes.Any(p => Regex.IsMatch(p, ArchiveReader.FileSystemPathToAssetPath(x.FullName, baseDirectory.FullName), RegexOptions.IgnoreCase)))
-		.Where(x => includes.Any(p => Regex.IsMatch(p, ArchiveReader.FileSystemPathToAssetPath(x.FullName, baseDirectory.FullName), RegexOptions.IgnoreCase)));
+		.Where(fileInfo => !excludes.Any(pattern => Regex.IsMatch(ArchiveReader.FileSystemPathToAssetPath(fileInfo.FullName, baseDirectory.FullName), pattern, RegexOptions.IgnoreCase)))
+		.Where(fileInfo => includes.Any(pattern => Regex.IsMatch(ArchiveReader.FileSystemPathToAssetPath(fileInfo.FullName, baseDirectory.FullName), pattern, RegexOptions.IgnoreCase)))
+		.ToArray();
 
 	foreach (var file in assetFiles)
 	{
@@ -27,9 +29,9 @@ async Task Main()
 		{
 			var reader = new ArchiveReader(file, baseDirectory);
 			var archive = reader.ReadArchive();
-			var outputPath = Path.ChangeExtension(file.FullName, ".md");
-			var markdown = DescribeChildren(reader.RootElement);
-
+			
+			var outputPath = Path.ChangeExtension(file.FullName, verbose ? ".md" : ".short.md");
+			var markdown = DescribeChildren(reader.RootElement, verbose);
 			await File.WriteAllTextAsync(outputPath, markdown);
 		}
 		catch (Exception ex)
@@ -67,15 +69,17 @@ public bool IsRooted(ArchiveElement element)
 		|| element.Parent?.Type == "Export" && element.Type == "Property[]";
 }
 
-public string DescribeChildren(ArchiveElement root)
+public string DescribeChildren(ArchiveElement root, bool verbose)
 {
 	var lastOffset = 0;
 	var builder = new StringBuilder();
 	var inCodeBlock = false;
 
 	var last = root;
+	
+	var orderedNodes = GetNodes(root).OrderBy(x => x.StartPosition).ToArray();
 
-	foreach (var element in GetNodes(root).OrderBy(x => x.StartPosition))
+	foreach (var element in orderedNodes)
 	{
 		if (element.Type == "Archive")
 		{
@@ -114,30 +118,34 @@ public string DescribeChildren(ArchiveElement root)
 
 		if (element.StartPosition != lastOffset)
 		{
-			if (needsBreak)
+			if(verbose)
 			{
+				if (needsBreak)
+				{
+					builder.AppendLine();
+				}
+
+				if (!inCodeBlock)
+				{
+					builder.AppendLine($"# UNKNOWN @ {lastOffset}");
+					builder.AppendLine("```");
+					builder.AppendLine(BitConverter.ToString(root.Data[lastOffset..element.StartPosition]));
+					builder.AppendLine("```");
+				}
+				else
+				{
+					builder.AppendLine($"UNKNOWN @ {lastOffset}");
+					builder.AppendLine(BitConverter.ToString(root.Data[lastOffset..element.StartPosition]));
+				}
+
 				builder.AppendLine();
+				needsBreak = false;
 			}
 
-			if (!inCodeBlock)
-			{
-				builder.AppendLine($"# UNKNOWN @ {lastOffset}");
-				builder.AppendLine("```");
-				builder.AppendLine(BitConverter.ToString(root.Data[lastOffset..element.StartPosition]));
-				builder.AppendLine("```");
-			}
-			else
-			{
-				builder.AppendLine($"UNKNOWN @ {lastOffset}");
-				builder.AppendLine(BitConverter.ToString(root.Data[lastOffset..element.StartPosition]));
-			}
-
-			builder.AppendLine();
 			lastOffset = element.StartPosition;
-			needsBreak = false;
 		}
 
-		if (needsBreak)
+		if (verbose && needsBreak)
 		{
 			builder.AppendLine();
 		}
@@ -175,7 +183,7 @@ public string DescribeChildren(ArchiveElement root)
 			if (!element.Children.Any())
 			{
 				//Leaf nodes do actual reading, so they move the lastOffset
-				if (element.Data.Any())
+				if (verbose && element.Data.Any())
 				{
 					builder.AppendLine(indent + BitConverter.ToString(element.Data));
 				}
@@ -191,7 +199,7 @@ public string DescribeChildren(ArchiveElement root)
 		builder.AppendLine("```");
 	}
 
-	if (lastOffset != root.Data.Length)
+	if (verbose && lastOffset != root.Data.Length)
 	{
 		builder.AppendLine();
 		builder.AppendLine($"# UNKNOWN @ {lastOffset}");

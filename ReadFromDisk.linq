@@ -10,9 +10,10 @@
 async Task Main()
 {
 	var repoDirectory = Path.GetDirectoryName(Util.CurrentQueryPath);
-	var baseDirectory = new DirectoryInfo(@$"{repoDirectory}\Cooked\Unreal\401");
+	//var baseDirectory = new DirectoryInfo(@"D:\repos\Purlovia\livedata\game\ShooterGame\Content\");
+	var baseDirectory = new DirectoryInfo(@"D:\repos\TestAssets\Cooked\Unreal\401");
 
-	var excludes = new string[] { };
+	var excludes = new string[] {  };
 
 	var includes = new string[] { "." };
 
@@ -30,7 +31,7 @@ async Task Main()
 			{
 				var archive = reader.ReadArchive();
 				var outputPath = Path.ChangeExtension(file.FullName, ".md");
-				var markdown = DescribeChildren(reader.RootElement, true);
+				var markdown = DescribeChildren(reader.RootElement);
 				await File.WriteAllTextAsync(outputPath, markdown);
 			}
 
@@ -38,8 +39,8 @@ async Task Main()
 			{
 				var archive = reader.ReadArchive();
 				var outputPath = Path.ChangeExtension(file.FullName, ".short.md");
-				var markdown = DescribeChildren(reader.RootElement, false);
-				await File.WriteAllTextAsync(outputPath, markdown);
+				var markdown = DescribeChildren(archive);
+				await File.WriteAllTextAsync(outputPath, markdown);				
 			}
 		}
 		catch (Exception ex)
@@ -77,7 +78,7 @@ public bool IsRooted(ArchiveElement element)
 		|| element.Parent?.Type == "Export" && element.Type == "Property[]";
 }
 
-public string DescribeChildren(ArchiveElement root, bool verbose)
+public string DescribeChildren(ArchiveElement root)
 {
 	var lastOffset = 0;
 	var builder = new StringBuilder();
@@ -126,34 +127,31 @@ public string DescribeChildren(ArchiveElement root, bool verbose)
 
 		if (element.StartPosition != lastOffset)
 		{
-			if(verbose)
+			if (needsBreak)
 			{
-				if (needsBreak)
-				{
-					builder.AppendLine();
-				}
-
-				if (!inCodeBlock)
-				{
-					builder.AppendLine($"# UNKNOWN @ {lastOffset}");
-					builder.AppendLine("```");
-					builder.AppendLine(BitConverter.ToString(root.Data[lastOffset..element.StartPosition]));
-					builder.AppendLine("```");
-				}
-				else
-				{
-					builder.AppendLine($"UNKNOWN @ {lastOffset}");
-					builder.AppendLine(BitConverter.ToString(root.Data[lastOffset..element.StartPosition]));
-				}
-
 				builder.AppendLine();
-				needsBreak = false;
 			}
+
+			if (!inCodeBlock)
+			{
+				builder.AppendLine($"# UNKNOWN @ {DescribeInteger(lastOffset)}");
+				builder.AppendLine("```");
+				builder.AppendLine(BitConverter.ToString(root.Data[lastOffset..element.StartPosition]));
+				builder.AppendLine("```");
+			}
+			else
+			{
+				builder.AppendLine($"UNKNOWN @ {DescribeInteger(lastOffset)}");
+				builder.AppendLine(BitConverter.ToString(root.Data[lastOffset..element.StartPosition]));
+			}
+
+			builder.AppendLine();
+			needsBreak = false;
 
 			lastOffset = element.StartPosition;
 		}
 
-		if (verbose && needsBreak)
+		if (needsBreak)
 		{
 			builder.AppendLine();
 		}
@@ -170,28 +168,28 @@ public string DescribeChildren(ArchiveElement root, bool verbose)
 			}
 			else if (element.DescribeValue)
 			{
-				builder.AppendLine($"{prefix} {element.Name}: {element.Value} @ {element.StartPosition}");
+				builder.AppendLine($"{prefix} {element.Name}: {element.Value} @ {DescribeInteger(element.StartPosition)}");
 			}
 			else
 			{
-				builder.AppendLine($"{prefix} {element.Name} @ {element.StartPosition}");
+				builder.AppendLine($"{prefix} {element.Name} @ {DescribeInteger(element.StartPosition)}");
 			}
 		}
 		else
 		{
 			if (element.DescribeValue)
 			{
-				builder.AppendLine(indent + ReduceWhitespace($"{element.Name} ({element.Type}): {element.Value} @ {element.StartPosition}"));
+				builder.AppendLine(indent + ReduceWhitespace($"{element.Name} ({element.Type}): {element.Value} @ {DescribeInteger(element.StartPosition)}"));
 			}
 			else
 			{
-				builder.AppendLine(indent + ReduceWhitespace($"{element.Name} ({element.Type}) @ {element.StartPosition}"));
+				builder.AppendLine(indent + ReduceWhitespace($"{element.Name} ({element.Type}) @ {DescribeInteger(element.StartPosition)}"));
 			}
 
 			if (!element.Children.Any())
 			{
 				//Leaf nodes do actual reading, so they move the lastOffset
-				if (verbose && element.Data.Any())
+				if (element.Data.Any())
 				{
 					builder.AppendLine(indent + BitConverter.ToString(element.Data));
 				}
@@ -201,16 +199,16 @@ public string DescribeChildren(ArchiveElement root, bool verbose)
 
 		last = element;
 	}
-
+	
 	if (inCodeBlock)
 	{
 		builder.AppendLine("```");
 	}
 
-	if (verbose && lastOffset != root.Data.Length)
+	if (lastOffset != root.Data.Length)
 	{
 		builder.AppendLine();
-		builder.AppendLine($"# UNKNOWN @ {lastOffset}");
+		builder.AppendLine($"# UNKNOWN @ {DescribeInteger(lastOffset)}");
 		builder.AppendLine("```");
 		builder.AppendLine(BitConverter.ToString(root.Data[lastOffset..]));
 		builder.AppendLine("```");
@@ -219,9 +217,52 @@ public string DescribeChildren(ArchiveElement root, bool verbose)
 	return builder.ToString().Trim();
 }
 
+public string DescribeChildren(Archive archive)
+{
+	var builder = new StringBuilder();
+	builder.AppendLine($"# {archive.GamePath}");
+	builder.AppendLine();
+	builder.AppendLine($"## Names");
+	builder.AppendLine($"```");
+	for (var i = 0; i < archive.Names.Count; i++)
+	{
+		builder.Append(DescribeInteger(i));
+		builder.Append(" ");
+		builder.AppendLine(archive.Names[i]);
+	}
+	builder.AppendLine($"```");
+	builder.AppendLine();
+	builder.AppendLine($"## Imports");
+	builder.AppendLine($"```");
+	for (var i = 0; i < archive.Imports.Count; i++)
+	{
+		var import = archive.Imports[i];
+		builder.Append(DescribeInteger(-i - 1));
+		builder.Append(" ");
+		builder.AppendLine(import.ObjectName);
+	}
+	builder.AppendLine($"```");
+	builder.AppendLine();
+	builder.AppendLine($"## Exports");
+	builder.AppendLine($"```");
+	for (var i = 0; i < archive.Exports.Count; i++)
+	{
+		var export = archive.Exports[i];
+		builder.Append(DescribeInteger(i + 1));
+		builder.Append(" ");
+		builder.AppendLine(export.ObjectName);
+	}
+	builder.AppendLine($"```");
+
+	return builder.ToString().Trim();
+}
+
+public static string DescribeInteger(int value) => $"{value} ({BitConverter.ToString(BitConverter.GetBytes(value))})";
+public static string DescribeInteger(long value) => $"{value} ({BitConverter.ToString(BitConverter.GetBytes(value))})";
+
 public string ReduceWhitespace(string input)
 {
-	return Regex.Replace(input, " +", " ").Trim();
+return Regex.Replace(input, " +", " ").Trim();
 }
 
 public class Archive
@@ -398,7 +439,7 @@ public class Archive
 		}
 
 		reader.Seek(NameOffset);
-		Names = reader.ReadList("Names", NameCount, i => reader.ReadString(i.ToString()));
+		Names = reader.ReadList("Names", NameCount, i => reader.ReadString(DescribeInteger(i)));
 
 		if (FileVersionUE >= EngineVersions.VER_UE4_SERIALIZE_TEXT_INARCHIVES_459)
 		{
@@ -416,7 +457,7 @@ public class Archive
 
 			for (var i = 0; i < ImportCount; i++)
 			{
-				reader.Read("Import", (-i - 1).ToString(), () => Imports[i].Deserialize(reader, this));
+				reader.Read("Import", DescribeInteger(-i - 1), () => Imports[i].Deserialize(reader, this));
 			}
 		});
 
@@ -430,7 +471,7 @@ public class Archive
 
 			for (var i = 0; i < ExportCount; i++)
 			{
-				reader.Read("Export", (i + 1).ToString(), () => Exports[i].Deserialize(reader, this));
+				reader.Read("Export", DescribeInteger(i + 1), () => Exports[i].Deserialize(reader, this));
 			}
 		});
 

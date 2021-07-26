@@ -1,680 +1,680 @@
-# PackageFileSummary @ 0
+# PackageFileSummary @ 0 (00-00-00-00)
 ```
-Tag (UInt32): 2653586369 @ 0
+Tag (UInt32): 2653586369 @ 0 (00-00-00-00)
 C1-83-2A-9E
 
-LegacyFileVersion (Int32): -3 @ 4
+LegacyFileVersion (Int32): -3 @ 4 (04-00-00-00)
 FD-FF-FF-FF
 
-LegacyUE3Version (Int32): 864 @ 8
+LegacyUE3Version (Int32): 864 @ 8 (08-00-00-00)
 60-03-00-00
 
-FileVersionUE (Int32): 401 @ 12
+FileVersionUE (Int32): 401 @ 12 (0C-00-00-00)
 91-01-00-00
 
-FileVersionLicenseeUE (Int32): 0 @ 16
+FileVersionLicenseeUE (Int32): 0 @ 16 (10-00-00-00)
 00-00-00-00
 
-CustomVersionCount (Int32): 0 @ 20
+CustomVersionCount (Int32): 0 @ 20 (14-00-00-00)
 00-00-00-00
 
-TotalHeaderSize (Int32): 1567 @ 24
+TotalHeaderSize (Int32): 1567 @ 24 (18-00-00-00)
 1F-06-00-00
 
-FolderName (String): None @ 28
+FolderName (String): None @ 28 (1C-00-00-00)
 05-00-00-00-4E-6F-6E-65-00
 
-PackageFlags (UInt32): 2147483648 @ 37
+PackageFlags (UInt32): 2147483648 @ 37 (25-00-00-00)
 00-00-00-80
 
-NameCount (Int32): 31 @ 41
+NameCount (Int32): 31 @ 41 (29-00-00-00)
 1F-00-00-00
 
-NameOffset (Int32): 163 @ 45
+NameOffset (Int32): 163 @ 45 (2D-00-00-00)
 A3-00-00-00
 
-ExportCount (Int32): 5 @ 49
+ExportCount (Int32): 5 @ 49 (31-00-00-00)
 05-00-00-00
 
-ExportOffset (Int32): 1175 @ 53
+ExportOffset (Int32): 1175 @ 53 (35-00-00-00)
 97-04-00-00
 
-ImportCount (Int32): 10 @ 57
+ImportCount (Int32): 10 @ 57 (39-00-00-00)
 0A-00-00-00
 
-ImportOffset (Int32): 895 @ 61
+ImportOffset (Int32): 895 @ 61 (3D-00-00-00)
 7F-03-00-00
 
-DependsOffset (Int32): 1515 @ 65
+DependsOffset (Int32): 1515 @ 65 (41-00-00-00)
 EB-05-00-00
 
-SoftPackageReferencesCount (Int32): 0 @ 69
+SoftPackageReferencesCount (Int32): 0 @ 69 (45-00-00-00)
 00-00-00-00
 
-SoftPackageReferencesOffset (Int32): 1563 @ 73
+SoftPackageReferencesOffset (Int32): 1563 @ 73 (49-00-00-00)
 1B-06-00-00
 
-ThumbnailTableOffset (Int32): 0 @ 77
+ThumbnailTableOffset (Int32): 0 @ 77 (4D-00-00-00)
 00-00-00-00
 
-Guid (Guid): d07c95aa-7b61-4784-ad90-623f422dfea0 @ 81
+Guid (Guid): d07c95aa-7b61-4784-ad90-623f422dfea0 @ 81 (51-00-00-00)
 AA-95-7C-D0-61-7B-84-47-AD-90-62-3F-42-2D-FE-A0
 
-GenerationCount (Int32): 1 @ 97
+GenerationCount (Int32): 1 @ 97 (61-00-00-00)
 01-00-00-00
 
-Generations (List) @ 101
+Generations (List) @ 101 (65-00-00-00)
 
-  0 (Generation) @ 101
+  0 (Generation) @ 101 (65-00-00-00)
 
-    NameCount (Int32): 5 @ 101
+    NameCount (Int32): 5 @ 101 (65-00-00-00)
     05-00-00-00
 
-    ExportCount (Int32): 31 @ 105
+    ExportCount (Int32): 31 @ 105 (69-00-00-00)
     1F-00-00-00
 
-Major (UInt16): 0 @ 109
+Major (UInt16): 0 @ 109 (6D-00-00-00)
 00-00
 
-Minor (UInt16): 0 @ 111
+Minor (UInt16): 0 @ 111 (6F-00-00-00)
 00-00
 
-Patch (UInt16): 0 @ 113
+Patch (UInt16): 0 @ 113 (71-00-00-00)
 00-00
 
-Changelist (UInt32): 0 @ 115
+Changelist (UInt32): 0 @ 115 (73-00-00-00)
 00-00-00-00
 
-Branch (String): @ 119
+Branch (String): @ 119 (77-00-00-00)
 00-00-00-00
 
-CompressionFlags (Int32): 0 @ 123
+CompressionFlags (Int32): 0 @ 123 (7B-00-00-00)
 00-00-00-00
 
-CompressedChunkCount (Int32): 0 @ 127
+CompressedChunkCount (Int32): 0 @ 127 (7F-00-00-00)
 00-00-00-00
 
-CompressedChunks (List) @ 131
+CompressedChunks (List) @ 131 (83-00-00-00)
 
-PackageSource (UInt32): 407933948 @ 131
+PackageSource (UInt32): 407933948 @ 131 (83-00-00-00)
 FC-93-50-18
 
-AdditionalPackagesToCookCount (Int32): 0 @ 135
+AdditionalPackagesToCookCount (Int32): 0 @ 135 (87-00-00-00)
 00-00-00-00
 
-NumTextureAllocations (Int32): 0 @ 139
+NumTextureAllocations (Int32): 0 @ 139 (8B-00-00-00)
 00-00-00-00
 
-AssetRegistryDataOffset (Int32): 1563 @ 143
+AssetRegistryDataOffset (Int32): 1563 @ 143 (8F-00-00-00)
 1B-06-00-00
 
-BulkDataStartOffset (Int32): 2047 @ 147
+BulkDataStartOffset (Int32): 2047 @ 147 (93-00-00-00)
 FF-07-00-00
 
-WorldTileInfoDataOffset (Int32): 0 @ 151
+WorldTileInfoDataOffset (Int32): 0 @ 151 (97-00-00-00)
 00-00-00-00
 
-ChunkIDCount (Int32): 0 @ 155
+ChunkIDCount (Int32): 0 @ 155 (9B-00-00-00)
 00-00-00-00
 
-ChunkIDs (List) @ 159
+ChunkIDs (List) @ 159 (9F-00-00-00)
 ```
 
-# UNKNOWN @ 159
+# UNKNOWN @ 159 (9F-00-00-00)
 ```
 00-00-00-00
 ```
 
-# Names @ 163
+# Names @ 163 (A3-00-00-00)
 ```
-0 (String): /Game/CustomStruct @ 163
+0 (00-00-00-00) (String): /Game/CustomStruct @ 163 (A3-00-00-00)
 13-00-00-00-2F-47-61-6D-65-2F-43-75-73-74-6F-6D-53-74-72-75-63-74-00
 
-1 (String): /Game/HasCustomStruct @ 186
+1 (01-00-00-00) (String): /Game/HasCustomStruct @ 186 (BA-00-00-00)
 16-00-00-00-2F-47-61-6D-65-2F-48-61-73-43-75-73-74-6F-6D-53-74-72-75-63-74-00
 
-2 (String): /Script/CoreUObject @ 212
+2 (02-00-00-00) (String): /Script/CoreUObject @ 212 (D4-00-00-00)
 14-00-00-00-2F-53-63-72-69-70-74-2F-43-6F-72-65-55-4F-62-6A-65-63-74-00
 
-3 (String): /Script/Engine @ 236
+3 (03-00-00-00) (String): /Script/Engine @ 236 (EC-00-00-00)
 0F-00-00-00-2F-53-63-72-69-70-74-2F-45-6E-67-69-6E-65-00
 
-4 (String): ArrayProperty @ 255
+4 (04-00-00-00) (String): ArrayProperty @ 255 (FF-00-00-00)
 0E-00-00-00-41-72-72-61-79-50-72-6F-70-65-72-74-79-00
 
-5 (String): BlueprintGeneratedClass @ 273
+5 (05-00-00-00) (String): BlueprintGeneratedClass @ 273 (11-01-00-00)
 18-00-00-00-42-6C-75-65-70-72-69-6E-74-47-65-6E-65-72-61-74-65-64-43-6C-61-73-73-00
 
-6 (String): BoolProperty @ 301
+6 (06-00-00-00) (String): BoolProperty @ 301 (2D-01-00-00)
 0D-00-00-00-42-6F-6F-6C-50-72-6F-70-65-72-74-79-00
 
-7 (String): BoolVar_7_4C94D70E4FD91D818BFD959B140F1100 @ 318
+7 (07-00-00-00) (String): BoolVar_7_4C94D70E4FD91D818BFD959B140F1100 @ 318 (3E-01-00-00)
 2B-00-00-00-42-6F-6F-6C-56-61-72-5F-37-5F-34-43-39-34-44-37-30-45-34-46-44-39-31-44-38-31-38-42-46-44-39-35-39-42-31-34-30-46-31-31-30-30-00
 
-8 (String): Class @ 365
+8 (08-00-00-00) (String): Class @ 365 (6D-01-00-00)
 06-00-00-00-43-6C-61-73-73-00
 
-9 (String): CustomStruct @ 375
+9 (09-00-00-00) (String): CustomStruct @ 375 (77-01-00-00)
 0D-00-00-00-43-75-73-74-6F-6D-53-74-72-75-63-74-00
 
-10 (String): Default__HasCustomStruct_C @ 392
+10 (0A-00-00-00) (String): Default__HasCustomStruct_C @ 392 (88-01-00-00)
 1B-00-00-00-44-65-66-61-75-6C-74-5F-5F-48-61-73-43-75-73-74-6F-6D-53-74-72-75-63-74-5F-43-00
 
-11 (String): Default__Object @ 423
+11 (0B-00-00-00) (String): Default__Object @ 423 (A7-01-00-00)
 10-00-00-00-44-65-66-61-75-6C-74-5F-5F-4F-62-6A-65-63-74-00
 
-12 (String): Engine @ 443
+12 (0C-00-00-00) (String): Engine @ 443 (BB-01-00-00)
 07-00-00-00-45-6E-67-69-6E-65-00
 
-13 (String): EntryPoint @ 454
+13 (0D-00-00-00) (String): EntryPoint @ 454 (C6-01-00-00)
 0B-00-00-00-45-6E-74-72-79-50-6F-69-6E-74-00
 
-14 (String): ExecuteUbergraph_HasCustomStruct @ 469
+14 (0E-00-00-00) (String): ExecuteUbergraph_HasCustomStruct @ 469 (D5-01-00-00)
 21-00-00-00-45-78-65-63-75-74-65-55-62-65-72-67-72-61-70-68-5F-48-61-73-43-75-73-74-6F-6D-53-74-72-75-63-74-00
 
-15 (String): FloatArrayVar_8_46E8520A4EEE06E2D32DB6812C977E94 @ 506
+15 (0F-00-00-00) (String): FloatArrayVar_8_46E8520A4EEE06E2D32DB6812C977E94 @ 506 (FA-01-00-00)
 31-00-00-00-46-6C-6F-61-74-41-72-72-61-79-56-61-72-5F-38-5F-34-36-45-38-35-32-30-41-34-45-45-45-30-36-45-32-44-33-32-44-42-36-38-31-32-43-39-37-37-45-39-34-00
 
-16 (String): FloatProperty @ 559
+16 (10-00-00-00) (String): FloatProperty @ 559 (2F-02-00-00)
 0E-00-00-00-46-6C-6F-61-74-50-72-6F-70-65-72-74-79-00
 
-17 (String): Function @ 577
+17 (11-00-00-00) (String): Function @ 577 (41-02-00-00)
 09-00-00-00-46-75-6E-63-74-69-6F-6E-00
 
-18 (String): HasCustomStruct_C @ 590
+18 (12-00-00-00) (String): HasCustomStruct_C @ 590 (4E-02-00-00)
 12-00-00-00-48-61-73-43-75-73-74-6F-6D-53-74-72-75-63-74-5F-43-00
 
-19 (String): IntProperty @ 612
+19 (13-00-00-00) (String): IntProperty @ 612 (64-02-00-00)
 0C-00-00-00-49-6E-74-50-72-6F-70-65-72-74-79-00
 
-20 (String): NewVar @ 628
+20 (14-00-00-00) (String): NewVar @ 628 (74-02-00-00)
 07-00-00-00-4E-65-77-56-61-72-00
 
-21 (String): None @ 639
+21 (15-00-00-00) (String): None @ 639 (7F-02-00-00)
 05-00-00-00-4E-6F-6E-65-00
 
-22 (String): Object @ 648
+22 (16-00-00-00) (String): Object @ 648 (88-02-00-00)
 07-00-00-00-4F-62-6A-65-63-74-00
 
-23 (String): Package @ 659
+23 (17-00-00-00) (String): Package @ 659 (93-02-00-00)
 08-00-00-00-50-61-63-6B-61-67-65-00
 
-24 (String): StringVar_18_200ABB29460E33871BCCBC81651E282F @ 671
+24 (18-00-00-00) (String): StringVar_18_200ABB29460E33871BCCBC81651E282F @ 671 (9F-02-00-00)
 2E-00-00-00-53-74-72-69-6E-67-56-61-72-5F-31-38-5F-32-30-30-41-42-42-32-39-34-36-30-45-33-33-38-37-31-42-43-43-42-43-38-31-36-35-31-45-32-38-32-46-00
 
-25 (String): StrProperty @ 721
+25 (19-00-00-00) (String): StrProperty @ 721 (D1-02-00-00)
 0C-00-00-00-53-74-72-50-72-6F-70-65-72-74-79-00
 
-26 (String): StructProperty @ 737
+26 (1A-00-00-00) (String): StructProperty @ 737 (E1-02-00-00)
 0F-00-00-00-53-74-72-75-63-74-50-72-6F-70-65-72-74-79-00
 
-27 (String): UserDefinedStruct @ 756
+27 (1B-00-00-00) (String): UserDefinedStruct @ 756 (F4-02-00-00)
 12-00-00-00-55-73-65-72-44-65-66-69-6E-65-64-53-74-72-75-63-74-00
 
-28 (String): Vector @ 778
+28 (1C-00-00-00) (String): Vector @ 778 (0A-03-00-00)
 07-00-00-00-56-65-63-74-6F-72-00
 
-29 (String): Vector2DArrayVar_15_2DDCA552496C00AFB15054A890BA05FB @ 789
+29 (1D-00-00-00) (String): Vector2DArrayVar_15_2DDCA552496C00AFB15054A890BA05FB @ 789 (15-03-00-00)
 35-00-00-00-56-65-63-74-6F-72-32-44-41-72-72-61-79-56-61-72-5F-31-35-5F-32-44-44-43-41-35-35-32-34-39-36-43-30-30-41-46-42-31-35-30-35-34-41-38-39-30-42-41-30-35-46-42-00
 
-30 (String): VectorVar_9_9822A7A4429FB875480168A863DD9D94 @ 846
+30 (1E-00-00-00) (String): VectorVar_9_9822A7A4429FB875480168A863DD9D94 @ 846 (4E-03-00-00)
 2D-00-00-00-56-65-63-74-6F-72-56-61-72-5F-39-5F-39-38-32-32-41-37-41-34-34-32-39-46-42-38-37-35-34-38-30-31-36-38-41-38-36-33-44-44-39-44-39-34-00
 ```
 
-# Imports @ 895
+# Imports @ 895 (7F-03-00-00)
 
-## -1: /Script/CoreUObject.Function @ 895
+## -1 (FF-FF-FF-FF): /Script/CoreUObject.Function @ 895 (7F-03-00-00)
 ```
-ClassPackage (NameIndex): /Script/CoreUObject @ 895
+ClassPackage (NameIndex): /Script/CoreUObject @ 895 (7F-03-00-00)
 02-00-00-00-00-00-00-00
 
-ClassName (NameIndex): Class @ 903
+ClassName (NameIndex): Class @ 903 (87-03-00-00)
 08-00-00-00-00-00-00-00
 
-Outer (ObjectReference): /Script/CoreUObject @ 911
+Outer (ObjectReference): /Script/CoreUObject @ 911 (8F-03-00-00)
 F8-FF-FF-FF
 
-ObjectName (NameIndex): Function @ 915
+ObjectName (NameIndex): Function @ 915 (93-03-00-00)
 11-00-00-00-00-00-00-00
 ```
 
-## -2: /Script/CoreUObject.IntProperty @ 923
+## -2 (FE-FF-FF-FF): /Script/CoreUObject.IntProperty @ 923 (9B-03-00-00)
 ```
-ClassPackage (NameIndex): /Script/CoreUObject @ 923
+ClassPackage (NameIndex): /Script/CoreUObject @ 923 (9B-03-00-00)
 02-00-00-00-00-00-00-00
 
-ClassName (NameIndex): Class @ 931
+ClassName (NameIndex): Class @ 931 (A3-03-00-00)
 08-00-00-00-00-00-00-00
 
-Outer (ObjectReference): /Script/CoreUObject @ 939
+Outer (ObjectReference): /Script/CoreUObject @ 939 (AB-03-00-00)
 F8-FF-FF-FF
 
-ObjectName (NameIndex): IntProperty @ 943
+ObjectName (NameIndex): IntProperty @ 943 (AF-03-00-00)
 13-00-00-00-00-00-00-00
 ```
 
-## -3: /Script/CoreUObject.Object @ 951
+## -3 (FD-FF-FF-FF): /Script/CoreUObject.Object @ 951 (B7-03-00-00)
 ```
-ClassPackage (NameIndex): /Script/CoreUObject @ 951
+ClassPackage (NameIndex): /Script/CoreUObject @ 951 (B7-03-00-00)
 02-00-00-00-00-00-00-00
 
-ClassName (NameIndex): Class @ 959
+ClassName (NameIndex): Class @ 959 (BF-03-00-00)
 08-00-00-00-00-00-00-00
 
-Outer (ObjectReference): /Script/CoreUObject @ 967
+Outer (ObjectReference): /Script/CoreUObject @ 967 (C7-03-00-00)
 F8-FF-FF-FF
 
-ObjectName (NameIndex): Object @ 971
+ObjectName (NameIndex): Object @ 971 (CB-03-00-00)
 16-00-00-00-00-00-00-00
 ```
 
-## -4: /Script/CoreUObject.StructProperty @ 979
+## -4 (FC-FF-FF-FF): /Script/CoreUObject.StructProperty @ 979 (D3-03-00-00)
 ```
-ClassPackage (NameIndex): /Script/CoreUObject @ 979
+ClassPackage (NameIndex): /Script/CoreUObject @ 979 (D3-03-00-00)
 02-00-00-00-00-00-00-00
 
-ClassName (NameIndex): Class @ 987
+ClassName (NameIndex): Class @ 987 (DB-03-00-00)
 08-00-00-00-00-00-00-00
 
-Outer (ObjectReference): /Script/CoreUObject @ 995
+Outer (ObjectReference): /Script/CoreUObject @ 995 (E3-03-00-00)
 F8-FF-FF-FF
 
-ObjectName (NameIndex): StructProperty @ 999
+ObjectName (NameIndex): StructProperty @ 999 (E7-03-00-00)
 1A-00-00-00-00-00-00-00
 ```
 
-## -5: /Script/Engine.BlueprintGeneratedClass @ 1007
+## -5 (FB-FF-FF-FF): /Script/Engine.BlueprintGeneratedClass @ 1007 (EF-03-00-00)
 ```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1007
+ClassPackage (NameIndex): /Script/CoreUObject @ 1007 (EF-03-00-00)
 02-00-00-00-00-00-00-00
 
-ClassName (NameIndex): Class @ 1015
+ClassName (NameIndex): Class @ 1015 (F7-03-00-00)
 08-00-00-00-00-00-00-00
 
-Outer (ObjectReference): /Script/Engine @ 1023
+Outer (ObjectReference): /Script/Engine @ 1023 (FF-03-00-00)
 F7-FF-FF-FF
 
-ObjectName (NameIndex): BlueprintGeneratedClass @ 1027
+ObjectName (NameIndex): BlueprintGeneratedClass @ 1027 (03-04-00-00)
 05-00-00-00-00-00-00-00
 ```
 
-## -6: /Script/CoreUObject.Default__Object @ 1035
+## -6 (FA-FF-FF-FF): /Script/CoreUObject.Default__Object @ 1035 (0B-04-00-00)
 ```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1035
+ClassPackage (NameIndex): /Script/CoreUObject @ 1035 (0B-04-00-00)
 02-00-00-00-00-00-00-00
 
-ClassName (NameIndex): Object @ 1043
+ClassName (NameIndex): Object @ 1043 (13-04-00-00)
 16-00-00-00-00-00-00-00
 
-Outer (ObjectReference): /Script/CoreUObject @ 1051
+Outer (ObjectReference): /Script/CoreUObject @ 1051 (1B-04-00-00)
 F8-FF-FF-FF
 
-ObjectName (NameIndex): Default__Object @ 1055
+ObjectName (NameIndex): Default__Object @ 1055 (1F-04-00-00)
 0B-00-00-00-00-00-00-00
 ```
 
-## -7: /Game/CustomStruct @ 1063
+## -7 (F9-FF-FF-FF): /Game/CustomStruct @ 1063 (27-04-00-00)
 ```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1063
+ClassPackage (NameIndex): /Script/CoreUObject @ 1063 (27-04-00-00)
 02-00-00-00-00-00-00-00
 
-ClassName (NameIndex): Package @ 1071
+ClassName (NameIndex): Package @ 1071 (2F-04-00-00)
 17-00-00-00-00-00-00-00
 
-Outer (ObjectReference): @ 1079
+Outer (ObjectReference): @ 1079 (37-04-00-00)
 00-00-00-00
 
-ObjectName (NameIndex): /Game/CustomStruct @ 1083
+ObjectName (NameIndex): /Game/CustomStruct @ 1083 (3B-04-00-00)
 00-00-00-00-00-00-00-00
 ```
 
-## -8: /Script/CoreUObject @ 1091
+## -8 (F8-FF-FF-FF): /Script/CoreUObject @ 1091 (43-04-00-00)
 ```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1091
+ClassPackage (NameIndex): /Script/CoreUObject @ 1091 (43-04-00-00)
 02-00-00-00-00-00-00-00
 
-ClassName (NameIndex): Package @ 1099
+ClassName (NameIndex): Package @ 1099 (4B-04-00-00)
 17-00-00-00-00-00-00-00
 
-Outer (ObjectReference): @ 1107
+Outer (ObjectReference): @ 1107 (53-04-00-00)
 00-00-00-00
 
-ObjectName (NameIndex): /Script/CoreUObject @ 1111
+ObjectName (NameIndex): /Script/CoreUObject @ 1111 (57-04-00-00)
 02-00-00-00-00-00-00-00
 ```
 
-## -9: /Script/Engine @ 1119
+## -9 (F7-FF-FF-FF): /Script/Engine @ 1119 (5F-04-00-00)
 ```
-ClassPackage (NameIndex): /Script/CoreUObject @ 1119
+ClassPackage (NameIndex): /Script/CoreUObject @ 1119 (5F-04-00-00)
 02-00-00-00-00-00-00-00
 
-ClassName (NameIndex): Package @ 1127
+ClassName (NameIndex): Package @ 1127 (67-04-00-00)
 17-00-00-00-00-00-00-00
 
-Outer (ObjectReference): @ 1135
+Outer (ObjectReference): @ 1135 (6F-04-00-00)
 00-00-00-00
 
-ObjectName (NameIndex): /Script/Engine @ 1139
+ObjectName (NameIndex): /Script/Engine @ 1139 (73-04-00-00)
 03-00-00-00-00-00-00-00
 ```
 
-## -10: /Game/CustomStruct.CustomStruct @ 1147
+## -10 (F6-FF-FF-FF): /Game/CustomStruct.CustomStruct @ 1147 (7B-04-00-00)
 ```
-ClassPackage (NameIndex): /Script/Engine @ 1147
+ClassPackage (NameIndex): /Script/Engine @ 1147 (7B-04-00-00)
 03-00-00-00-00-00-00-00
 
-ClassName (NameIndex): UserDefinedStruct @ 1155
+ClassName (NameIndex): UserDefinedStruct @ 1155 (83-04-00-00)
 1B-00-00-00-00-00-00-00
 
-Outer (ObjectReference): /Game/CustomStruct @ 1163
+Outer (ObjectReference): /Game/CustomStruct @ 1163 (8B-04-00-00)
 F9-FF-FF-FF
 
-ObjectName (NameIndex): CustomStruct @ 1167
+ObjectName (NameIndex): CustomStruct @ 1167 (8F-04-00-00)
 09-00-00-00-00-00-00-00
 ```
 
-# Exports @ 1175
+# Exports @ 1175 (97-04-00-00)
 
-## 1: HasCustomStruct_C.NewVar @ 1175
+## 1 (01-00-00-00): HasCustomStruct_C.NewVar @ 1175 (97-04-00-00)
 ```
-Class (ObjectReference): /Script/CoreUObject.StructProperty @ 1175
+Class (ObjectReference): /Script/CoreUObject.StructProperty @ 1175 (97-04-00-00)
 FC-FF-FF-FF
 
-Super (ObjectReference): @ 1179
+Super (ObjectReference): @ 1179 (9B-04-00-00)
 00-00-00-00
 
-Outer (ObjectReference): HasCustomStruct_C @ 1183
+Outer (ObjectReference): HasCustomStruct_C @ 1183 (9F-04-00-00)
 04-00-00-00
 
-ObjectName (NameIndex): NewVar @ 1187
+ObjectName (NameIndex): NewVar @ 1187 (A3-04-00-00)
 14-00-00-00-00-00-00-00
 
-ObjectFlags (UInt32): 1 @ 1195
+ObjectFlags (UInt32): 1 @ 1195 (AB-04-00-00)
 01-00-00-00
 
-SerialSize (Int32): 40 @ 1199
+SerialSize (Int32): 40 @ 1199 (AF-04-00-00)
 28-00-00-00
 
-SerialOffset (Int32): 1567 @ 1203
+SerialOffset (Int32): 1567 @ 1203 (B3-04-00-00)
 1F-06-00-00
 
-ForcedExport (Boolean32): False @ 1207
+ForcedExport (Boolean32): False @ 1207 (B7-04-00-00)
 00-00-00-00
 
-NotForClient (Boolean32): False @ 1211
+NotForClient (Boolean32): False @ 1211 (BB-04-00-00)
 00-00-00-00
 
-NotForServer (Boolean32): False @ 1215
+NotForServer (Boolean32): False @ 1215 (BF-04-00-00)
 00-00-00-00
 
-PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1219
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1219 (C3-04-00-00)
 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
 
-PackageFlags (UInt32): 0 @ 1235
+PackageFlags (UInt32): 0 @ 1235 (D3-04-00-00)
 00-00-00-00
 
-NotAlwaysLoadedForEditorGame (Boolean32): True @ 1239
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 1239 (D7-04-00-00)
 01-00-00-00
 ```
 
-## 2: HasCustomStruct_C.ExecuteUbergraph_HasCustomStruct.EntryPoint @ 1243
+## 2 (02-00-00-00): HasCustomStruct_C.ExecuteUbergraph_HasCustomStruct.EntryPoint @ 1243 (DB-04-00-00)
 ```
-Class (ObjectReference): /Script/CoreUObject.IntProperty @ 1243
+Class (ObjectReference): /Script/CoreUObject.IntProperty @ 1243 (DB-04-00-00)
 FE-FF-FF-FF
 
-Super (ObjectReference): @ 1247
+Super (ObjectReference): @ 1247 (DF-04-00-00)
 00-00-00-00
 
-Outer (ObjectReference): HasCustomStruct_C.ExecuteUbergraph_HasCustomStruct @ 1251
+Outer (ObjectReference): HasCustomStruct_C.ExecuteUbergraph_HasCustomStruct @ 1251 (E3-04-00-00)
 03-00-00-00
 
-ObjectName (NameIndex): EntryPoint @ 1255
+ObjectName (NameIndex): EntryPoint @ 1255 (E7-04-00-00)
 0D-00-00-00-00-00-00-00
 
-ObjectFlags (UInt32): 1 @ 1263
+ObjectFlags (UInt32): 1 @ 1263 (EF-04-00-00)
 01-00-00-00
 
-SerialSize (Int32): 36 @ 1267
+SerialSize (Int32): 36 @ 1267 (F3-04-00-00)
 24-00-00-00
 
-SerialOffset (Int32): 1607 @ 1271
+SerialOffset (Int32): 1607 @ 1271 (F7-04-00-00)
 47-06-00-00
 
-ForcedExport (Boolean32): False @ 1275
+ForcedExport (Boolean32): False @ 1275 (FB-04-00-00)
 00-00-00-00
 
-NotForClient (Boolean32): False @ 1279
+NotForClient (Boolean32): False @ 1279 (FF-04-00-00)
 00-00-00-00
 
-NotForServer (Boolean32): False @ 1283
+NotForServer (Boolean32): False @ 1283 (03-05-00-00)
 00-00-00-00
 
-PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1287
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1287 (07-05-00-00)
 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
 
-PackageFlags (UInt32): 0 @ 1303
+PackageFlags (UInt32): 0 @ 1303 (17-05-00-00)
 00-00-00-00
 
-NotAlwaysLoadedForEditorGame (Boolean32): True @ 1307
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 1307 (1B-05-00-00)
 01-00-00-00
 ```
 
-## 3: HasCustomStruct_C.ExecuteUbergraph_HasCustomStruct @ 1311
+## 3 (03-00-00-00): HasCustomStruct_C.ExecuteUbergraph_HasCustomStruct @ 1311 (1F-05-00-00)
 ```
-Class (ObjectReference): /Script/CoreUObject.Function @ 1311
+Class (ObjectReference): /Script/CoreUObject.Function @ 1311 (1F-05-00-00)
 FF-FF-FF-FF
 
-Super (ObjectReference): @ 1315
+Super (ObjectReference): @ 1315 (23-05-00-00)
 00-00-00-00
 
-Outer (ObjectReference): HasCustomStruct_C @ 1319
+Outer (ObjectReference): HasCustomStruct_C @ 1319 (27-05-00-00)
 04-00-00-00
 
-ObjectName (NameIndex): ExecuteUbergraph_HasCustomStruct @ 1323
+ObjectName (NameIndex): ExecuteUbergraph_HasCustomStruct @ 1323 (2B-05-00-00)
 0E-00-00-00-00-00-00-00
 
-ObjectFlags (UInt32): 1 @ 1331
+ObjectFlags (UInt32): 1 @ 1331 (33-05-00-00)
 01-00-00-00
 
-SerialSize (Int32): 50 @ 1335
+SerialSize (Int32): 50 @ 1335 (37-05-00-00)
 32-00-00-00
 
-SerialOffset (Int32): 1643 @ 1339
+SerialOffset (Int32): 1643 @ 1339 (3B-05-00-00)
 6B-06-00-00
 
-ForcedExport (Boolean32): False @ 1343
+ForcedExport (Boolean32): False @ 1343 (3F-05-00-00)
 00-00-00-00
 
-NotForClient (Boolean32): False @ 1347
+NotForClient (Boolean32): False @ 1347 (43-05-00-00)
 00-00-00-00
 
-NotForServer (Boolean32): False @ 1351
+NotForServer (Boolean32): False @ 1351 (47-05-00-00)
 00-00-00-00
 
-PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1355
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1355 (4B-05-00-00)
 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
 
-PackageFlags (UInt32): 0 @ 1371
+PackageFlags (UInt32): 0 @ 1371 (5B-05-00-00)
 00-00-00-00
 
-NotAlwaysLoadedForEditorGame (Boolean32): True @ 1375
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 1375 (5F-05-00-00)
 01-00-00-00
 ```
 
-## 4: HasCustomStruct_C @ 1379
+## 4 (04-00-00-00): HasCustomStruct_C @ 1379 (63-05-00-00)
 ```
-Class (ObjectReference): /Script/Engine.BlueprintGeneratedClass @ 1379
+Class (ObjectReference): /Script/Engine.BlueprintGeneratedClass @ 1379 (63-05-00-00)
 FB-FF-FF-FF
 
-Super (ObjectReference): /Script/CoreUObject.Object @ 1383
+Super (ObjectReference): /Script/CoreUObject.Object @ 1383 (67-05-00-00)
 FD-FF-FF-FF
 
-Outer (ObjectReference): @ 1387
+Outer (ObjectReference): @ 1387 (6B-05-00-00)
 00-00-00-00
 
-ObjectName (NameIndex): HasCustomStruct_C @ 1391
+ObjectName (NameIndex): HasCustomStruct_C @ 1391 (6F-05-00-00)
 12-00-00-00-00-00-00-00
 
-ObjectFlags (UInt32): 9 @ 1399
+ObjectFlags (UInt32): 9 @ 1399 (77-05-00-00)
 09-00-00-00
 
-SerialSize (Int32): 92 @ 1403
+SerialSize (Int32): 92 @ 1403 (7B-05-00-00)
 5C-00-00-00
 
-SerialOffset (Int32): 1693 @ 1407
+SerialOffset (Int32): 1693 @ 1407 (7F-05-00-00)
 9D-06-00-00
 
-ForcedExport (Boolean32): False @ 1411
+ForcedExport (Boolean32): False @ 1411 (83-05-00-00)
 00-00-00-00
 
-NotForClient (Boolean32): False @ 1415
+NotForClient (Boolean32): False @ 1415 (87-05-00-00)
 00-00-00-00
 
-NotForServer (Boolean32): False @ 1419
+NotForServer (Boolean32): False @ 1419 (8B-05-00-00)
 00-00-00-00
 
-PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1423
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1423 (8F-05-00-00)
 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
 
-PackageFlags (UInt32): 0 @ 1439
+PackageFlags (UInt32): 0 @ 1439 (9F-05-00-00)
 00-00-00-00
 
-NotAlwaysLoadedForEditorGame (Boolean32): True @ 1443
+NotAlwaysLoadedForEditorGame (Boolean32): True @ 1443 (A3-05-00-00)
 01-00-00-00
 ```
 
-## 5: Default__HasCustomStruct_C @ 1447
+## 5 (05-00-00-00): Default__HasCustomStruct_C @ 1447 (A7-05-00-00)
 ```
-Class (ObjectReference): HasCustomStruct_C @ 1447
+Class (ObjectReference): HasCustomStruct_C @ 1447 (A7-05-00-00)
 04-00-00-00
 
-Super (ObjectReference): @ 1451
+Super (ObjectReference): @ 1451 (AB-05-00-00)
 00-00-00-00
 
-Outer (ObjectReference): @ 1455
+Outer (ObjectReference): @ 1455 (AF-05-00-00)
 00-00-00-00
 
-ObjectName (NameIndex): Default__HasCustomStruct_C @ 1459
+ObjectName (NameIndex): Default__HasCustomStruct_C @ 1459 (B3-05-00-00)
 0A-00-00-00-00-00-00-00
 
-ObjectFlags (UInt32): 17 @ 1467
+ObjectFlags (UInt32): 17 @ 1467 (BB-05-00-00)
 11-00-00-00
 
-SerialSize (Int32): 262 @ 1471
+SerialSize (Int32): 262 @ 1471 (BF-05-00-00)
 06-01-00-00
 
-SerialOffset (Int32): 1785 @ 1475
+SerialOffset (Int32): 1785 @ 1475 (C3-05-00-00)
 F9-06-00-00
 
-ForcedExport (Boolean32): False @ 1479
+ForcedExport (Boolean32): False @ 1479 (C7-05-00-00)
 00-00-00-00
 
-NotForClient (Boolean32): False @ 1483
+NotForClient (Boolean32): False @ 1483 (CB-05-00-00)
 00-00-00-00
 
-NotForServer (Boolean32): False @ 1487
+NotForServer (Boolean32): False @ 1487 (CF-05-00-00)
 00-00-00-00
 
-PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1491
+PackageGuid (Guid): 00000000-0000-0000-0000-000000000000 @ 1491 (D3-05-00-00)
 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
 
-PackageFlags (UInt32): 0 @ 1507
+PackageFlags (UInt32): 0 @ 1507 (E3-05-00-00)
 00-00-00-00
 
-NotAlwaysLoadedForEditorGame (Boolean32): False @ 1511
+NotAlwaysLoadedForEditorGame (Boolean32): False @ 1511 (E7-05-00-00)
 00-00-00-00
 ```
 
-# UNKNOWN @ 1515
+# UNKNOWN @ 1515 (EB-05-00-00)
 ```
 01-00-00-00-F6-FF-FF-FF-00-00-00-00-02-00-00-00-01-00-00-00-02-00-00-00-02-00-00-00-03-00-00-00-05-00-00-00-02-00-00-00-04-00-00-00-FA-FF-FF-FF-00-00-00-00
 ```
 
-# Export 1 Data, 40 bytes @ 1567
+# Export 1 (01-00-00-00) Data, 40 bytes @ 1567
 ```
-None (Property) @ 1567
+None (Property) @ 1567 (1F-06-00-00)
 
-  (Tag): None @ 1567
+  (Tag): None @ 1567 (1F-06-00-00)
 
-    Name (NameIndex): None @ 1567
+    Name (NameIndex): None @ 1567 (1F-06-00-00)
     15-00-00-00-00-00-00-00
 
-ExtraExportData (Byte[]) @ 1575
+ExtraExportData (Byte[]) @ 1575 (27-06-00-00)
 00-00-00-00-00-00-00-00-01-00-00-00-05-00-01-00-00-00-00-00-15-00-00-00-00-00-00-00-F6-FF-FF-FF
 ```
 
-# Export 2 Data, 36 bytes @ 1607
+# Export 2 (02-00-00-00) Data, 36 bytes @ 1607
 ```
-None (Property) @ 1607
+None (Property) @ 1607 (47-06-00-00)
 
-  (Tag): None @ 1607
+  (Tag): None @ 1607 (47-06-00-00)
 
-    Name (NameIndex): None @ 1607
+    Name (NameIndex): None @ 1607 (47-06-00-00)
     15-00-00-00-00-00-00-00
 
-ExtraExportData (Byte[]) @ 1615
+ExtraExportData (Byte[]) @ 1615 (4F-06-00-00)
 00-00-00-00-00-00-00-00-01-00-00-00-80-00-00-00-00-00-00-00-15-00-00-00-00-00-00-00
 ```
 
-# Export 3 Data, 50 bytes @ 1643
+# Export 3 (03-00-00-00) Data, 50 bytes @ 1643
 ```
-None (Property) @ 1643
+None (Property) @ 1643 (6B-06-00-00)
 
-  (Tag): None @ 1643
+  (Tag): None @ 1643 (6B-06-00-00)
 
-    Name (NameIndex): None @ 1643
+    Name (NameIndex): None @ 1643 (6B-06-00-00)
     15-00-00-00-00-00-00-00
 
-ExtraExportData (Byte[]) @ 1651
+ExtraExportData (Byte[]) @ 1651 (73-06-00-00)
 00-00-00-00-01-00-00-00-00-00-00-00-02-00-00-00-12-00-00-00-0E-00-00-00-4C-0F-00-00-00-4E-00-02-00-00-00-04-0B-53-00-00-00-00
 ```
 
-# Export 4 Data, 92 bytes @ 1693
+# Export 4 (04-00-00-00) Data, 92 bytes @ 1693
 ```
-None (Property) @ 1693
+None (Property) @ 1693 (9D-06-00-00)
 
-  (Tag): None @ 1693
+  (Tag): None @ 1693 (9D-06-00-00)
 
-    Name (NameIndex): None @ 1693
+    Name (NameIndex): None @ 1693 (9D-06-00-00)
     15-00-00-00-00-00-00-00
 
-ExtraExportData (Byte[]) @ 1701
+ExtraExportData (Byte[]) @ 1701 (A5-06-00-00)
 00-00-00-00-00-00-00-00-FD-FF-FF-FF-03-00-00-00-00-00-00-00-00-00-00-00-01-00-00-00-0E-00-00-00-00-00-00-00-03-00-00-00-10-00-04-00-FD-FF-FF-FF-0C-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-15-00-00-00-00-00-00-00-01-00-00-00-05-00-00-00
 ```
 
-# Export 5 Data, 262 bytes @ 1785
+# Export 5 (05-00-00-00) Data, 262 bytes @ 1785
 ```
-NewVar (Property) @ 1785
+NewVar (Property) @ 1785 (F9-06-00-00)
 
-  (Tag): StructProperty NewVar @ 1785
+  (Tag): StructProperty NewVar @ 1785 (F9-06-00-00)
 
-    Name (NameIndex): NewVar @ 1785
+    Name (NameIndex): NewVar @ 1785 (F9-06-00-00)
     14-00-00-00-00-00-00-00
 
-    Type (NameIndex): StructProperty @ 1793
+    Type (NameIndex): StructProperty @ 1793 (01-07-00-00)
     1A-00-00-00-00-00-00-00
 
-    Size (Int32): 222 @ 1801
+    Size (Int32): 222 @ 1801 (09-07-00-00)
     DE-00-00-00
 
-    ArrayIndex (Int32): 0 @ 1805
+    ArrayIndex (Int32): 0 @ 1805 (0D-07-00-00)
     00-00-00-00
 
-    StructName (NameIndex): CustomStruct @ 1809
+    StructName (NameIndex): CustomStruct @ 1809 (11-07-00-00)
     09-00-00-00-00-00-00-00
 
-  Data (Byte[]) @ 1817
+  Data (Byte[]) @ 1817 (19-07-00-00)
   07-00-00-00-00-00-00-00-06-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-01-0F-00-00-00-00-00-00-00-04-00-00-00-00-00-00-00-10-00-00-00-00-00-00-00-10-00-00-00-00-00-00-00-03-00-00-00-00-40-9A-44-00-70-B1-45-00-D0-0C-46-1E-00-00-00-00-00-00-00-1A-00-00-00-00-00-00-00-0C-00-00-00-00-00-00-00-1C-00-00-00-00-00-00-00-00-00-40-41-00-00-C0-41-00-00-10-42-1D-00-00-00-00-00-00-00-04-00-00-00-00-00-00-00-14-00-00-00-00-00-00-00-1A-00-00-00-00-00-00-00-02-00-00-00-00-00-40-41-00-00-C0-41-00-00-10-42-00-00-40-42-18-00-00-00-00-00-00-00-19-00-00-00-00-00-00-00-15-00-00-00-00-00-00-00-11-00-00-00-53-6F-6D-65-20-73-74-72-69-6E-67-20-68-65-72-65-00-15-00-00-00-00-00-00-00
 
-None (Property) @ 2039
+None (Property) @ 2039 (F7-07-00-00)
 
-  (Tag): None @ 2039
+  (Tag): None @ 2039 (F7-07-00-00)
 
-    Name (NameIndex): None @ 2039
+    Name (NameIndex): None @ 2039 (F7-07-00-00)
     15-00-00-00-00-00-00-00
 ```
 
-# UNKNOWN @ 2047
+# UNKNOWN @ 2047 (FF-07-00-00)
 ```
 C1-83-2A-9E
 ```
